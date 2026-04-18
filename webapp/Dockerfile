@@ -12,7 +12,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY api/     ./api/
 COPY data/    ./data/
 COPY models/  ./models/
-COPY Vault/   ./Vault/
+COPY prof-bhagwan-hybrid-demo/   ./prof-bhagwan-hybrid-demo/
 
 ENV PORT=8080
 EXPOSE 8080
