@@ -16871,37 +16871,19 @@
       "tags": [],
       "path": "wiki\\what-is-the-fab-initiative.md"
     },
-    "lbo-equity-as-call-option-premium": {
+    "profitability-index-vs-npv": {
       "type": "synthesized",
-      "title": "LBO Equity as a Call Option: Why It's Not Free",
+      "title": "Profitability Index vs NPV: Identical Decisions, Different Rankings",
       "aliases": [
-        "LBO Free Option Misconception",
-        "Equity Premium in LBO"
+        "Profitability Ratio Method",
+        "PI Method"
       ],
       "tags": [
-        "options",
-        "leveraged-buyout",
-        "corporate-finance",
-        "capital-structure",
-        "valuation"
+        "capital-budgeting",
+        "project-evaluation",
+        "finance-theory"
       ],
-      "path": "wiki/synthesized/lbo-equity-as-call-option-premium.md"
-    },
-    "hedge-fund-return-distributions": {
-      "type": "synthesized",
-      "title": "Hedge Fund Return Distributions",
-      "aliases": [
-        "Hedge Fund Returns",
-        "Distributional Properties of Hedge Funds"
-      ],
-      "tags": [
-        "hedge-funds",
-        "return-distributions",
-        "risk-management",
-        "portfolio-theory",
-        "statistics"
-      ],
-      "path": "wiki/synthesized/hedge-fund-return-distributions.md"
+      "path": "wiki/synthesized/profitability-index-vs-npv.md"
     }
   },
   "edges": [
@@ -34161,53 +34143,18 @@
       "type": "references"
     },
     {
-      "from": "lbo-equity-as-call-option-premium",
-      "to": "equity-as-a-call-option",
+      "from": "profitability-index-vs-npv",
+      "to": "net-present-value",
       "type": "extends"
     },
     {
-      "from": "lbo-equity-as-call-option-premium",
-      "to": "option-pricing-theory",
+      "from": "profitability-index-vs-npv",
+      "to": "capital-budgeting",
       "type": "extends"
     },
     {
-      "from": "lbo-equity-as-call-option-premium",
-      "to": "debt-as-a-short-put-position",
-      "type": "extends"
-    },
-    {
-      "from": "lbo-equity-as-call-option-premium",
-      "to": "call-option",
-      "type": "extends"
-    },
-    {
-      "from": "lbo-equity-as-call-option-premium",
-      "to": "option-premium",
-      "type": "extends"
-    },
-    {
-      "from": "hedge-fund-return-distributions",
-      "to": "hedge-fund",
-      "type": "extends"
-    },
-    {
-      "from": "hedge-fund-return-distributions",
-      "to": "hedge-funds",
-      "type": "extends"
-    },
-    {
-      "from": "hedge-fund-return-distributions",
-      "to": "mean-variance-framework",
-      "type": "extends"
-    },
-    {
-      "from": "hedge-fund-return-distributions",
-      "to": "mean-variance-analysis",
-      "type": "extends"
-    },
-    {
-      "from": "hedge-fund-return-distributions",
-      "to": "capital-structure-arbitrage",
+      "from": "profitability-index-vs-npv",
+      "to": "stub-mit15-401f08-ses18-300ksrt",
       "type": "extends"
     }
   ]
