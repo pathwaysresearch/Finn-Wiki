@@ -1,0 +1,1410 @@
+# Wiki Index
+
+Master catalog — 1387 pages · last rebuilt 2026-04-17
+
+## Persona Pages (7)
+
+- [[persona/fame-and-knowledge-democratization|FAMe and Knowledge Democratization]] — The concept: take papers already published in peer-reviewed journals and write 4-5 page accessible versions that preserv
+- [[persona/financial-inclusion-architecture|Financial Inclusion Architecture]] — Digital identity is the foundational layer. Chowdhry serves as Executive Director of the **Digital Identity Research Ini
+- [[persona/intellectual-evolution|Intellectual Evolution]] — The pivotal realization of this phase: **the same corporate finance tools (security design, incentive alignment, informa
+- [[persona/mechanism-design-applied|Mechanism Design Applied]] — With [[mentor-network-and-influences|Shaun Davies and Brian Waters]]. The paper that formalizes Chowdhry's mechanism des
+- [[persona/mentor-network-and-influences|Mentor Network and Influences]] — The Financial Access at Birth initiative was developed through a specific sequence of conversations, each of which solve
+- [[persona/rhetorical-style-and-pedagogy|Rhetorical Style and Pedagogy]] — Every major Chowdhry idea gets treatment at **multiple levels of accessibility**:
+- [[persona/thinking-patterns-and-frameworks|Thinking Patterns and Frameworks]] — Across wildly different domains, Chowdhry returns to the same structural diagnosis: **rigid debt-like obligations cause 
+
+## Extracted Concepts (909)
+
+- [[concepts/10-k-and-10-q-filings|10-K and 10-Q Filings]] — Annual (10-K) and quarterly (10-Q) accounting reports that companies like Lehman Brothers provide to the SEC.
+- [[concepts/130-30-portfolio|130-30 Portfolio]] — An investment product with 130% long positions and 30% short positions, where the total weights sum to 100%, developed f
+- [[concepts/50-50-stock-bond-portfolio|50/50 Stock/Bond Portfolio]] — The personal asset allocation of John C. Bogle, which he describes as a comfortable mix for himself, split evenly betwee
+- [[concepts/60-40-portfolio|60/40 Portfolio]] — A traditional asset allocation of 60% stocks and 40% bonds, which the text explains is often a result of using a five-ye
+- [[concepts/absolute-vs-relative-returns|Absolute vs. Relative Returns]] — A distinction in performance measurement where managers often prefer to be measured relative to a benchmark, thereby giv
+- [[concepts/absorptive-capacity|Absorptive Capacity]] — A concept where firms and individuals with higher own-knowledge stocks are better able to exploit external knowledge fro
+- [[concepts/absurdism|Absurdism]] — A philosophical perspective attributed to Albert Camus that finds meaning and a foundation for solidarity in the shared 
+- [[concepts/access-inversion|Access Inversion]] — A situation created by the CRLM where an uninsured individual in a rich country can be worse off than an individual in a
+- [[concepts/accounting-earnings|Accounting Earnings]] — A measure of past performance that is not suitable for future-oriented financial decision-making because it is not desig
+- [[concepts/accounting|Accounting]] — The language and lexicon of finance that serves as the starting point for measuring economic concepts like profit, loss,
+- [[concepts/accumulation-phase|Accumulation Phase]] — The period in an investor's life focused on saving for retirement, described as a difficult multi-period problem.
+- [[concepts/action-without-attachment-to-results|Action Without Attachment to Results]] — A principle from the Bhagavad Gita advising that one can only control inputs (actions), not outcomes, and should therefo
+- [[concepts/adaptive-asset-allocation|Adaptive Asset Allocation]] — An investment procedure that William Sharpe wrote about in an article several years prior.
+- [[concepts/adaptive-markets-hypothesis|Adaptive Markets Hypothesis]] — A theory that reconciles rational and behavioral finance by proposing that human behavior shifts between rational and em
+- [[concepts/adaptive-markets|Adaptive Markets]] — A conjecture and super-theory that integrates rational and behavioral finance to explain market dynamics, particularly d
+- [[concepts/adjustable-rate-mortgage|Adjustable Rate Mortgage]] — A type of mortgage that starts with a low 'teaser' interest rate which can increase significantly later, causing payment
+- [[concepts/adjusted-present-value-approach|Adjusted Present Value Approach]] — A valuation method that values a firm by first estimating its value with no leverage, then adding the present value of i
+- [[concepts/adjusted-present-value|Adjusted Present Value]] — A valuation method that modifies Net Present Value by making adjustments for factors such as taxes, project interactions
+- [[concepts/after-tax-mean-variance-analysis|After-Tax Mean-Variance Analysis]] — A version of mean-variance analysis that accounts for an individual's specific tax situation and time horizons, which is
+- [[concepts/agency-cost-of-csr|Agency Cost of Corporate Social Responsibility]] — A cost arising from firm managers shifting resources away from profitable uses toward nonpecuniary CSR activities that p
+- [[concepts/alpha-hunters-and-beta-grazers|Alpha Hunters and Beta Grazers]] — A framework that distinguishes between two investment cultures: 'beta grazers' who passively structure portfolios for ma
+- [[concepts/alpha|Alpha]] — The return generated from actively seeking mispricing opportunities, such as buying cheap and selling high, which is vie
+- [[concepts/annual-percentage-rate|Annual Percentage Rate (APR)]] — The stated annual interest rate before the effects of compounding are taken into account.
+- [[concepts/annuity-discount-factor|Annuity Discount Factor]] — A value that separates the interest rate from the cash flow in the annuity formula, allowing for the use of tables to si
+- [[concepts/annuity-discount-formula|Annuity Discount Formula]] — A formula used to calculate the present value of an annuity, which is the basis for calculating payments for financial o
+- [[concepts/annuity|Annuity]] — A special type of cashflow to which the present value method can be applied, mentioned as a topic for a future lecture.
+- [[concepts/anti-persistence|Anti-persistence]] — A property of a noise structure, corresponding to a memory parameter d < 0, which can be engineered into a system to acc
+- [[concepts/arbitrage-argument|Arbitrage Argument]] — A method for pricing an option by constructing a portfolio of stocks and bonds with an identical payoff, asserting that 
+- [[concepts/arbitrage-in-futures-forwards|Arbitrage (in Futures/Forwards)]] — A strategy to profit from violations of the pricing relationship between a forward/futures contract and its underlying s
+- [[concepts/arbitrage|Arbitrage]] — A transaction that exploits a violation of the Law of One Price to generate a risk-free profit with no initial investmen
+- [[concepts/architectural-absence-of-password|Architectural Absence of Password]] — A core design principle where the complete password is not stored on or reconstructible from the server's data, making s
+- [[concepts/asset-allocation|Asset Allocation]] — The division of wealth between asset classes like stocks and bonds, which Bogle describes as a deeply personal decision 
+- [[concepts/asset-liability-management|Asset-Liability Management]] — An investment framework developed in the 1980s to manage discrepancies between an organization's needs (liabilities) and
+- [[concepts/asset|Asset]] — A sequence of current and future cashflows, defined relative to a specific point in time, where past cashflows do not ma
+- [[concepts/assortative-matching|Assortative Matching]] — A process of two-sided matching between managers of heterogeneous talent and firms of varying quality.
+- [[concepts/ayushman-bharat-plus|Ayushman Bharat Plus]] — A proposed insurance solution where the interest earned on savings is used to cover insurance premiums, often supplement
+- [[concepts/bailout|Bailout]] — A government rescue defined as buying an asset for more than its actual worth, which can be structured to be more profit
+- [[concepts/balance-sheet|Balance Sheet]] — An accounting statement that measures the 'stock' of a company's wealth, representing its assets and the claims on those
+- [[concepts/bank-balance-batao|Bank Balance Batao (BBB)]] — A proposed innovative solution of a nationwide phone number (222) that would allow users to check their bank balance via
+- [[concepts/bankruptcy-costs|Bankruptcy Costs]] — The potential costs associated with financial distress that must be incorporated into an NPV calculation when weighing t
+- [[concepts/bankruptcy|Bankruptcy]] — A financial state where the value of shareholders' equity becomes effectively zero, as happened to the shareholders of F
+- [[concepts/bc-agents|BC Agents (Business Correspondents)]] — Individuals who help people carry out simple digital transactions in accessible public spaces, providing a human touch t
+- [[concepts/behavioral-biases|Behavioral Biases]] — Irrationalities that all humans seem to possess due to limited cognitive abilities, which cause deviations from rational
+- [[concepts/behavioral-finance|Behavioral Finance]] — An alternative to market efficiency which posits that market participants are irrational and suffer from psychological b
+- [[concepts/benchmark-currency|Benchmark Currency]] — A currency, such as the dollar for commodities like oil, that is used as the standard for pricing in international marke
+- [[concepts/benchmark|Benchmark]] — A standard against which portfolio performance is measured, which the text criticizes as being the dominant focus in rel
+- [[concepts/bet-on-volatility|Bet on Volatility]] — A trading strategy using a portfolio of options that is profitable when the underlying asset's price makes a large move 
+- [[concepts/beta-sensitivity|Beta Sensitivity]] — A measure of a portfolio's sensitivity to the market that overwhelmingly determines its forward-looking volatility.
+- [[concepts/beta|Beta]] — A passive approach to portfolio construction focused on capturing broad market risks through a largely static asset allo
+- [[concepts/bifurcation-of-choice|Bifurcation of Choice]] — A principle for structuring decisions where the individual makes choices on things that are meaningful to them, while de
+- [[concepts/big-hairy-audacious-goal|Big Hairy Audacious Goal (BHAG)]] — A concept from Collins and Porras describing a bold, long-horizon goal that is clear and compelling, serving as a unifyi
+- [[concepts/binary-entropy-function|Binary Entropy Function]] — A function, h(p), used in information theory to measure the uncertainty of a binary random variable and is used in the p
+- [[concepts/binomial-option-pricing-model|Binomial Option Pricing Model]] — A method for pricing options using a discrete-time tree of up and down movements over multiple periods, which converges 
+- [[concepts/block-reward|Block Reward]] — A mechanism to compensate a miner for successfully solving the proof-of-work puzzle and forging a new block.
+- [[concepts/block-time|Block Time]] — The designed average time for a new block to be formed, which entails a tradeoff between faster transaction confirmation
+- [[concepts/blockchain|Blockchain]] — A technology that records information in a sequence of cryptographically linked blocks, with each new block containing t
+- [[concepts/blocking-in-matching-theory|Blocking (in Matching Theory)]] — A situation where a firm and a manager can form a partnership outside of the current matching that is mutually beneficia
+- [[concepts/bond-coupon|Bond Coupon]] — The periodic interest payments made to the holder of a coupon bond during its life, which historically involved clipping
+- [[concepts/bond-principal|Bond Principal]] — The amount of money, also known as face value, that a bond issuer owes to the bondholder at the end of the bond's term.
+- [[concepts/bond-valuation|Bond Valuation]] — The process of determining the market value of a bond by computing the present value of its future cash flows using disc
+- [[concepts/book-to-market-ratio|Book-to-Market Ratio]] — A financial ratio, calculated as a company's accounting book value divided by its market value, used to sort stocks and 
+- [[concepts/book-value-of-capital|Book Value of Capital]] — An accounting measure of capital that reflects historical accounting choices, including depreciation, inventory valuatio
+- [[concepts/bootstrap-statistical-method|Bootstrap (statistical method)]] — A resampling technique used to construct the null distribution for the Cp test that adapts to the tail thickness of the 
+- [[concepts/borrowing-cost|Borrowing Cost]] — The opportunity cost of capital or financing cost that is a component in determining the forward price, particularly bec
+- [[concepts/bottom-of-the-pyramid-bop|Bottom of the Pyramid (BOP)]] — A large group of people, such as the 400 million feature phone users in India, who may be excluded from digital financia
+- [[concepts/bottom-of-the-pyramid|Bottom of the Pyramid (BOP)]] — The lowest-income segment of the population which is the target for financial inclusion schemes, but often remains exclu
+- [[concepts/breaking-the-buck|Breaking the Buck]] — An event where a money market fund's value drops below $1 per share, meaning investors who withdraw receive less than th
+- [[concepts/brownian-motion|Brownian Motion]] — A mathematical description for the underlying price of a financial instrument, also known as a Random Walk, developed by
+- [[concepts/bunching-methodology|Bunching Methodology]] — A statistical method for detecting manipulation at a specific known threshold, which is distinct from the C_p statistic'
+- [[concepts/business-correspondent-model|Business Correspondent (BC) Model]] — A method for banks to extend financial services to remote or underserved areas by using local agents (BCs) who earn comm
+- [[concepts/butterfly-spread|Butterfly Spread]] — An option strategy that generates a payoff if the underlying asset's price stays within a specific range, representing a
+- [[concepts/byzantine-fault-tolerance|Byzantine Fault Tolerance (BFT)]] — A property of a distributed system that allows it to achieve consensus by balancing liveness (allowing transactions) and
+- [[concepts/c-sigma-c-rho-diagnostic-space|($C_{\sigma}, C_{\rho}$) Diagnostic Space]] — A two-dimensional space plotted with test statistics that helps distinguish between one-sided misreporting (the 'reporti
+- [[concepts/call-option|Call Option]] — An option that gives the holder the right, but not the obligation, to buy an underlying asset at a specified strike pric
+- [[concepts/cap-weighted-index|Cap-Weighted Index]] — The traditional method of indexing where portfolio weights are based on market capitalization, which can lead to overval
+- [[concepts/cape-ratio|CAPE Ratio]] — A valuation metric, also known as the cyclically adjusted P/E ratio, that averages the last ten years of real earnings t
+- [[concepts/capital-asset-pricing-model|Capital Asset Pricing Model (CAPM)]] — A positive theory of security market behavior developed by William Sharpe that emphasizes the importance of the market p
+- [[concepts/capital-budgeting|Capital Budgeting]] — The process where a corporate financial officer makes decisions about whether to undertake specific projects, using fina
+- [[concepts/capital-cash-flows|Capital Cash Flows]] — Defined as cash flows to both debt and equity investors, inclusive of the tax benefits from interest payments on debt. T
+- [[concepts/capital-formation|Capital Formation]] — The process of accumulating capital, which is enabled at a large scale by the existence of securities with limited liabi
+- [[concepts/capital-invested-in-existing-assets|Capital Invested in Existing Assets]] — The amount of capital deployed in a firm's current operational assets, crucial for evaluating their quality. While marke
+- [[concepts/capital-market-efficiency|Capital Market Efficiency]] — The quality of a market where prices are as informative as possible, which is improved by mechanisms like the ability to
+- [[concepts/capital-market-line|Capital Market Line (CML)]] — The tangency line that represents the risk-reward trade-off for efficient portfolios, showing the expected rate of retur
+- [[concepts/capital-structure-arbitrage|Capital Structure Arbitrage]] — A hedge fund strategy that uses option pricing theory and credit models to trade on discrepancies between the market val
+- [[concepts/capital-to-assets-ratio|Capital-to-Assets Ratio]] — A required regulatory level for banks that, if eroded by substantial loan defaults, would force banks to either sell equ
+- [[concepts/capm|CAPM (Capital Asset Pricing Model)]] — A model used to estimate the cost of equity. It was employed in a study to value S&P 400 stocks, where it helped determi
+- [[concepts/capped-royalty-licensing-mandate|Capped Royalty Licensing Mandate (CRLM)]] — A mechanism that achieves innovation and access by mandating an innovator to license generic production in poor countrie
+- [[concepts/career-risk|Career Risk]] — A risk faced by managers that incentivizes them to select projects with short payback periods to demonstrate quick profi
+- [[concepts/caricature-effect|Caricature Effect]] — An identity lock-in that accumulates with organization capital, raising the effective opportunity cost of redeployment a
+- [[concepts/cash-burning|Cash Burning]] — An inefficient contractual outcome where the total claims distributed are less than the project's total cash flow; the p
+- [[concepts/cash-flow-based-valuations|Cash Flow Based Valuations]] — Valuation methods that consider a company's actual cash flows, which can ebb and flow with earnings and reinvestments. T
+- [[concepts/cash-flow|Cash Flow]] — The actual cash inflows minus cash outflows of a project, which should be used for NPV calculations instead of accountin
+- [[concepts/cash-flows|Cash Flows]] — The financial metric that should be the basis for economic and investment decisions to maximize shareholder wealth, as o
+- [[concepts/cash-payment-method|Cash (Payment Method)]] — A physical payment method described as convenient, private, intuitive, and without explicit transaction costs, which rem
+- [[concepts/cash-settlement|Cash Settlement]] — A method for settling futures contracts, particularly financial futures, where the final value is exchanged in cash rath
+- [[concepts/cashflow-haircuts|Cashflow Haircuts]] — A common, subjective approach to adjusting uncertain cash flows by replacing them with conservative or 'lowball' estimat
+- [[concepts/cashflow|Cashflow]] — Money that is coming to or going away from an individual or entity.
+- [[concepts/catastrophe-hedge|Catastrophe Hedge]] — The described purpose for holding a small (e.g., 5%) allocation to an asset like gold in a portfolio, intended to protec
+- [[concepts/centralized-grievance-redressal-system|Centralized Grievance Redressal System]] — A system where a customer can call a single third-party to register a complaint, which then alerts the service provider 
+- [[concepts/certainty-equivalent-models|Certainty Equivalent Models]] — An alternative approach within DCF valuation where expected cash flows are adjusted for risk, rather than adjusting the 
+- [[concepts/certainty-equivalent|Certainty Equivalent]] — A guaranteed cash flow that an investor would accept instead of an uncertain cash flow. More risk-averse investors would
+- [[concepts/chain-splits|Chain Splits]] — A temporary split in the blockchain that can occur when multiple miners find winning nonces nearly simultaneously, a lik
+- [[concepts/chapter-11|Chapter 11]] — A form of bankruptcy protection that Lehman Brothers filed for after failing to secure a sale or a government bailout.
+- [[concepts/cheap-talk|Cheap Talk]] — A form of communication in which messages are non-binding and do not directly affect payoffs, unlike mission statements 
+- [[concepts/clawback-provisions|Clawback Provisions]] — Contractual terms contingent on an observable signal that can be embedded in contracts to lower or eliminate rents from 
+- [[concepts/co-statistic|C_o Statistic]] — A statistic, also denoted C_sigma, that complements the C_p statistic by detecting symmetric two-sided smoothing, which 
+- [[concepts/collateral|Collateral]] — Money put up by a party in a forward contract as a guarantee for making good on the agreement, which the other party can
+- [[concepts/collective-purchase|Collective Purchase]] — A mechanism where multiple governments jointly fund an innovation, which is shown to be equivalent to a Lindahl prize an
+- [[concepts/commercial-benchmark|Commercial Benchmark]] — The optimal contract and resulting level of social attention in the model when the impact investor is not present, servi
+- [[concepts/commercial-firm-benchmark|Commercial Firm Benchmark]] — A baseline scenario representing the contract and level of social attention ($a_{co}$) that would be chosen by a purely 
+- [[concepts/community-targeted-insurance|Community-Targeted Insurance]] — A proposed solution where formal insurance is targeted at the community or group level, rather than the individual, to i
+- [[concepts/comparable-companies-analysis|Comparable Companies Analysis]] — A method to determine the appropriate cost of capital for a new venture by analyzing the betas of publicly-traded compan
+- [[concepts/comparative-statics|Comparative Statics]] — An analytical method used to determine how the equilibrium choices of an agent, such as a borrower's project risk, chang
+- [[concepts/compensated-royalty-licensing-mandate-crlm|Compensated Royalty Licensing Mandate (CRLM)]] — A policy to fund pharmaceutical innovation by licensing generic production for poor countries at a set royalty, while ri
+- [[concepts/competition-between-exchanges|Competition between Exchanges]] — A dynamic where security exchanges act as strategic players to maximize objectives like trading volume revenue, which in
+- [[concepts/competitive-matching-market|Competitive Matching Market]] — A market where firms and managers with portable skills are matched, in which equilibrium wages influence firms' strategi
+- [[concepts/competitive-matching-model|Competitive Matching Model]] — A framework for matching CEOs and firms that incorporates hidden action and hidden information frictions to explain exec
+- [[concepts/completeness|Completeness]] — A classical property of a proof system, established for the proposed protocol, which ensures that an honest prover using
+- [[concepts/complex-numbers|Complex Numbers]] — A number system that can provide mathematical solutions to all polynomial equations, including IRR calculations, but the
+- [[concepts/compound-return|Compound Return]] — The multiplicative process of investment returns where the sequence of returns is critical, as opposed to average return
+- [[concepts/compounding|Compounding]] — The process of earning interest on previously earned interest as well as on the original principal, with the frequency (
+- [[concepts/compressed-apv-approach|Compressed APV Approach]] — A variation of the Adjusted Present Value (APV) model that uses capital cash flows, which include tax benefits from inte
+- [[concepts/compression-statistics|Compression Statistics]] — Two statistics, C-sigma (volatility compression) and C-p (downside variance share), that formalize how agents hiding bad
+- [[concepts/confidential-client-feedback|Confidential Client Feedback]] — The business methodology of conducting one-hour, confidential interviews with principal buyers of financial services to 
+- [[concepts/consensus-protocol|Consensus Protocol]] — A key mechanism in a distributed system for reaching agreement across nodes while tolerating faulty or malicious partici
+- [[concepts/consolidation|Consolidation]] — The process of business acquisitions and mergers, described as a normal part of how businesses grow, develop, and evolve
+- [[concepts/constrained-royalty-lindahl-mechanism|Constrained Royalty Lindahl Mechanism (CRLM)]] — A mechanism that achieves first-best innovation at zero fiscal cost by setting a specific royalty for poor countries, ma
+- [[concepts/contingency-plan|Contingency Plan]] — A pre-approved plan for how to act during a crisis, designed to provide a framework for cool-headed decisions and preven
+- [[concepts/continuous-time-stochastic-optimization|Continuous-Time Stochastic Optimization]] — A set of mathematical methods applied by Robert C. Merton to individual savings and retirement decisions, forming a cont
+- [[concepts/contractible-social-output|Contractible Social Output]] — A scenario where a project's social output is measurable and can be explicitly included in financial contracts, such as 
+- [[concepts/contribution-game|Contribution Game]] — A model of voluntary funding for a public good where, in equilibrium, at most one country contributes, leading to signif
+- [[concepts/control-rights|Control Rights]] — A mechanism, such as a call option, that can be allocated to an impact investor to allow an owner to commit to a higher 
+- [[concepts/convenience-yield|Convenience Yield]] — A benefit from having a physical asset on hand before the settlement date, which is factored into the forward price.
+- [[concepts/convexity-cost|Convexity Cost]] — A drag on compound return that results from allowing portfolio volatility to deviate from a target level or from experie
+- [[concepts/convexity|Convexity]] — A measure of bond risk defined as the second derivative of the bond price with respect to yield, providing a higher-orde
+- [[concepts/coordination-problem|Coordination Problem]] — A barrier to switching away from a dominant currency, where no individual actor gains by moving first, creating a stable
+- [[concepts/corporate-finance|Corporate Finance]] — A field of finance focused on applying principles of valuation and risk to practical business problems and circumstances
+- [[concepts/correlation-in-finance|Correlation (in finance)]] — A statistical measure of how assets move together that is not a fixed physical constant but a dynamic variable dependent
+- [[concepts/correlation|Correlation]] — A critical assumption in securitization models; an unexpected increase in correlation between underlying assets, like mo
+- [[concepts/cost-matters-hypothesis|Cost Matters Hypothesis (CMH)]] — A principle proposed by John C. Bogle in 2003, suggesting that investment costs are a critical and unfailing determinant
+- [[concepts/cost-of-capital-approach|Cost of Capital Approach]] — A valuation method where the effects of leverage, including tax benefits and bankruptcy costs, are incorporated into the
+- [[concepts/cost-of-capital|Cost of Capital]] — The required, risk-adjusted discount rate (r) for a company's cash flows, which is composed of the dividend yield (D/P) 
+- [[concepts/cost-of-carrying-cash-forward|Cost of Carrying Cash Forward (δ)]] — A cost associated with a firm retaining cash for future periods, where a higher cost leads to a higher optimal level of 
+- [[concepts/cost-of-carrying-cash|Cost of Carrying Cash]] — The inefficiency or cost associated with a firm holding surplus cash, which is assumed to grow at a rate lower than what
+- [[concepts/cost-of-equity|Cost of Equity]] — The rate used to discount expected dividends in valuation models like the Dividend Discount Model and the Gordon Growth 
+- [[concepts/cost-of-storage|Cost of Storage]] — The expense associated with holding a physical commodity over time, which is a key ingredient in determining its forward
+- [[concepts/costly-pivot|Costly Pivot]] — An innovation archetype for high volatility and high learning with an unfavorable signal, where a firm enters at full sc
+- [[concepts/costs-of-financial-distress|Costs of Financial Distress]] — The additional frictions and payments, such as retention bonuses for key employees, that are required to keep a troubled
+- [[concepts/counter-parties|Counter-parties]] — The individuals, substantial investors, and foreign governments that bought and held the paper and complex instruments i
+- [[concepts/counterparty-risk|Counterparty Risk]] — A significant risk in a forward contract that one of the parties will renege on or fail to pay up on their end of the de
+- [[concepts/coupon-bond-valuation-via-strips|Coupon Bond Valuation via Strips]] — A method to price a coupon bond by treating it as an identical package of pure discount bonds (strips) and summing their
+- [[concepts/coupon-bond|Coupon Bond]] — A type of bond that pays a principal or face value at maturity and also makes periodic interest payments, called coupons
+- [[concepts/covariance-matrix|Covariance Matrix]] — A tool used to assess the volatility risk of a portfolio, with its application in finance dating back to the work of Har
+- [[concepts/covariance|Covariance]] — A statistical measure of how security returns move in relation to each other, which Markowitz identified as the key fact
+- [[concepts/cp-statistic|C_p Statistic]] — A primary diagnostic for one-sided manipulation that falls below one-half when downside variation is disproportionately 
+- [[concepts/cp-test|Cp Test]] — A one-sided statistical test designed to detect misreporting in a data series, with its power being a function of misrep
+- [[concepts/creative-destruction-blocking|Creative Destruction Blocking]] — The rational resistance by incumbent firms to a new technology, with the duration of this blocking increasing with exist
+- [[concepts/creative-destruction|Creative Destruction]] — The process by which new innovations systematically replace older technologies and the firms built around them, generati
+- [[concepts/credit-contraction|Credit Contraction]] — A sharp curtailment of lending activity that can result from banks trying to restore their capital-to-assets ratio, pote
+- [[concepts/credit-crisis|Credit Crisis]] — A crisis of liquidity where the primary problem is the availability of money and credit in the market, rather than its c
+- [[concepts/credit-ratings|Credit Ratings]] — A mechanism created by the market to assess the default risk of companies, with ratings typically grouped into investmen
+- [[concepts/credit-risk|Credit Risk]] — The risk that a counterparty in a transaction will be unable to fulfill their obligations, which is dramatically reduced
+- [[concepts/credit-score|Credit Score]] — A measure of creditworthiness that is severely damaged by defaulting on a mortgage, though the negative impact has a fin
+- [[concepts/credit-spread|Credit Spread]] — The difference in yield between a risky bond and a safe asset like a US treasury, which serves as an indication of the r
+- [[concepts/crowding-out-of-governance-innovations|Crowding Out of Governance Innovations]] — An effect where competitive market forces may cause contractual innovations, such as clawbacks, to be entirely crowded o
+- [[concepts/cryptographic-proof|Cryptographic Proof]] — A mechanism that replaces the need for trust in a system, forming the basis for electronic payment systems like Bitcoin.
+- [[concepts/customary-wealth|Customary Wealth]] — Markowitz's concept that an individual's risk appetite is relative to their 'customary' wealth, becoming more cautious a
+- [[concepts/daily-settlement|Daily Settlement]] — A process in futures markets where gains and losses are settled each day, transferring funds between counterparties to l
+- [[concepts/debt-as-a-short-put-position|Debt as a Short Put Position]] — The concept that a firm's debt is financially equivalent to a risk-free bond combined with a short put option on the fir
+- [[concepts/debt-overhang|Debt Overhang]] — The problem where a borrower's existing unpaid debt claims act as a powerful restraint on their ability to secure fresh 
+- [[concepts/debt-rating|Debt Rating]] — A classification (e.g., AAA) assigned by a rating agency to a bond to indicate its level of default risk, which investor
+- [[concepts/debtors-cartel|Debtors' Cartel]] — A theoretical incentive for borrowers to form a group and default simultaneously, with the economic forces preventing it
+- [[concepts/decentralized-autonomous-organization|Decentralized Autonomous Organization (DAO)]] — A system that operates without central leadership, where participants can freely enter and exit in a permissionless and 
+- [[concepts/decision-support-system|Decision Support System]] — A system, such as a robo-advisor or 401(k) advisory service, that interacts with a user to help them make decisions like
+- [[concepts/decumulation-phase|Decumulation Phase]] — The period after retirement focused on allocating and spending savings, considered a much harder problem than accumulati
+- [[concepts/dedicated-retirement-assets|Dedicated Retirement Assets]] — A specific set of assets, including Social Security, defined benefit plans, and reverse mortgage capability, that a prof
+- [[concepts/default-option|Default Option]] — The investment strategy automatically assigned to a retirement plan participant who does not make an active choice, whic
+- [[concepts/default-rate|Default Rate]] — The probability that a bond will fail to make its payments, which is used to measure risk and is historically correlated
+- [[concepts/default-risk-pricing|Default Risk Pricing]] — A method for valuing a risky bond where its price is approximated by its expected payoff, which is calculated using the 
+- [[concepts/default-risk|Default Risk]] — The risk that a borrower will fail to make payments, which is considered non-existent for Treasury bills because the US 
+- [[concepts/defined-contribution-plan|Defined Contribution (DC) Plan]] — A type of retirement plan where the individual employee is required to make their own investment decisions from a list o
+- [[concepts/delta-method|Delta Method]] — A fully analytic, asymptotic approximation for the Cp test statistic that is reliable in thin-tailed settings but can ha
+- [[concepts/democratization-of-finance|Democratization of Finance]] — The impact attributed to John C. Bogle's work, which placed the power of investment in the hands of uninitiated, non-exp
+- [[concepts/depreciation|Depreciation]] — An accounting technique for attributing the decline in value of capital assets that impacts cash flow through its effect
+- [[concepts/derivative-pricing-theory|Derivative Pricing Theory]] — The field of study for which Robert C. Merton won a Nobel Prize, focusing on determining the fair price of derivative se
+- [[concepts/derivative-security|Derivative Security]] — A financial security whose value is derived from another underlying security or asset.
+- [[concepts/derivatives|Derivatives]] — Financial instruments, such as options, that allow for the individualization of finance, flexibility, and leverage, and 
+- [[concepts/digital-and-financial-literacy|Digital and Financial Literacy]] — The basic skills and knowledge required to use digital tools like smartphones and banking apps for financial transaction
+- [[concepts/digital-didi-model|Digital Didi Model]] — A proposed model for improving digital literacy based on the principle of one-on-one learning, where a trained individua
+- [[concepts/digital-didi-system|Digital Didi System]] — A proposed system where a trusted local woman ('Didi') facilitates digital financial transactions for people with limite
+- [[concepts/digital-didis-and-bcs-network|Digital Didis and BCs Network]] — A competitive, monetized network of local agents (Business Correspondents) who help people at the Bottom of the Pyramid 
+- [[concepts/digital-financial-services|Digital Financial Services]] — Electronic financial services that can be intimidating for some populations, whose adoption can be improved by addressin
+- [[concepts/digital-literacy|Digital Literacy]] — The knowledge and skills required to use digital services like banking apps, which is often hindered by a lack of unders
+- [[concepts/digital-signature|Digital Signature]] — A cryptographic method used to confirm the identity of a sender by encrypting a message with their private key, which ca
+- [[concepts/diminishing-marginal-utility|Diminishing Marginal Utility]] — An economic principle stating that the incremental expected return an investor demands for taking on an additional unit 
+- [[concepts/directed-acyclic-graph|Directed Acyclic Graph (DAG)]] — A ledger structure where each transaction must select and validate other transactions, with confirmation occurring as it
+- [[concepts/discount-bond-pricing|Discount Bond Pricing]] — A valuation method where the price of a discount bond is equal to its face value discounted to the present by the approp
+- [[concepts/discount-factor|Discount Factor]] — The exchange rate that translates a future dollar to its value today, calculated as 1 divided by (1+r) for one year, or 
+- [[concepts/discounted-cash-flow-valuation-models|Discounted Cash Flow Valuation Models]] — Valuation models that estimate value by discounting future cash flows. While they should implicitly link reinvestment an
+- [[concepts/discounted-cash-flow-valuation|Discounted Cash Flow (DCF) Valuation]] — A general valuation method that involves estimating future cash flows and discounting them back to the present. The text
+- [[concepts/discounting|Discounting]] — A mathematical technique used in valuation to determine the present value of future cash flows.
+- [[concepts/discretionary-liquidity-traders|Discretionary Liquidity Traders]] — A subset of small liquidity traders who can choose which market to trade in, preferring the one that offers the smallest
+- [[concepts/disintermediation|Disintermediation]] — The process of bypassing financial intermediaries like banks to access financial markets directly for borrowing and lend
+- [[concepts/distinction-between-informed-insiders-and-non-insiders|Distinction between Informed Insiders and Non-insiders]] — A concept where a system discouraging informed insiders might encourage entry by informed non-insiders, increasing compe
+- [[concepts/distributed-ledger-technology|Distributed Ledger Technology (DLT)]] — A generalized category of technologies for maintaining a shared ledger across a network, which includes blockchain-based
+- [[concepts/distribution-free-scaling|Distribution-Free Scaling]] — A theoretical result demonstrating that the fixed-target semivariance of a reported series ($LPM_{2,τ}(Y)$) is equal to 
+- [[concepts/diversification|Diversification]] — The principle of spreading investments across various assets to manage risk, which Markowitz's theory formalized by show
+- [[concepts/diversified-portfolio|Diversified Portfolio]] — A portfolio that is not concentrated in one particular kind of investment, used as a method to average out and eliminate
+- [[concepts/dividend-discount-model|Dividend Discount Model]] — A valuation model that calculates the value of equity as the present value of expected dividends, strictly adhering to d
+- [[concepts/dividend-policy|Dividend Policy]] — A company's approach to paying dividends, which is often conservative because cutting dividends is perceived by sharehol
+- [[concepts/dividend-smoothing|Dividend Smoothing]] — The behavior where dividends are positively related to both earnings innovations and the previous period's dividends, re
+- [[concepts/dividend-yield|Dividend Yield]] — The ratio of a company's dividend to its stock price (D/P), which represents the cash component of the required rate of 
+- [[concepts/dividends|Dividends]] — A component of cash flow from an equity security, which companies may choose to pay out when they have excess cash and l
+- [[concepts/dollar-cost-averaging|Dollar-Cost Averaging]] — An investment strategy that serves a psychological purpose by continuously putting money into the market, which results 
+- [[concepts/double-counting-of-risk|Double Counting of Risk]] — A potential pitfall in valuation where risk is accounted for multiple times, often through subjective adjustments to cas
+- [[concepts/double-sha-256|Double SHA-256]] — The specific hash function used by the Bitcoin blockchain, which applies the SHA-256 hash function twice to an input.
+- [[concepts/downside-variance-share-cp|Downside Variance Share (Cp)]] — A statistic, also denoted C_rho, that measures the share of variance from outcomes below a threshold, used as the key id
+- [[concepts/downside-variance-share|Downside Variance Share]] — A compression statistic (C-p) defined as the ratio of downside semivariance to total variance, which falls strictly belo
+- [[concepts/drawdown|Drawdown]] — A reduction in a portfolio's value, which is considered important to minimize as reducing it can lead to a higher termin
+- [[concepts/duration|Duration]] — A measure of a bond's risk, proposed by Macaulay, that quantifies the sensitivity of a bond's price to changes in its yi
+- [[concepts/dynamic-optimization-problem|Dynamic Optimization Problem]] — A mathematical formulation used by managers to solve for the optimal cash disbursement policy by maximizing the present 
+- [[concepts/dynamic-portfolio-theory|Dynamic Portfolio Theory]] — A theory developed by Robert C. Merton in a continuous-time context to solve portfolio problems, which he later applied 
+- [[concepts/dynamic-programming|Dynamic Programming]] — A mathematical optimization technique used to solve the firm's dynamic optimization problem of choosing how much cash to
+- [[concepts/early-exercise|Early Exercise]] — A feature of some options allowing the holder to exercise before expiration, which distinguishes them from non-transfera
+- [[concepts/eaton-gersovitz-1981-model|Eaton and Gersovitz (1981) Model]] — A model of international lending where competitive lenders impose a permanent embargo on all future loans to a borrower 
+- [[concepts/eavesdropper-resistance|Eavesdropper Resistance]] — A security property that information-theoretically prevents an adversary who observes a user's screen from recovering th
+- [[concepts/eclipse-of-the-public-corporation|Eclipse of the Public Corporation]] — A theory or observation concerning the public corporation, discussed in a 1989 Harvard Business Review article.
+- [[concepts/economic-profit|Economic Profit]] — A variant of economic value added where the excess return is defined from the perspective of equity investors. It is bas
+- [[concepts/economic-value-added|Economic Value Added (EVA)]] — A widely used variant of excess return models that measures the surplus value created by an investment or portfolio. It 
+- [[concepts/effective-precision|Effective Precision]] — The reciprocal of the variance of an agent's estimate, whose growth over time is governed by the exponent 1-2d, where 'd
+- [[concepts/efficiency-gap|Efficiency Gap]] — The shortfall between the socially optimal prize for an innovation and the lower Nash Equilibrium prize level that resul
+- [[concepts/efficiency-wages|Efficiency Wages]] — A concept of paying wages above the market-clearing level to induce agents to avoid shirking.
+- [[concepts/efficient-frontier|Efficient Frontier]] — A concept representing the set of optimal portfolios from which different investors choose different points based on the
+- [[concepts/efficient-market-hypothesis|Efficient Market Hypothesis (EMH)]] — An academic theory which Bogle notes is often right but not always right, and which he had not heard of when he created 
+- [[concepts/efficient-market|Efficient Market]] — A well-functioning market where prices react quickly to new information, are difficult to predict, and do not allow inve
+- [[concepts/efficient-markets-hypothesis|Efficient Markets Hypothesis]] — The theory that all available information is incorporated into market prices, meaning there is no arbitrage, and which i
+- [[concepts/efficient-markets|Efficient Markets]] — A concept describing the expected properties of typical investments, related to the predictability of stock market retur
+- [[concepts/efficient-portfolio|Efficient Portfolio]] — A portfolio that lies on the tangency line, providing the maximum expected return for a given level of risk. A portfolio
+- [[concepts/electronic-communications-networks|Electronic Communications Networks (ECNs)]] — Technological systems, originally like bulletin boards, that allow large buyers and sellers to transact equities directl
+- [[concepts/electronic-payments|Electronic Payments]] — A payment method noted as an example of a solution that is not SHUb because it is considered to lack human touch and is 
+- [[concepts/ellsberg-paradox|Ellsberg Paradox]] — A situation, illustrated by an example with two urns, where people prefer a known risk over an unknown risk (uncertainty
+- [[concepts/emotional-hyper-stimulation|Emotional Hyper-stimulation]] — A physiological state where strong emotions impair rational thought and articulate speech by cutting off blood flow to t
+- [[concepts/encrypted-response-channel|Encrypted Response Channel]] — An architectural feature where the user's yes/no answer is transmitted via an encrypted channel like TLS, hiding it from
+- [[concepts/encryption|Encryption]] — A two-way process of transforming an original message using a deterministic algorithm to prevent its contents from being
+- [[concepts/endowment-model|Endowment Model]] — An approach to portfolio management that reformulates the risk and return of diverse asset classes, including alternativ
+- [[concepts/enlightened-self-interest|Enlightened Self-Interest]] — The idea that generosity is an expansion of the self rather than a sacrifice, particularly when the self is correctly de
+- [[concepts/equilibrium-argument-supply-demand|Equilibrium Argument (Supply equals Demand)]] — The reasoning that if all investors (demand) hold the same optimal portfolio 'M', then in aggregate this portfolio must 
+- [[concepts/equilibrium-attention-choice|Equilibrium Attention Choice]] — The manager's payoff-maximizing allocation of attention to social goals, which is determined as a function of their comp
+- [[concepts/equilibrium-model|Equilibrium Model]] — A type of financial model for which the absence of arbitrage is a required condition for it to be valid.
+- [[concepts/equilibrium|Equilibrium]] — A market condition where supply equals demand, which is a much stronger assumption than 'no free lunch' and is required 
+- [[concepts/equity-as-a-call-option|Equity as a Call Option]] — The concept that a corporation's equity is effectively a call option on the firm's assets, with a strike price equal to 
+- [[concepts/equity-ownership|Equity Ownership]] — A mechanism in a government rescue where the government takes a stake in a company, allowing it to benefit from the upsi
+- [[concepts/equity-valuation-approach|Equity Valuation Approach]] — A valuation method that focuses on the cash flows available to equity holders (FCFE) after all debt payments. It explici
+- [[concepts/equity-valuation|Equity Valuation]] — The process of determining a company's value by analyzing its income statements and balance sheets to understand the dyn
+- [[concepts/equity|Equity]] — An ownership stake in a corporation that represents a claim on its sequence of cash flows, which consist of dividends an
+- [[concepts/equivalent-annual-rate|Equivalent Annual Rate (EAR)]] — The actual rate of return earned in a year when compounding is taken into account, representing what you would literally
+- [[concepts/european-option|European Option]] — A type of option that can only be exercised on a single, specific date, though the holder is never obligated to do so.
+- [[concepts/excess-return-models|Excess Return Models]] — A variant of the Discounted Cash Flow (DCF) approach that separates cash flows into 'excess return cash flows' and 'norm
+- [[concepts/excess-returns|Excess Returns]] — The return of an investment minus the net risk-free rate (rf).
+- [[concepts/exchange-traded-funds|Exchange-Traded Funds (ETFs)]] — A type of fund Bogle identifies as being used for trading and speculation, citing their massive cash flow swings during 
+- [[concepts/exogenous-risk|Exogenous Risk]] — A financial term used to describe life's inherent uncertainty and our lack of control, which is presented as the same co
+- [[concepts/expansion-capacity|Expansion Capacity]] — The ability to rapidly scale up conditional on a good market signal, which is a valuable dimension of competitive advant
+- [[concepts/expansion-option-value|Expansion Option Value]] — The value of the opportunity to make a large second-period investment, representing an uncertain but potentially large s
+- [[concepts/expectations-hypothesis|Expectations Hypothesis]] — A theory of the term structure of interest rates which states that today's forward rates are the best guess of what futu
+- [[concepts/expected-bankruptcy-costs|Expected Bankruptcy Costs]] — The costs associated with a firm's financial distress or bankruptcy, which reduce firm value. These include direct costs
+- [[concepts/expected-rate-of-return|Expected Rate of Return]] — The average rate of return, inclusive of distributions like dividends, that is anticipated from an investment over a fut
+- [[concepts/expected-return-of-a-portfolio|Expected Return of a Portfolio]] — The expected return of a portfolio is the weighted average of the expected rates of return of its individual component s
+- [[concepts/expense-ratios|Expense Ratios]] — Fees on investment products that are described as a significant and needless transfer of money from ordinary individuals
+- [[concepts/exploration-exploitation-framework|Exploration-Exploitation Framework]] — A strategic framework that distinguishes between exploring new possibilities and exploiting existing capabilities, with 
+- [[concepts/exploration-risk|Exploration Risk]] — A type of non-systematic risk, such as the probability of finding oil, which has a beta of zero and should be discounted
+- [[concepts/extended-equity-valuation-models|Extended Equity Valuation Models]] — Models designed to address the limitations of the traditional dividend discount model by capturing the build-up of cash 
+- [[concepts/external-capital-markets|External Capital Markets]] — A source of funding for companies that can be very expensive to access depending on market conditions, representing an a
+- [[concepts/extreme-value-theorem|Extreme Value Theorem]] — A mathematical theorem used in the paper's proofs to guarantee that an optimal contract exists within a set of feasible 
+- [[concepts/eye-blink-response-rate|Eye-Blink Response Rate]] — A psychological measurement used to gauge emotional reaction, based on the observation that a strong emotional response 
+- [[concepts/factor-model|Factor Model]] — A simplified model for portfolio analysis developed by William Sharpe that reduces the complexity of estimating numerous
+- [[concepts/fano-lower-bound|Fano Lower Bound]] — A theorem providing a lower limit on the error probability for any eavesdropper's attempt to guess the password, regardl
+- [[concepts/fano-threshold|Fano Threshold]] — A specific number of rounds, n_k*, below which the Fano Lower Bound guarantees that any password estimator will have a n
+- [[concepts/fanos-inequality|Fano's Inequality]] — A theorem from information theory used in the paper to prove that an observer is information-theoretically prevented fro
+- [[concepts/fear-and-greed|Fear and Greed]] — Fundamental human emotions described as the primary drivers of financial market cycles, leading to bubbles and crashes.
+- [[concepts/finance|Finance]] — The systematic and disciplined study of financial transactions, which is described as being equal to mathematics plus mo
+- [[concepts/financial-analysis|Financial Analysis]] — A discipline defined by its two fundamental challenges: time and risk.
+- [[concepts/financial-assets|Financial Assets]] — Assets in which cash is invested, such as 401(k) plans, retirement accounts, and Social Security.
+- [[concepts/financial-distress-costs|Financial Distress Costs]] — Costs associated with low cash flow realizations that fall below a firm's contractual debt obligations, which a hedging 
+- [[concepts/financial-distress|Financial Distress]] — A state where a company is in trouble, leading to problems like other firms "cherry-picking" its valuable assets and cre
+- [[concepts/financial-engineering|Financial Engineering]] — A field of finance that involves creating innovative financial products, such as through the process of securitization, 
+- [[concepts/financial-exclusion|Financial Exclusion]] — The condition where individuals are unable to benefit from financial services due to factors like product complexity, as
+- [[concepts/financial-firewall|Financial Firewall]] — A strategy, analogous to fighting forest fires, of allowing certain financial institutions to fail in a controlled manne
+- [[concepts/financial-future|Financial Future]] — A futures contract on a financial index, like the S&P 500, that is typically cash-settled and provides a direct way to g
+- [[concepts/financial-gain-as-neurological-reward|Financial Gain as a Neurological Reward]] — The physiological fact that monetary reward stimulates the same brain reward circuitry, involving dopamine and the nucle
+- [[concepts/financial-inclusion|Financial Inclusion]] — A drive to make financial services accessible to all, particularly the poor, which the text argues has not yet been mean
+- [[concepts/financial-panic|Financial Panic]] — A widespread, fear-driven market event that regulators and the government sought to contain to prevent a significant fin
+- [[concepts/firm-optimal-stable-matching|Firm-Optimal Stable Matching]] — The stable matching where firms are not hostage to competitive market pressures and can implement their preferred operat
+- [[concepts/firm-valuation-approach|Firm Valuation Approach]] — A valuation method that focuses on the cash flows available to the entire firm (FCFF) before any debt payments. It requi
+- [[concepts/first-best|First-best]] — A theoretical benchmark in the model where innovation effort maximizes expected social surplus and the resulting product
+- [[concepts/first-order-approach|First-Order Approach]] — A modeling technique used to solve the manager's attention choice problem by utilizing the manager's first-order conditi
+- [[concepts/first-order-autocorrelation|First-Order Autocorrelation]] — A statistical measure of the correlation between a period's stock return and the previous period's return, which should 
+- [[concepts/first-order-condition|First-Order Condition]] — A necessary condition for optimization, derived from the model's dynamic programming problem, which characterizes the op
+- [[concepts/first-order-stochastic-dominance|First-Order Stochastic Dominance (FOSD)]] — A method for comparing probability distributions, used in the paper to analyze how a shift to an unambiguously better di
+- [[concepts/fixed-income-intermediaries|Fixed Income Intermediaries]] — Market participants, such as dealers, who facilitate transactions and can take on risk by holding securities on their ow
+- [[concepts/fixed-income-investors|Fixed Income Investors]] — Participants in the fixed income market who buy bonds, which is equivalent to providing loans to the issuers.
+- [[concepts/fixed-income-issuers|Fixed Income Issuers]] — End users in the fixed income market, such as governments and corporations, that issue IOUs to receive cash for their op
+- [[concepts/fixed-income-market-participants|Fixed Income Market Participants]] — The three main groups involved in the fixed income market, consisting of issuers, intermediaries, and investors.
+- [[concepts/fixed-income-securities|Fixed Income Securities]] — A class of securities central to the market dislocations of the time, whose valuation can be determined using present va
+- [[concepts/fixed-target-downside-variance-share|Fixed-Target Downside Variance Share]] — A statistical estimator for the downside variance share, denoted p_tau, that uses a fixed, exogenous threshold to calcul
+- [[concepts/flight-to-liquidity|Flight to Liquidity]] — A market phenomenon, also called a flight to quality, where scared market participants buy safe assets like treasury bil
+- [[concepts/flight-to-safety|Flight to Safety]] — A behavior where investors, particularly retail investors, react to market panic by moving their money into assets perce
+- [[concepts/for-profit-status|For-Profit Status]] — A corporate structure that can be modified by selling a fraction of the firm's cash flows to an impact investor to commi
+- [[concepts/formal-informal-insurance-integration|Formal-Informal Insurance Integration]] — A proposed solution that combines formal insurance contracts with informal mechanisms, where community institutions like
+- [[concepts/formal-insurance|Formal Insurance]] — Organized systems that evolved from informal arrangements, where individuals pay premiums to a central entity in exchang
+- [[concepts/forward-contract|Forward Contract]] — A customized, nonstandard, and legally binding agreement between two parties to exchange an asset at a specified future 
+- [[concepts/forward-contracts|Forward Contracts]] — A type of financial contract used to manage uncertainty and risk, such as currency exchange rate fluctuations for compan
+- [[concepts/forward-price|Forward Price]] — The price for a future transaction that is fixed today in a forward contract, determined by supply and demand such that 
+- [[concepts/forward-pricing-model|Forward Pricing Model]] — A relationship that determines a forward contract's price based on the spot price, interest rate, time to settlement, st
+- [[concepts/forward-rate|Forward Rate]] — An interest rate observed today for a transaction that will occur over a period in the future, which serves as the marke
+- [[concepts/fractional-integration|Fractional Integration]] — A time-series noise process, denoted I(d), where the influence of past shocks decays hyperbolically rather than exponent
+- [[concepts/fractionally-integrated-process|Fractionally Integrated Process]] — A statistical process, denoted I(d), where the noise term is characterized by a memory parameter 'd' that determines its
+- [[concepts/franchising-of-microangels|Franchising of Microangels]] — A mechanism where banks provide technology and potentially funds to Microangels, allowing them to form a coalition and a
+- [[concepts/free-cash-flow-to-equity|Free Cash Flow to Equity (FCFE)]] — A cash flow measure available to equity holders, which requires taking into account debt issues and repayments. It is us
+- [[concepts/free-cash-flow-to-firm|Free Cash Flow to Firm (FCFF)]] — A pre-debt cash flow measure used in the firm valuation approach. It does not explicitly consider cash flows relating to
+- [[concepts/free-cash-flow|Free Cash Flow]] — Surplus cash retained by a firm which can lead to costs from organizational inefficiencies, excessive perquisite consump
+- [[concepts/free-rider-benchmark|Free-Rider Benchmark]] — A framework, applying Bergstrom et al. (1986), used to analyze the voluntary funding of a pharmaceutical prize, which is
+- [[concepts/full-commitment-model|Full-Commitment Model]] — A setting in the model where the for-profit owner can credibly commit not to alter the manager's contract after the impa
+- [[concepts/full-faith-and-credit|Full Faith and Credit]] — A guarantee from the US Government that backs certain financial instruments, ensuring their value and stability.
+- [[concepts/fundamentally-weighted-indexing|Fundamentally Weighted Indexing]] — A method of portfolio construction that adjusts holdings based on fundamental factors like earnings, rather than market 
+- [[concepts/future-spot-rate|Future Spot Rate]] — The actual spot interest rate that will prevail in the market at a future point in time, which is uncertain today but ca
+- [[concepts/futures-and-forwards|Futures and Forwards]] — Bilateral agreements between two counterparties that are worth nothing upon initiation because the contract has no initi
+- [[concepts/futures-contract|Futures Contract]] — A contract to exchange something in the future that is functionally similar to a forward contract, with the primary diff
+- [[concepts/futures-contracts|Futures Contracts]] — A type of financial contract whose key innovation is the implementation of mark-to-market accounting to manage market un
+- [[concepts/general-stock-valuation-formula|General Stock Valuation Formula]] — The principle that a company's value is determined by the sum of all its future dividends, each discounted by a risk-adj
+- [[concepts/generalized-funding-ratio|Generalized Funding Ratio]] — A metric indicating an investor's capacity to take risk, where a lower ratio suggests that less risk should be taken.
+- [[concepts/go-go-era|Go-Go Era]] — A period that transformed the mutual fund industry into a marketing-driven, opportunistic business focused on creating r
+- [[concepts/goal-linked-savings|Goal-Linked Savings]] — A savings approach where an individual saves money with a specific purchase or goal in mind, such as saving for a sewing
+- [[concepts/goal-setting-theory|Goal-Setting Theory]] — An empirical theory establishing that specific, challenging goals lead to better performance than vague or easy goals.
+- [[concepts/goldilocks-theorem|Goldilocks Theorem]] — A principle stating that the optimal goal for a mission is set strictly above expected output to maximize the marginal p
+- [[concepts/gordon-growth-model|Gordon Growth Model]] — A model used to compute the present value of the price at the end of a high growth phase, specifically for the stable gr
+- [[concepts/government-purchase|Government Purchase]] — A specific implementation of a patent buyout where a government pays the innovator a value G* to open-source a technolog
+- [[concepts/government-sponsored-entity|Government-Sponsored Entity]] — A type of private organization that has the backing of the government in an ambiguous sense, with a dual mandate to serv
+- [[concepts/grid-based-zkp-protocol|Grid-based ZKP protocol]] — The authentication mechanism analyzed in the paper, designed to combine usability, provable perfect zero-knowledge secur
+- [[concepts/grievance-redressal-mechanism|Grievance Redressal Mechanism]] — A system for consumers to address complaints, which must be simple and expeditious to generate enough trust to encourage
+- [[concepts/groundlessness|Groundlessness]] — A philosophical concept, equated with risk, that describes the lack of a solid and certain foundation in life.
+- [[concepts/growing-perpetuity|Growing Perpetuity]] — A stream of cash flows that grows at a constant rate (g) forever, whose valuation formula is only valid when the discoun
+- [[concepts/growth-companies|Growth Companies]] — Early-stage companies that typically conserve cash by reinvesting it into their operations and investment ideas rather t
+- [[concepts/growth-trap|Growth Trap]] — An investment pitfall where buying a high-growth company at too high a price leads to inferior returns compared to a low
+- [[concepts/guarantee-against-social-failure-contract|Guarantee-Against-Social-Failure Contract]] — An optimal wage contract when social output is contractible, which provides a greater financial payment to a manager whe
+- [[concepts/h-model|H Model]] — A two-stage growth model that is a variant of the classical two-stage model, designed for computational simplicity. Unli
+- [[concepts/hac-estimator|HAC Estimator]] — A heteroskedasticity and autocorrelation consistent (HAC) estimator used to compute the long-run variance for statistica
+- [[concepts/harvest-option|Harvest Option]] — The value derived from salvaging the organizational capital built from an initial investment if the market signal turns 
+- [[concepts/harvest-regime|Harvest Regime]] — A state in which firms continue operating without making new investments when a market signal weakens, with its duration
+- [[concepts/hashing|Hashing]] — A critical cryptographic process in the Bitcoin protocol used for generating private keys, creating digital signatures, 
+- [[concepts/heat-equation|Heat Equation]] — A partial differential equation, typically used to explain the conduction of heat, that Louis Bachelier derived and used
+- [[concepts/hedge-fund|Hedge Fund]] — An investment vehicle that tries to figure out complex relationships to construct a good portfolio, which may or may not
+- [[concepts/hedging|Hedging]] — A strategy to manage risk, exemplified by the creation of a replicating portfolio of stock and bonds to offset the risk 
+- [[concepts/heuristics|Heuristics (Rules of Thumb)]] — Decision-making shortcuts whose success or failure is driven by evolutionary forces and adaptation, often formed in resp
+- [[concepts/hidden-action-and-hidden-information|Hidden Action and Hidden Information]] — Frictions, also known as moral hazard and adverse selection, incorporated into the matching model where a manager's effo
+- [[concepts/hidden-action-problem|Hidden Action Problem]] — An agency friction where shareholders cannot observe the decisions or actions taken by the manager.
+- [[concepts/hidden-action|Hidden Action]] — A principal-agent problem addressed by incentive constraints that ensure a manager prefers to undertake a specific proje
+- [[concepts/hidden-information-frictions|Hidden Information Frictions]] — A central market friction that makes high expected pay unavoidable for firms choosing risky growth strategies, as it obs
+- [[concepts/hidden-information-problem|Hidden Information Problem]] — An agency friction where shareholders cannot observe the set of opportunities available to the firm, such as whether a v
+- [[concepts/hidden-information|Hidden Information]] — A principal-agent problem where the manager privately knows if a valuable growth opportunity has arrived, which sharehol
+- [[concepts/high-powered-equity-linked-incentives|High-Powered, Equity-Linked Incentives]] — Compensation methods, such as stock options, that became common to motivate managers to pursue ambitious and risky growt
+- [[concepts/high-powered-incentives|High-Powered Incentives]] — Expensive compensation schemes offered by firms to induce managers to chase relatively rare growth opportunities.
+- [[concepts/holistic-portfolio-view|Holistic Portfolio View]] — The idea that one should look beyond just the portfolio of securities and consider all other variables that make an inve
+- [[concepts/hominid-brain|Hominid Brain (Neocortex)]] — The newest evolutionary part of the brain in the Triune Model, responsible for higher thought functions such as language
+- [[concepts/human-touch-filter|Human Touch Filter]] — A criterion of the SHUb test emphasizing that financial products need a personal, human connection to build trust and co
+- [[concepts/human-touch-in-digital-finance|Human Touch in Digital Finance]] — The use of personal interaction to alleviate mistrust in digital processes and make users more comfortable with digital 
+- [[concepts/hurdle-rate|Hurdle Rate]] — A required rate of return or threshold that a project's IRR must be greater than for the project to be accepted.
+- [[concepts/identification-hierarchy|Identification Hierarchy]] — A four-level framework that uses progressively richer auxiliary data to distinguish between a reporting put and a policy
+- [[concepts/identity-economics|Identity Economics]] — A theory that provides micro-foundations for why publicly announcing a precise goal can strengthen effort even in the ab
+- [[concepts/idiosyncratic-risk|Idiosyncratic Risk]] — Risk that is unique to a specific company, also called firm-specific risk, which can be averaged out to nothing by holdi
+- [[concepts/illiquidity|Illiquidity]] — A primary issue with forward contracts where it is not easy for a party to exit the agreement, as they cannot easily sel
+- [[concepts/illusion-of-control|Illusion of Control]] — An evolutionary feature where humans systematically underestimate uncertainty because overconfidence and a bias for acti
+- [[concepts/impact-investing|Impact Investing]] — A theory where socially minded investors hold large ownership stakes in socially valuable firms to incentivize for-profi
+- [[concepts/impact-investor-underdiversification|Impact Investor Underdiversification]] — A condition where impact investors must maintain a concentrated stake in a limited number of social ventures to align in
+- [[concepts/impact-investor|Impact Investor]] — A socially motivated investor who values a project's expected social output and provides a subsidy to for-profit owners 
+- [[concepts/impatience|Impatience (Time Preference)]] — The human preference to consume now versus later, which is presented as a fundamental reason for discounting future cash
+- [[concepts/impermanence|Impermanence]] — A Buddhist concept that life is uncertain and we have less control than we think, which the speaker equates to the finan
+- [[concepts/implicit-future-forecast-in-bond-prices|Implicit Future Forecast in Bond Prices]] — The principle that a forecast of the future is contained within the prices of discounted coupon bonds and can be inferre
+- [[concepts/implied-volatility|Implied Volatility]] — A key factor in an option's price, which can rise dramatically and make options significantly more expensive, as seen wi
+- [[concepts/in-depth-company-research|In-depth Company Research]] — A research method involving the creation of very long reports (50-150 pages) based on analyzing companies by talking to 
+- [[concepts/incentive-compatibility-condition|Incentive-Compatibility Condition]] — A condition ensuring a borrower does not voluntarily repudiate debt, which is satisfied when the endogenous penalty for 
+- [[concepts/incentive-compatibility-constraint|Incentive Compatibility Constraint]] — A constraint in the for-profit owner's optimization problem that ensures the manager's choice of attention is optimal gi
+- [[concepts/incentive-constraint|Incentive Constraint]] — A condition in an optimal contract ensuring that a manager is motivated to choose the action preferred by the firm over 
+- [[concepts/incentivized-formal-savings|Incentivized Formal Savings]] — A proposed model where a company partners with a bank to offer discounts on its products to people who save formally for
+- [[concepts/income-statement|Income Statement]] — An accounting statement that measures the 'flow' of wealth into or out of a company, showing sources and uses of funds o
+- [[concepts/incumbent-trap|Incumbent Trap]] — A situation where an incumbent firm rationally resists an innovation proposal that a startup would accept, due to the in
+- [[concepts/index-fund-investing|Index Fund Investing]] — A passive investment strategy recommended for achieving top-quartile performance over the long term by investing in low-
+- [[concepts/index-fund-management|Index Fund Management]] — An investment strategy defined as maintaining no tracking error to a specific index, which is distinguished from the fle
+- [[concepts/index-fund|Index Fund]] — A fund created to match a market index like the S&P 500, which John C. Bogle argued was "not managed" to circumvent init
+- [[concepts/index-funds|Index Funds]] — Low-cost investment vehicles that are advocated for building portfolios and are commonly used by robo-advisors.
+- [[concepts/indexation|Indexation]] — The investment concept of creating a fund that emulates a market index, an idea John C. Bogle's thoughts trace back to h
+- [[concepts/inflation-risk|Inflation Risk]] — A type of risk associated with bonds where the value of the investment is eroded by changes in the purchasing power of t
+- [[concepts/inflation|Inflation]] — A general increase in prices and fall in the purchasing value of money, which is a potential negative consequence of kee
+- [[concepts/inflationary-pressures|Inflationary Pressures]] — Economic forces that can drive interest rates up, which may be encouraged when monetary authorities flood a market with 
+- [[concepts/informal-insurance|Informal Insurance]] — Risk protection mechanisms that rely on social networks, community ties, family transfers, or personal savings, which of
+- [[concepts/informal-lending-market|Informal Lending Market]] — A credit system used by the financially excluded, characterized by local moneylenders and extremely high effective annua
+- [[concepts/informal-savings|Informal Savings]] — The practice of saving money outside of formal financial institutions, such as keeping currency notes in a tin box at ho
+- [[concepts/information-asymmetry|Information Asymmetry]] — The condition where a firm's managers possess more timely information about the true value of the firm's assets than out
+- [[concepts/information-in-prices|Information in Prices]] — The concept that market prices from derivative, spot, and forward markets contain a huge amount of information reflectin
+- [[concepts/information-sharing|Information Sharing]] — A commitment by market makers to publicly release information about trading in their markets, which can make their marke
+- [[concepts/information-theoretic-soundness|Information-Theoretic Soundness]] — A security property of the proposed protocol, proven in the paper, which ensures that a cheating prover has only a negli
+- [[concepts/informed-trader|Informed Trader]] — A trader who possesses private information and trades aggressively to exploit it, causing more of their information to b
+- [[concepts/informed-trading|Informed Trading]] — Trading by an agent who possesses private information about a security's value and places orders across markets to maxim
+- [[concepts/initial-margin|Initial Margin]] — The amount of collateral a party must deposit with a broker to enter into a futures contract, designed to be sufficient 
+- [[concepts/innovation-threshold|Innovation Threshold]] — A condition determining if a firm invests in a new business by comparing the expansion option value to the first-period 
+- [[concepts/insider-surveillance-system|Insider Surveillance System]] — A system that market makers can voluntarily institute to deter informed trading by linking an insider's first-period tra
+- [[concepts/insider-trading-monitoring|Insider Trading Monitoring]] — A system adopted by a market to detect insider trading, which reduces the expected profits of the informed insider in th
+- [[concepts/insider-trading|Insider Trading]] — A form of informed trading that market makers may deter by voluntarily making price information public to attract order 
+- [[concepts/institutional-investors|Institutional Investors]] — A population of sophisticated market participants whose presence in the market is associated with periods of higher mark
+- [[concepts/insurance-against-mistakes|Insurance Against Mistakes]] — A proposed mechanism where a third-party insurance provider underwrites losses from faulty digital transactions to strea
+- [[concepts/intangible-collateral|Intangible Collateral]] — A financial history built through formal transactions that can act as a non-physical asset to provide access to credit f
+- [[concepts/interdisciplinary-missions|Interdisciplinary Missions]] — Missions requiring contributions from many distinct knowledge domains, characterized by multiplicative production where 
+- [[concepts/interest-rate-capping|Interest Rate Capping]] — A regulatory measure to impose a maximum interest rate on microloans, which can lead lenders to stop serving smaller, hi
+- [[concepts/interest-rate-compounding|Interest Rate Compounding]] — The convention for handling annualized interest rates for different time periods, such as determining the appropriate ra
+- [[concepts/interest-rate-risk|Interest Rate Risk]] — A risk factor present in futures and forward contracts because payments are made in the future, requiring their value to
+- [[concepts/interest-rate|Interest Rate]] — A rate that reflects the opportunity cost of money and is a critical input for valuation decisions, such as calculating 
+- [[concepts/internal-rate-of-return|Internal Rate of Return]] — The fundamental value generated by an asset, such as dividend yields, earnings growth, or interest coupons, which Bogle 
+- [[concepts/international-capm|International CAPM]] — Versions of the CAPM applied internationally or on a country-by-country basis which have historically not worked well, t
+- [[concepts/international-lending-enforceability-model|International Lending Enforceability Model]] — A rational expectations model explaining how international debt contract enforceability is achieved through banks' reput
+- [[concepts/internet-bubble|Internet Bubble]] — A period of extreme overvaluation in technology stocks in the late 1990s and early 2000, which Jeremy Siegel publicly id
+- [[concepts/intertemporal-optimization|Intertemporal Optimization]] — A method for making optimal decisions over multiple time periods, which Robert C. Merton combined with decision-making u
+- [[concepts/intrafirm-tender-offer|Intrafirm Tender Offer]] — A method for conducting stock repurchases that is associated with a substantial positive stock price reaction upon annou
+- [[concepts/investment-grade|Investment Grade]] — A category of bonds with lower default risk that are considered appropriate for prudent and conservative investments by 
+- [[concepts/investment-in-gold|Investment in Gold]] — A common investment in India, popular due to the belief that it never decreases in value, though in reality its price is
+- [[concepts/investment-return|Investment Return]] — A component of market returns in Bogle's framework, defined as the sum of the current dividend yield and future earnings
+- [[concepts/investor-uniqueness|Investor Uniqueness]] — The principle that every investor has a unique set of circumstances (age, income, risk comfort, etc.) that requires a ta
+- [[concepts/investor-vs-speculator|Investor vs. Speculator]] — A core distinction where an investor focuses on an asset's long-term internal rate of return, while a speculator hopes t
+- [[concepts/irrational-exuberance|Irrational Exuberance]] — A phrase associated with Bob Shiller to describe the overvaluation of the market, particularly during the 2000 tech bubb
+- [[concepts/january-effect|January Effect]] — The observation that the size effect is almost entirely concentrated in the month of January, with little difference in 
+- [[concepts/joint-co-cp-test|Joint (C_o, C_p) Test]] — A two-statistic framework for detecting misreporting that uses C_p and C_o together to cover the full space of manipulat
+- [[concepts/joint-financing|Joint Financing]] — A financing structure where a project is funded by both profit-motivated investors and socially motivated (impact) inves
+- [[concepts/junior-tranche|Junior Tranche]] — A security that only gets paid from the cash flows of an underlying portfolio after the senior tranche has been paid in 
+- [[concepts/k-tier-crlm|K-tier CRLM]] — A generalization of the CRLM for multiple country groups ranked by willingness-to-pay, setting monopoly prices for top t
+- [[concepts/knowledge-spillovers|Knowledge Spillovers]] — A phenomenon where knowledge from one agent benefits another, which can lead to a public goods underprovision problem as
+- [[concepts/large-liquidity-trader|Large Liquidity Trader]] — A single liquidity trader whose trades across different markets are perfectly correlated, meaning no diversification eff
+- [[concepts/large-liquidity-traders|Large Liquidity Traders]] — Institutional traders who split their trades across multiple markets to minimize the total expected cost of trading a gi
+- [[concepts/law-of-large-numbers|Law of Large Numbers]] — A mathematical theorem stating that a large number of uncorrelated fluctuations, such as idiosyncratic risks, will avera
+- [[concepts/law-of-one-price|Law of One Price]] — A fundamental principle in modern finance stating that two identical cash flows must have the same market price, with th
+- [[concepts/lean-scaler|Lean Scaler]] — An innovation archetype for high volatility and low learning with a favorable signal, where a firm enters small and scal
+- [[concepts/learning-channel|Learning Channel]] — A mechanism described in the Bernardo and Chowdhry (2002) model where higher resource uncertainty raises firm value by c
+- [[concepts/learning-intensity|Learning Intensity]] — A parameter (s) representing how much organization capital is built per dollar of initial investment, making the date-0 
+- [[concepts/leverage-in-futures|Leverage (in futures)]] — The ability to gain large market exposure with a futures contract by putting down only a small percentage of the total v
+- [[concepts/leverage|Leverage]] — The use of borrowed capital to increase exposure to an asset, which magnifies both potential gains and losses, as illust
+- [[concepts/leveraged-buyouts|Leveraged Buyouts]] — A type of financial transaction whose effects on operating performance, value, and relation to private equity are examin
+- [[concepts/liability-returns|Liability Returns]] — A concept that analyzes the return characteristics of an entity's obligations, designed to be integrated with asset retu
+- [[concepts/liability|Liability]] — An asset where the sequence of cashflows are all negative.
+- [[concepts/life-as-a-risk-management-problem|Life as a Risk Management Problem]] — The central idea that the human condition can be understood as a problem of managing inherent uncertainty, or 'groundles
+- [[concepts/lifetime-consumption-portfolio-problem|Lifetime Consumption Portfolio Problem]] — The problem of an individual making optimal consumption, savings, and portfolio decisions throughout their life, which w
+- [[concepts/limited-arbitrage|Limited Arbitrage]] — The concept that 'free lunches' or arbitrage opportunities can exist from time to time in adaptive markets before they a
+- [[concepts/limited-liability-constraints|Limited Liability Constraints]] — Constraints on contracts that ensure manager payoffs do not fall below a certain level, influencing the structure of the
+- [[concepts/limited-liability|Limited Liability]] — A feature of equity where an investor's maximum loss is limited to their initial investment, which encourages innovation
+- [[concepts/limits-of-arbitrage|Limits of Arbitrage]] — The principle that market forces may fail to correct irrationality because a market can remain irrational longer than a 
+- [[concepts/limits-of-diversification|Limits of Diversification]] — The principle that as more securities are added to a portfolio, there is a hard limit to how much risk can be reduced, l
+- [[concepts/lindahl-conditions|Lindahl Conditions]] — Economic principles used to determine the royalty cap in the Compensated Royalty Licensing Mandate.
+- [[concepts/lindahl-optimal-prize|Lindahl-optimal Prize]] — The socially optimal prize (G*) for an innovator, which the CRLM aims to fund through its price mechanism without public
+- [[concepts/lindahl-royalty|Lindahl Royalty]] — The optimal royalty cap used in the Capped Royalty Licensing Mandate, determined by the Lindahl conditions for efficienc
+- [[concepts/lindahl-schedule|Lindahl Schedule]] — A mechanism for financing a public good that satisfies budget balance, individual rationality, and constrained efficienc
+- [[concepts/linear-constraints|Linear Constraints]] — Rules, expressed as linear equalities or inequalities, used in practice to limit portfolio characteristics such as indus
+- [[concepts/linear-dependence|Linear Dependence]] — A mathematical condition in a system of equations where one equation can be derived from a combination of others, which 
+- [[concepts/linear-pricing-rules|Linear Pricing Rules]] — A pricing function used by market makers where the price change is a linear function of the net order flow in their mark
+- [[concepts/liquidity-crunch|Liquidity Crunch]] — A market condition, coupled with panic, that causes the pricing of assets to become questionable and creates opportuniti
+- [[concepts/liquidity-planning|Liquidity Planning]] — The process of having a plan for liquidity needs during a crisis to avoid predictable squeezes that force asset sales at
+- [[concepts/liquidity-preference-hypothesis|Liquidity Preference Hypothesis]] — A theory explaining the yield curve by stating that investors require a premium to compensate for giving up liquidity wh
+- [[concepts/liquidity-trading|Liquidity Trading]] — Trading conducted by agents for reasons other than private information, who submit orders to minimize expected trading c
+- [[concepts/liquidity|Liquidity]] — The ability to convert assets to cash, which is highly sought after during a panic, making the provision of liquidity a 
+- [[concepts/liveness|Liveness]] — A property of a Byzantine fault-tolerant system that ensures transactions are able to occur and the system makes progres
+- [[concepts/loan-syndication|Loan Syndication]] — The practice of multiple banks participating in a single loan, which serves to make the penalty for default more severe 
+- [[concepts/local-whittle-estimator|Local Whittle Estimator]] — An estimation method that maximizes an approximate Whittle likelihood to measure the memory parameter 'd' and is preferr
+- [[concepts/long-memory|Long Memory]] — A property of a time-series process, characterized by a memory parameter 'd', where autocovariances are not summable and
+- [[concepts/long-position|Long Position]] — The position of the party in a forward contract, referred to as the buyer, who has agreed to buy the underlying asset in
+- [[concepts/longevity|Longevity]] — A factor that makes the amount of money one needs to save 'staggering' when performing simple calculations for the futur
+- [[concepts/loss-aversion|Loss Aversion]] — A psychological bias where individuals are willing to take more risk when it comes to losses than they are when it comes
+- [[concepts/low-cost-indexing|Low-Cost Indexing]] — An investment strategy using low-cost index funds to accept the market rate of return at the market level of risk, rathe
+- [[concepts/lower-partial-moment-lpm|Lower Partial Moment (LPM)]] — A measure of downside risk, specifically the fixed-target semivariance ($LPM_{2,τ}$), which is shown to scale exactly wi
+- [[concepts/lower-partial-moments|Lower Partial Moments]] — A class of risk measures focusing on downside deviation from a target, which are shown to scale exactly with misreportin
+- [[concepts/macaulay-duration|Macaulay Duration]] — A measure of a bond's or portfolio's sensitivity to interest rate changes, calculated as the weighted average term to ma
+- [[concepts/maintenance-margin|Maintenance Margin]] — The minimum level of collateral that must be maintained in a futures account; if the account balance drops below this le
+- [[concepts/mammalian-brain|Mammalian Brain (Mid-brain)]] — The part of the brain in the Triune Model, shared with warm-blooded creatures, that is associated with emotions and inst
+- [[concepts/management-of-assets|Management of Assets]] — One of the two fundamental challenges of finance, which involves making a decision to take the more valuable option afte
+- [[concepts/manager-optimal-stable-matching|Manager-Optimal Stable Matching]] — The stable matching that yields the highest possible payoffs for managers, resulting in widespread pay escalation and fi
+- [[concepts/managerial-outside-option|Managerial Outside Option]] — The payoff a manager receives from staying unmatched, where a sufficient rise in this option can generate pay escalation
+- [[concepts/managers-participation-constraint|Manager's Participation Constraint]] — A condition requiring the manager's compensation to be sufficient for them to accept a contract; impact investments are 
+- [[concepts/margin-account|Margin Account]] — An account required for futures trading from which funds are added or deducted to cover daily gains and losses, ensuring
+- [[concepts/margin|Margin]] — The capital deposited to open a futures position, representing a small percentage of the total exposure, which can be en
+- [[concepts/marginal-cost|Marginal Cost]] — The cost associated with allowing an additional user to access an existing service or infrastructure, which is often tri
+- [[concepts/marginal-costs-of-electronic-transactions|Marginal Costs of Electronic Transactions]] — The costs associated with an additional electronic transaction, which are noted to be non-zero due to authentication and
+- [[concepts/mark-to-market-accounting|Mark-to-Market Accounting]] — A mechanism for providing pricing information for financial instruments, which the speaker considers a critical function
+- [[concepts/mark-to-market|Mark-to-Market]] — An accounting method that establishes a market price or value for an asset.
+- [[concepts/market-anomalies|Market Anomalies]] — Persistent patterns in stock returns, such as the size, value, and momentum effects, that seem to have predictive value 
+- [[concepts/market-depth|Market Depth]] — A parameter, denoted by lambda (λ), in the market makers' linear pricing rule that represents the price impact of the ne
+- [[concepts/market-determined-pricing|Market-Determined Pricing]] — The concept that the value and appropriate discount rate for a company's cash flows are determined by the broader market
+- [[concepts/market-dislocation|Market Dislocation]] — A significant market disruption, potentially caused by mass panic, that the US Treasury's intervention in the Fannie Mae
+- [[concepts/market-efficiency-cycle|Market Efficiency Cycle]] — The idea that market efficiency is not constant but varies cyclically over time, influenced by the changing population o
+- [[concepts/market-efficiency|Market Efficiency]] — The state of the modern market where participants have the same information and tools, making it extremely difficult to 
+- [[concepts/market-equilibrium|Market Equilibrium]] — A theoretical state where financial markets clear, which is used as a framework to ensure investment theories are consis
+- [[concepts/market-expectations|Market Expectations]] — The market's collective forecast about what will happen to prices in the future, which is implicitly contained within fo
+- [[concepts/market-liquidity-parameter-lambda|Market Liquidity Parameter (λ)]] — A parameter set by market makers, where a lower value is more attractive; competition drives market makers to offer the 
+- [[concepts/market-maker-competition|Market Maker Competition]] — A dynamic where market makers compete to offer the lowest possible trading cost (lambda) to attract liquidity traders, w
+- [[concepts/market-makers|Market Makers]] — Risk-neutral agents who engage in Bertrand competition, absorb the net order flow in each market, and set price schedule
+- [[concepts/market-portfolio|Market Portfolio]] — A key concept in the CAPM, it is a passive, highly diversified portfolio that makes sense for investors to hold, with it
+- [[concepts/market-price|Market Price]] — The value of an asset as determined by any market where a buyer and seller are willing to transact.
+- [[concepts/market-pricing|Market Pricing]] — An imperfect but functional mechanism, such as an auction, where professional bidders determine the price of an asset, w
+- [[concepts/market-risk-hedging|Market Risk Hedging]] — The practice of taking an offsetting position in the market index to mitigate the adverse consequences of market risk on
+- [[concepts/market-risk-premium|Market Risk Premium]] — The expected excess rate of return of the market over the risk-free rate, which has historically been about 7%.
+- [[concepts/market-risk|Market Risk]] — The risk associated with an activity like pumping and selling oil, which is correlated to the market, has a high beta, a
+- [[concepts/market-sentiment|Market Sentiment]] — The current expectations and information held by market participants, which is reflected in market prices at any given t
+- [[concepts/market-uncertainty|Market Uncertainty]] — The volatility of market signals, which creates large option values for new entrants but can be a threat to established 
+- [[concepts/marking-to-market|Marking to Market]] — A process applied to futures contracts that makes a very big difference in their liquidity characteristics.
+- [[concepts/markov-pricing|Markov Pricing]] — A pricing method required for options when stock returns are correlated over time and do not follow a random walk, inste
+- [[concepts/martingale|Martingale]] — A principle, also known as a fair game, where the expected winnings and losses are equal to zero.
+- [[concepts/master-equation|Master Equation]] — A model that places different domains on a one-dimensional spectrum parameterized by the memory parameter 'd' to predict
+- [[concepts/matching-market|Matching Market]] — A model of frictionless matching between multiple managers, who differ in talent, and firms, which differ in quality.
+- [[concepts/maximum-likelihood-attack|Maximum-Likelihood Attack]] — An optimal attack strategy where an eavesdropper calculates a score for every possible password based on observed rounds
+- [[concepts/mean-reversion|Mean Reversion]] — A property of long-run stock returns where they revert to a historical trend line, causing their relative volatility to 
+- [[concepts/mean-standard-deviation-graph|Mean-Standard Deviation Graph]] — A graphical tool for portfolio analysis where the x-axis represents the portfolio's standard deviation (risk) and the y-
+- [[concepts/mean-variance-analysis|Mean-Variance Analysis]] — The foundational concept of Modern Portfolio Theory where portfolios are constructed by considering both expected return
+- [[concepts/mean-variance-efficient-portfolios|Mean-Variance Efficient Portfolios]] — Portfolios that are optimized based on their expected return (mean) and risk (variance), which can be found using a comp
+- [[concepts/mean-variance-framework|Mean-Variance Framework]] — An approach to portfolio selection that assumes investors prefer higher mean returns and lower variance (or standard dev
+- [[concepts/mean-variance-optimization|Mean-Variance Optimization]] — An investment approach for investors who prefer more expected return and less risk, for whom the Sharpe Ratio is the key
+- [[concepts/mean-variance-preferences|Mean-Variance Preferences]] — An assumption that investors make decisions based solely on the expected return (mean) and risk (variance or standard de
+- [[concepts/meaningful-information|Meaningful Information]] — The concept that information provided to individuals should connect a technical detail to a tangible outcome they can un
+- [[concepts/medium-term-trap|Medium-Term Trap]] — A situation where an incumbent firm's economic incentives in the medium term push it toward optimizing its existing busi
+- [[concepts/memory-pool|Memory Pool]] — A holding area for pending transactions that have been broadcast to the network but not yet included in a block.
+- [[concepts/mezzanine-financing|Mezzanine Financing]] — A form of additional financing for private equity ventures that complicates the use of IRR for the entire project.
+- [[concepts/microangel|Microangel]] — A local intermediary, such as a grocer, who uses their community knowledge of customers' finances and buying patterns to
+- [[concepts/microangels|Microangels]] — A model where a bank uses informed local people as intermediaries for on-lending to create competition for moneylenders.
+- [[concepts/microfinance-institution-mfi|Microfinance Institution (MFI)]] — An organization that provides financial services to low-income individuals, whose high operating costs are described as 
+- [[concepts/microfinance-institutions|Microfinance Institutions (MFIs)]] — Organizations that serve the financial needs of people who need loans as a more ethical and less onerous alternative to 
+- [[concepts/microlending|Microlending]] — The practice of providing very small loans, such as $50 or $100, to individuals who lack access to traditional banking, 
+- [[concepts/minimizing-cash-flow-variance|Minimizing Cash Flow Variance]] — A goal for hedging where fully hedging market risk is appropriate, but which the paper argues is not equivalent to minim
+- [[concepts/minimizing-costs-of-financial-distress|Minimizing Costs of Financial Distress]] — The paper's proposed goal for hedging, for which a more moderate or conservative hedge is prudent, in contrast to minimi
+- [[concepts/minimum-variance-boundary|Minimum Variance Boundary]] — The set of all possible portfolios, calculated from asset covariances, that forms a 'bullet' shape on a risk-return grap
+- [[concepts/minmax-stable-matching|Minmax Stable Matching]] — A stable matching in a balanced market that delivers the minimum payoff to the highest-type manager among all matchings 
+- [[concepts/misreporting-intensity-epsilon|Misreporting Intensity (ε)]] — A parameter that quantifies the magnitude of one-sided misreporting, where a certain percentage of below-threshold outco
+- [[concepts/missed-bet|Missed Bet]] — An innovation archetype where a firm's rational choice not to invest due to low ex-ante option value is followed by a fa
+- [[concepts/mission-statement|Mission Statement]] — A mechanism used by a principal to resolve knowledge sharing failures, consisting of a precise goal, a reporting protoco
+- [[concepts/modern-finance|Modern Finance]] — The field of finance that emerges when the concepts of time and risk are put together.
+- [[concepts/modern-portfolio-theory|Modern Portfolio Theory]] — A theory pioneered by Harry Markowitz that provides a formal framework for portfolio construction by analyzing the trade
+- [[concepts/modified-dividend-payout-ratio|Modified Dividend Payout Ratio]] — A financial ratio that expands the definition of dividends to include stock buybacks, calculated as (Dividends + Stock b
+- [[concepts/mokyrs-institutional-prerequisites|Mokyr's Institutional Prerequisites]] — Three institutional conditions identified by Mokyr (2017) for creative destruction to operate at a societal level, which
+- [[concepts/momentum-effect|Momentum Effect]] — A strong market anomaly where stocks with high recent performance tend to continue to do better than stocks with low rec
+- [[concepts/moneylender|Moneylender]] — An individual who provides loans outside of formal banking structures, characterized by no paperwork, immediate disburse
+- [[concepts/monotonicity-of-fano-protection|Monotonicity of Fano-Protection]] — The property of the protocol where security against eavesdropping, measured by the Fano threshold, strictly increases as
+- [[concepts/monte-carlo-simulation|Monte Carlo Simulation]] — A computational technique used to show investors the probability distribution of potential outcomes, such as how much th
+- [[concepts/moonshot|Moonshot]] — An innovation archetype for high volatility and high learning with a favorable signal, where a firm enters at a large in
+- [[concepts/moral-consistency|Moral Consistency]] — The principle of living predictably and transparently to become trustworthy, which in turn fosters social mutual aid fro
+- [[concepts/moral-hazard-and-observability|Moral Hazard and Observability]] — A concept concerning the relationship between moral hazard and the ability to observe actions, as discussed in a 1979 Be
+- [[concepts/moral-hazard-in-lending|Moral Hazard in Lending]] — A problem where a borrower is incentivized to choose a riskier project, which banks rationally anticipate and price into
+- [[concepts/moral-hazard|Moral Hazard]] — The risk that bailing out large organizations creates an implicit promise to future equity holders that they may also be
+- [[concepts/mortgage-insurance|Mortgage Insurance]] — A product that can be purchased to allow a home buyer to make a smaller down payment, such as 5%, by insuring the lender
+- [[concepts/mukti-money|Mukti Money]] — A proposed financial model that provides an interest-free loan repaid in small installments, while also requiring the bo
+- [[concepts/multimarket-trading|Multimarket Trading]] — The simultaneous trading of a security at multiple locations, which provides informed traders with several avenues to ex
+- [[concepts/multiple-factor-models|Multiple Factor Models]] — A more advanced version of the CAPM that identifies other sources of non-diversifiable risks (betas) to better explain e
+- [[concepts/multiplicative-uncertainty-effect|Multiplicative Uncertainty Effect]] — The principle that the effects of different sources of uncertainty, such as market and idiosyncratic factors, on a firm'
+- [[concepts/multitask-agency-conflict|Multitask Agency Conflict]] — An agency conflict arising from a trade-off between emphasizing two different dimensions of output, such as a project's 
+- [[concepts/mutual-structure|Mutual Structure]] — The corporate structure of Vanguard, designed to serve its shareholders directly and provide significant cost advantages
+- [[concepts/nakamoto-consensus|Nakamoto Consensus]] — The consensus mechanism that secures transactions on the Bitcoin blockchain.
+- [[concepts/negative-correlation|Negative Correlation]] — A rare and economically difficult-to-find relationship where an asset's price moves inversely to the broader market, as 
+- [[concepts/negative-current-npv-innovations|Negative-Current-NPV Innovations]] — Innovations that are not profitable by standard net present value calculations but possess high option value, the pursui
+- [[concepts/net-present-value-calculation|Net Present Value (NPV) Calculation]] — A method to evaluate the worth of an expansion project which requires a cost of capital, a value that can be determined 
+- [[concepts/net-present-value|Net Present Value (NPV)]] — A capital budgeting technique that calculates the present value of future cash flows, often used to evaluate projects. T
+- [[concepts/no-arbitrage-principle|No-Arbitrage Principle]] — A powerful theory stating that two assets with identical payoffs must have identical prices, as any difference would cre
+- [[concepts/no-free-lunch-principle|No-Free-Lunch Principle]] — The principle that systematic transfers of wealth for no reason are unlikely, although one might find occasional free lu
+- [[concepts/noise-traders|Noise Traders]] — Non-discretionary liquidity traders whose presence in a market makes it more attractive for discretionary traders to tra
+- [[concepts/nominal-return|Nominal Return]] — The return on an investment before it has been adjusted for the effects of inflation or changes in the cost of living.
+- [[concepts/non-investment-grade|Non-Investment Grade]] — A category of bonds with a higher default rate and speculativeness, which are considered below investment grade.
+- [[concepts/non-recourse-loan|Non-Recourse Loan]] — A type of loan, common for mortgages, where the lender's only collateral is the asset itself (the house) and they cannot
+- [[concepts/non-satiation|Non-satiation]] — A principle stating that, other things being equal, individuals prefer more money to less.
+- [[concepts/non-stationarity|Non-stationarity]] — A problem where the statistical properties of financial data change over time, creating a trade-off between using long-t
+- [[concepts/non-systematic-risk|Non-Systematic Risk]] — A type of risk that has no correlation with market movements and, for a diversified investor, is not rewarded with a hig
+- [[concepts/nonprofit-status|Nonprofit Status]] — A corporate structure that can be optimal for projects with a very high desired level of social attention, particularly 
+- [[concepts/notional-size|Notional Size]] — The total underlying value of a futures position, calculated as the contract size multiplied by the futures price and th
+- [[concepts/one-sided-misreporting|One-Sided Misreporting]] — A form of data manipulation, also called a 'reporting put', where downside variation is disproportionately compressed, w
+- [[concepts/one-sided-reporting-rule|One-Sided Reporting Rule]] — A formal model of misreporting where an agent truthfully reports outcomes above a threshold but attenuates shortfalls fo
+- [[concepts/open-market-operations|Open Market Operations]] — A mechanism the Federal Reserve uses, in conjunction with the Treasury, to contract or expand the money supply.
+- [[concepts/opportunity-cost-of-capital|Opportunity Cost of Capital]] — A rate, denoted as 'r' and also called interest rate or growth rate, that simplifies moving money back and forth through
+- [[concepts/opportunity-cost|Opportunity Cost]] — The value of the next-best alternative foregone, represented by the interest rate one could earn by investing money else
+- [[concepts/optimal-contract|Optimal Contract]] — A contract designed by shareholders whose features arise from the interaction of hidden action and hidden information pr
+- [[concepts/optimal-dividend-policy-function|Optimal Dividend Policy Function (d(Zt))]] — The resulting policy from the optimization problem, which dictates that all cash is paid out as dividends below a certai
+- [[concepts/optimal-hedge|Optimal Hedge]] — A hedge that minimizes the expected cost of bankruptcy or financial distress, which the paper argues is typically smalle
+- [[concepts/optimal-market-hedge-heuristic|Optimal Market Hedge Heuristic]] — A simple rule stating that the optimal market hedge is the level of a firm's contractual obligations as a fraction of ex
+- [[concepts/optimal-payout-policy|Optimal Payout Policy]] — A firm's managerial decision process for choosing between stock repurchases (when the firm is undervalued), paying taxab
+- [[concepts/optimal-wage-contract|Optimal Wage Contract]] — A contract designed to provide incentives for a manager's level of social attention, which under certain conditions pays
+- [[concepts/option-channel|Option Channel]] — The mechanism in the paper's model where higher underlying uncertainty (σ₀) raises firm value, which is structurally ana
+- [[concepts/option-premium|Option Premium]] — The price paid to acquire an option, which is subtracted from the gross payoff to determine the buyer's net profit or lo
+- [[concepts/option-pricing-formula|Option Pricing Formula]] — A mathematical solution for pricing options, which Fischer Black, Myron Scholes, and Robert Merton independently develop
+- [[concepts/option-pricing-theory|Option Pricing Theory]] — A financial framework used to value options, create any possible financial payoff, and analyze a corporation's capital s
+- [[concepts/option-pricing|Option Pricing]] — A method for valuing options, presented as a core topic for understanding derivatives and financial markets.
+- [[concepts/option-strategy|Option Strategy]] — The use of combinations of calls and puts to construct complex payoff diagrams that achieve a desired risk profile.
+- [[concepts/option|Option]] — A financial instrument, comparable to transferable insurance, that has a non-zero initial cost and provides protection a
+- [[concepts/options-as-insurance|Options as Insurance]] — The concept that an option, specifically a put option, can be used as an insurance contract to guarantee a minimum selli
+- [[concepts/options-theory|Options Theory]] — A theory whose intuitions are directly applied to the model, where higher volatility increases the option value because 
+- [[concepts/options|Options]] — A type of derivative that can be used for leverage but also provides valuable market information about the entire distri
+- [[concepts/order-flow-correlation|Order Flow Correlation]] — The correlation between total trading volume across any two markets, which increases in the proportion of liquidity trad
+- [[concepts/organization-capital|Organization Capital]] — A key force representing a firm's accumulated learning and capabilities in its existing businesses, which can generate p
+- [[concepts/organizational-learning|Organizational Learning (Learning-by-Doing)]] — The concept that investing in an activity generates specific capital such as knowledge, routines, and expertise, which m
+- [[concepts/package-rate-basis|Package Rate Basis]] — A payment method for medical treatments where the government determines the cost in advance to control costs and prevent
+- [[concepts/pain-protects-principle|Pain Protects Principle]] — The concept that negative feedback, such as pain and fear, is a crucial protective mechanism for risk management, and it
+- [[concepts/parallel-trade|Parallel Trade]] — Arbitrage of goods between countries to exploit price differences, which makes tiered pricing policies infeasible if it 
+- [[concepts/parameter-calibration|Parameter Calibration]] — The practical process of setting specific values for model parameters, such as the up (u) and down (d) factors in a bino
+- [[concepts/partial-default|Partial Default]] — A situation where a sovereign borrower discharges the overhang of debt through mechanisms like debt-equity swaps or resc
+- [[concepts/participation-constraint|Participation Constraint]] — A constraint in the for-profit owner's optimization problem ensuring the manager's expected payoff from the contract is 
+- [[concepts/passive-indexing|Passive Indexing]] — An investment approach based on a known, replicable formula that is rebalanced periodically, such as annually, as oppose
+- [[concepts/passive-investing|Passive Investing]] — An investment strategy, originating from ideas like the CAPM, that involves holding a diversified market portfolio to pu
+- [[concepts/passive-management|Passive Management]] — An investment strategy focused on replicating an index but trading off the basis cost of imperfect correlation with the 
+- [[concepts/patent-buyouts|Patent Buyouts (Kremer's Mechanism)]] — A mechanism where governments pay an innovator the social value or monopoly profit for a patent and then open-source the
+- [[concepts/patent|Patent]] — A legal agreement granting a temporary monopoly to the creator of a new and useful item or algorithm for a finite period
+- [[concepts/pay-escalation|Pay Escalation]] — A sharp increase in executive compensation, which can be caused by a relative scarcity of managers, competition, or a ri
+- [[concepts/pay-for-social-success-contract|Pay-for-Social-Success Contract]] — A type of contingent contract that provides a larger financial payment to an investor when specified social goals are ac
+- [[concepts/pay-volatility-co-movement|Pay-Volatility Co-movement]] — The phenomenon where high compensation and high operating risk (volatility) arise together, explained by firms adopting 
+- [[concepts/payback-period|Payback Period]] — A capital budgeting method that determines the minimum number of periods required for the sum of future cash flows to ex
+- [[concepts/payoff-diagram|Payoff Diagram]] — A graph that plots the value of an option at its maturity date against the price of the underlying asset, often characte
+- [[concepts/payoff-diagrams|Payoff Diagrams]] — A tool used to understand how options and other derivatives can be applied to tailor specific risk and return profiles.
+- [[concepts/per-round-mutual-information|Per-Round Mutual Information]] — A measure, denoted I_k, that quantifies the amount of information an eavesdropper learns about the password from observi
+- [[concepts/perfect-markets-assumption|Perfect Markets Assumption]] — An assumption from the perspective of a small investor that does not work for corporate decisions on new technology, as 
+- [[concepts/perfect-portfolio|Perfect Portfolio]] — An ideal portfolio that focuses on terminal wealth and compound return for a given level of drawdown, considering the pa
+- [[concepts/perfect-zero-knowledge|Perfect Zero-Knowledge]] — A property of a ZKP where the verifier's view of the interaction is identically distributed to a simulated view, meaning
+- [[concepts/performance-attribution|Performance Attribution]] — The use of the Capital Asset Pricing Model to evaluate an investment manager's performance by comparing their actual ret
+- [[concepts/perpetuities-and-annuities|Perpetuities and Annuities]] — Specific types of cash flow sequences that are important tools used in financial analysis and present value calculations
+- [[concepts/perpetuity-formula|Perpetuity Formula]] — A valuation formula (P = D/r) used for a security with a constant stream of dividends (D) and a constant discount rate (
+- [[concepts/perpetuity|Perpetuity]] — A special type of cashflow to which the present value method can be applied, mentioned as a topic for a future lecture.
+- [[concepts/personal-financial-management|Personal Financial Management]] — The process of managing one's real and financial assets to maximize the likelihood of achieving personal life objectives
+- [[concepts/physical-delivery|Physical Delivery]] — The typical arrangement in forward contracts where the actual commodity being agreed upon is delivered, although it can 
+- [[concepts/pmjdy-overdraft-facility|PMJDY Overdraft Facility]] — A feature of the PMJDY programme allowing account holders to borrow from their bank up to a certain limit, intended as a
+- [[concepts/poka-yoke|Poka Yoke]] — A Japanese term for techniques used to prevent mistakes or errors in processes, which can be translated as 'mistake-proo
+- [[concepts/policy-put|Policy Put]] — A mechanism of legitimate intervention, such as countercyclical fiscal policy, that compresses true outcomes before repo
+- [[concepts/political-considerations|Political Considerations]] — Non-economic factors in capital budgeting that must be considered alongside traditional financial metrics like NPV, repr
+- [[concepts/ponzi-scheme|Ponzi Scheme]] — A type of fraudulent scheme that targets people, including those from lower-income groups, with promises of spectacular 
+- [[concepts/pooling-equilibrium|Pooling Equilibrium]] — An equilibrium in which a firm distributes cash through a repurchase irrespective of its true asset value, which can occ
+- [[concepts/portability-of-managerial-talent|Portability of Managerial Talent]] — The transferability of managerial skills across firms, which generates competitive pressures that can force firms to inc
+- [[concepts/portable-managerial-talent|Portable Managerial Talent]] — The idea that managerial skills are general human capital that is productive across many different firms, rather than be
+- [[concepts/portfolio-construction|Portfolio Construction]] — The concept of putting together a collection of stocks to form a good portfolio, as an alternative to picking individual
+- [[concepts/portfolio-diversification|Portfolio Diversification]] — The principle that combining multiple securities that are not perfectly correlated results in a better risk-return trade
+- [[concepts/portfolio-optimization|Portfolio Optimization]] — A theory and set of applications pioneered by Harry Markowitz that formed the basis for the first few chapters of Willia
+- [[concepts/portfolio-risk-diversified|Portfolio Risk (Diversified)]] — The total risk of a large portfolio, which is primarily driven by the average covariance between its assets rather than 
+- [[concepts/portfolio-theory|Portfolio Theory]] — A systematic approach to making investment decisions that provides an economic logic for investing, rather than trying t
+- [[concepts/portfolio-variance|Portfolio Variance]] — A measure of a portfolio's total risk, calculated by summing n-squared terms of individual variances and covariances, wh
+- [[concepts/portfolio|Portfolio]] — A specific combination or weighting of securities where the weights, which can be negative (short positions), sum to one
+- [[concepts/positive-assortative-matching|Positive Assortative Matching]] — A matching pattern where higher-quality or more productive firms are paired with more talented managers. A property of a
+- [[concepts/positive-externalities|Positive Externalities]] — Benefits created for multiple parties, including those who pay and those who do not, when they share the use of a common
+- [[concepts/positively-assortative-matching|Positively Assortative Matching]] — An outcome in the matching market where higher talent managers are matched with higher quality firms, which is a natural
+- [[concepts/poverty-premium|Poverty Premium]] — A phenomenon, also called the poverty tax, where low-income individuals face additional costs for goods and services, su
+- [[concepts/preferred-habitat-theory|Preferred Habitat Theory]] — A model suggesting that different interest rates exist for different maturities because investors have preferred time ho
+- [[concepts/present-value-of-future-dividends|Present Value of Future Dividends]] — A theory by John Burr Williams stating that a stock's value should be the present value of its expected future dividends
+- [[concepts/present-value-of-growth-opportunities|Present Value of Growth Opportunities (PVGO)]] — A valuation concept that can lead to tremendous valuation swings in a company that is based upon intellectual property.
+- [[concepts/present-value|Present Value]] — A method for calculating the value of a future cashflow at time 0 by multiplying the cashflows by their corresponding ex
+- [[concepts/price-discovery-mechanism|Price Discovery Mechanism]] — The process by which financial markets help establish the value of an asset, even with limited or no direct information,
+- [[concepts/price-discovery|Price Discovery]] — The process by which markets determine the price of an asset, described as an enormous benefit that relies on the wisdom
+- [[concepts/price-earnings-ratio|Price-Earnings Ratio]] — A fundamental metric used to look at value, calculated as the price of a stock over its earnings.
+- [[concepts/price-index|Price Index]] — A measure, denoted as 'I sub t', that represents the price of a basket of goods and is used to determine the purchasing 
+- [[concepts/price-informativeness|Price Informativeness]] — A measure of how much of an informed trader's private information is incorporated into prices, which increases as the nu
+- [[concepts/price-return|Price Return]] — The return generated from the growth in an asset's price, which is zero for a perpetuity if the interest rate remains co
+- [[concepts/price-stickiness|Price Stickiness]] — A phenomenon where prices for manufactured goods in long-term contracts do not reprice instantly with exchange rate move
+- [[concepts/primary-market|Primary Market]] — The market for issuing securities for the very first time, such as during an Initial Public Offering (IPO).
+- [[concepts/principal-agent-matching-market|Principal-Agent Matching Market]] — A theoretical economics model that describes a matching market between principals and agents, as presented in a 2006 pap
+- [[concepts/principal-protected-investment-strategy|Principal-Protected Investment Strategy]] — A method where a portion of capital is invested in a risk-free asset like a fixed deposit to guarantee the principal, wh
+- [[concepts/private-equity|Private Equity]] — An investment field where IRR is a very common performance metric, partly because ventures often involve initial cash ou
+- [[concepts/private-keys|Private Keys]] — A component generated using hashing that is used as part of a digital signature to verify a user's legitimate access to 
+- [[concepts/private-permissioned-ledger|Private (Permissioned) Ledger]] — A type of shared ledger designed for use within a group of permissioned entities, which may not require a native token t
+- [[concepts/prize-mechanism|Prize Mechanism]] — A system where funds are raised to reward an innovator, which is theoretically sound but chronically under-provided in p
+- [[concepts/probability-independence|Probability Independence]] — The principle, demonstrated by the binomial model, that an option's price does not depend on the actual probability (p) 
+- [[concepts/probability-of-bankruptcy|Probability of Bankruptcy]] — The likelihood of a firm entering bankruptcy, which can be estimated indirectly through bond ratings and their associate
+- [[concepts/problem-behind-the-problem|Problem-Behind-the-Problem]] — A problem-solving approach that focuses on identifying the real, underlying problem rather than the one that is initiall
+- [[concepts/profit-motivated-investor|Profit-Motivated Investor]] — An investor who is agnostic toward a project's social goals and primarily values profit maximization.
+- [[concepts/profitability-index|Profitability Index]] — A capital budgeting criterion calculated as the gross present value of a project's cash flows divided by the initial inv
+- [[concepts/profits-as-an-anesthetic|Profits as an Anesthetic]] — The idea that sustained profits act like a potent drug, dulling the sense of pain and fear, which prevents individuals a
+- [[concepts/proof-of-stake|Proof-of-Stake (PoS)]] — A popular alternative consensus protocol to Proof-of-Work where a node or a subgroup of nodes is selected to validate th
+- [[concepts/proof-of-work|Proof-of-Work (PoW)]] — A consensus protocol that secures a blockchain by requiring miners to solve a computationally difficult puzzle to add a 
+- [[concepts/proprietary-trading|Proprietary Trading]] — A business activity for a financial firm, similar to being a hedge fund, that typically carries a very low or even negat
+- [[concepts/psychological-biases|Psychological Biases]] — Psychological factors, with evidence from neurosciences, that can paralyze decision-making ability and prevent rational 
+- [[concepts/public-good|Public Good]] — A good, such as infrastructure like roads, that is used and enjoyed by everyone, irrespective of their economics or thei
+- [[concepts/public-key-cryptography|Public Key Cryptography]] — An encryption system that uses a pair of keys: a public key, which is shared openly for encryption, and a private key, w
+- [[concepts/purchasing-power|Purchasing Power]] — The amount of goods and services that a certain amount of money can buy, which can vary over time due to changes in pric
+- [[concepts/pure-discount-bond|Pure Discount Bond]] — A bond that pays no coupons and only makes a single payment of its face value at maturity, causing it to trade at a disc
+- [[concepts/pure-nonprofit-status|Pure Nonprofit Status]] — An organizational status that serves as a credible means to dull an agent's profit motivation and overcome issues with l
+- [[concepts/pure-play-company|Pure Play Company]] — A company that is focused on a single line of business, making it an ideal comparable for valuing a new venture in that 
+- [[concepts/put-option|Put Option]] — An option that gives the holder the right, but not the obligation, to sell an underlying asset at a specified strike pri
+- [[concepts/quantitative-analysis|Quantitative Analysis]] — A method for analyzing markets which the text suggests failed during the crisis and needs to be made more sophisticated 
+- [[concepts/racing-equilibrium|Racing Equilibrium]] — A market scenario where multiple firms compete in parallel to develop an innovation, which can lead to socially wasteful
+- [[concepts/random-walk-hypothesis|Random Walk Hypothesis]] — The idea that if prices fully reflect all available information, then future price movements are unpredictable based on 
+- [[concepts/random-walk-iid-assumption|Random Walk (IID Assumption)]] — The assumption that stock price movements are independently and identically distributed (IID), meaning what happens in o
+- [[concepts/rate-of-return-for-a-perpetuity|Rate of Return (for a perpetuity)]] — The total annual return from a perpetuity, which comes from its coupon payments and is equal to the interest rate used t
+- [[concepts/rate-of-return-regression|Rate-of-Return Regression]] — A method suggested by textbooks to estimate a firm's beta (β), which is then often argued to be the optimal hedge ratio 
+- [[concepts/rating-agency|Rating Agency]] — An institution like Moody's or S&P that provides debt ratings, but whose objectivity is questioned because they are for-
+- [[concepts/rational-finance|Rational Finance]] — A financial theory that applies most of the time when an individual's mid-brain and neocortex are properly balanced, lea
+- [[concepts/rational-harvest|Rational Harvest]] — An innovation archetype for low volatility and high learning with an unfavorable signal, where a firm's rational respons
+- [[concepts/rational-investor|Rational Investor]] — An investor who is assumed to like expected return and dislike risk, and would therefore not hold an asset with higher r
+- [[concepts/rational-non-entry|Rational Non-Entry]] — An innovation archetype for low volatility, low learning, and an unfavorable signal, where a firm correctly chooses not 
+- [[concepts/rationality-in-economics|Rationality (in Economics)]] — The presumption that market participants behave in a way that economists presuppose, which is a required assumption for 
+- [[concepts/rationality-requires-emotion|Rationality Requires Emotion]] — A theory, based on clinical observation, that rational behavior and decision-making require emotional input, contradicti
+- [[concepts/rationality|Rationality]] — The traditional economic assumption that everyone is rational and maximizes metrics like NPV, which underpins theories l
+- [[concepts/real-assets|Real Assets]] — Assets where cash is consumed and reinvested, such as in oneself, a home, or children.
+- [[concepts/real-interest-rate|Real Interest Rate]] — The nominal interest rate minus the inflation rate, which has historically been slightly positive but low for US T-bills
+- [[concepts/real-options-framework|Real Options Framework]] — A framework for valuing investment opportunities, such as the one by Bernardo and Chowdhry (2002), which is compared to 
+- [[concepts/real-options-incentive-design|Real-Options Incentive Design]] — An organizational design principle that compensates innovation leaders based on learning-progress metrics and long-run o
+- [[concepts/real-options|Real Options]] — A strategic management framework for valuing investment opportunities under uncertainty, where the option to expand, piv
+- [[concepts/real-return|Real Return]] — The return on an investment after accounting for inflation, representing the actual progress made in terms of what one c
+- [[concepts/reasonable-expectations|Reasonable Expectations]] — The goal of Bogle's market analysis, which is to frame potential outcomes and give investors a way of looking at the mar
+- [[concepts/rebalancing|Rebalancing]] — The process of adjusting a portfolio's asset allocation back to its target weights, which the speaker performs quarterly
+- [[concepts/redressal-mechanism|Redressal Mechanism]] — An essential process for addressing transaction mistakes, frauds, and scams in digital payments, which needs to be immed
+- [[concepts/refractory-period|Refractory Period]] — The mechanism by which the nervous system engineers anti-persistence into its noise structure, allowing it to accelerate
+- [[concepts/regime-shift|Regime Shift]] — A firm's strategic change from a safe, low-growth strategy ('ng') to a risky, high-growth strategy ('g'), often prompted
+- [[concepts/regime-shifts-in-executive-compensation|Regime Shifts in Executive Compensation]] — Discontinuous pay hikes and abrupt changes in firm volatility that create a weak link between executive pay and performa
+- [[concepts/regression-equation-for-capm-testing|Regression Equation for CAPM Testing]] — A method to test the CAPM using realized returns instead of expected returns, expressing a security's return as a functi
+- [[concepts/regulation-as-pre-commitment-device|Regulation as a Pre-commitment Device]] — The view that financial regulations are necessary to prevent institutions from engaging in harmful behavior during perio
+- [[concepts/regulatory-capital-ratios|Regulatory Capital Ratios]] — Ratios for financial service companies that are computed based on the book value of equity. Retained earnings and book e
+- [[concepts/reinvestment-rate|Reinvestment Rate]] — A key vulnerability in traditional bond yield calculations, representing the rate at which coupon payments and interest-
+- [[concepts/relative-value-performance|Relative Value Performance]] — A performance measurement approach where a portfolio's results are judged relative to a benchmark, which is criticized f
+- [[concepts/renegotiation-proof-contract|Renegotiation-Proof Contract]] — A contract that cannot be improved upon through bilateral renegotiation between the for-profit owner and the manager, wh
+- [[concepts/renegotiation-tension|Renegotiation Tension]] — The incentive for a for-profit owner to renegotiate a manager's contract towards less social attention after an impact i
+- [[concepts/rent-extraction-view|Rent Extraction View]] — A theory suggesting high CEO pay results from entrenched managers capturing corporate boards and manipulating the pay-se
+- [[concepts/replicating-portfolio|Replicating Portfolio]] — A combination of an underlying asset (like a stock) and bonds that is constructed to replicate the returns on an option,
+- [[concepts/reporting-put|Reporting Put]] — A mechanism of manipulation where an agent smooths a reported number without changing the underlying reality, which comp
+- [[concepts/reptilian-brain|Reptilian Brain (Brain Stem)]] — The oldest evolutionary part of the brain in the Triune Model, responsible for basic survival functions like heart rate,
+- [[concepts/repurchase-premium|Repurchase Premium]] — The large stock-price increase associated with a tender offer repurchase, which makes it an unattractive method of cash 
+- [[concepts/reputation-as-a-discipline-mechanism|Reputation as a Discipline Mechanism]] — A mechanism where a bank adheres to a policy of denying credit to its defaulters, despite the cost, to maintain its repu
+- [[concepts/reputation-effects-in-lending|Reputation Effects in Lending]] — A mechanism where banks may acquire a reputation for being "tough" by permanently denying credit to a borrower that repu
+- [[concepts/rescaled-range-statistic|Rescaled Range (R/S) Statistic]] — A non-parametric alternative to other estimators for measuring the memory parameter 'd', noted for having poor small-sam
+- [[concepts/residual-claimant|Residual Claimant]] — The status of equity holders who receive all company assets after bondholders are paid, granting them unlimited upside p
+- [[concepts/retail-investors|Retail Investors]] — A population of market participants, like 'mom and pop' investors, whose increased trading activity in the 1990s was ass
+- [[concepts/return-smoothing|Return Smoothing]] — The practice of deliberately smoothing reported performance, common among hedge funds and private equity, by manipulatin
+- [[concepts/returns-to-managerial-talent|Returns to Managerial Talent]] — Additional compensation earned by higher-talent managers in a stable matching, calculated as the sum of the marginal ret
+- [[concepts/reverse-optimization|Reverse Optimization]] — A method to derive expected returns by assuming the market portfolio is efficient, thereby backing out returns that woul
+- [[concepts/risk-adjusted-discount-rate|Risk-Adjusted Discount Rate]] — A discount rate for a cash flow that is commensurate with its specific risks and general market conditions, and can vary
+- [[concepts/risk-adjusted-discount-rates|Risk-adjusted Discount Rates]] — A common approach in DCF valuation where the discount rate is adjusted upwards to account for the risk of the expected c
+- [[concepts/risk-and-return-models|Risk and Return Models]] — A practical approach to converting uncertain cash flows into certainty equivalents, or for estimating risk premiums for 
+- [[concepts/risk-diversification|Risk Diversification]] — A principle from financial economics where many risks can be mitigated, for example, by protecting oneself through the p
+- [[concepts/risk-free-rate|Risk-Free Rate]] — A rate used for discounting risks that are not correlated with the market, which changes over time and was suggested to 
+- [[concepts/risk-in-finance|Risk (in finance)]] — One of the two fundamental factors, along with time, that makes finance a distinct and challenging discipline. A fundame
+- [[concepts/risk-knights-definition|Risk (Knight's Definition)]] — A type of randomness that is quantifiable and can be parameterized, such as mortality rates used in life insurance.
+- [[concepts/risk-managed-fund|Risk-Managed Fund]] — A proposed type of fund that focuses on the dynamics of risk and efficient risk management, rather than a fixed time hor
+- [[concepts/risk-management|Risk Management]] — An investment approach focused on managing risk to provide investors with less risk as well as more return.
+- [[concepts/risk-neutral-probabilities|Risk-Neutral Probabilities]] — A set of artificial probabilities used in the binomial pricing formula that allow for the calculation of an option's exp
+- [[concepts/risk-premium|Risk Premium]] — The average rate of return of a risky security minus the risk-free rate, which is the average of the excess return.
+- [[concepts/risk-return-trade-off|Risk-Return Trade-off]] — The fundamental choice an investor must make regarding their preference between risk and potential return, which is a ke
+- [[concepts/risk-return-tradeoff|Risk-Return Tradeoff]] — The principle that investors must be rewarded with a higher return for bearing greater risk, which justifies using a hig
+- [[concepts/risk-reward-trade-off|Risk/Reward Trade-off]] — The relationship between a portfolio's risk (standard deviation) and its expected return (mean), which graphs as a non-l
+- [[concepts/risk-reward-tradeoff|Risk-Reward Tradeoff]] — The principle that even if an investor can take more risk, they should not if the market's reward for that risk is judge
+- [[concepts/risk-sharing|Risk Sharing]] — The principle by which society and formal insurance allow risks to be shared among a group of people, evolving from info
+- [[concepts/risk-tolerance|Risk Tolerance]] — An investor's capacity for risk, which is often claimed to be long-term but can collapse under pressure points, leading 
+- [[concepts/robo-advisor|Robo-advisor]] — A type of financial advisor that uses significant technology and often low-cost index funds to provide advice, though th
+- [[concepts/safety|Safety]] — A property of a Byzantine fault-tolerant system that ensures faulty transactions are prevented from occurring.
+- [[concepts/saving|Saving]] — A necessary sacrifice and prerequisite to investing, as individuals must save a significant amount for themselves becaus
+- [[concepts/scale-in-investing|Scale (in investing)]] — The concept that the size of an investment can affect its rate of return, a factor that is critical for corporations and
+- [[concepts/secondary-market-for-mortgages|Secondary Market for Mortgages]] — A market created by institutions that purchase mortgages from regional banks and lenders, providing additional financing
+- [[concepts/secondary-market|Secondary Market]] — The market where securities are traded after their initial issuance, and whose price formation mechanism is a focus of s
+- [[concepts/secure-remote-password-protocol|Secure Remote Password (SRP) protocol]] — A widely deployed authentication protocol where a server stores a verifier derived from a password and uses a Diffie-Hel
+- [[concepts/securitization|Securitization]] — A financial innovation where borrowing is done directly from financial markets by pooling assets, rather than through tr
+- [[concepts/security-market-line|Security Market Line (SML)]] — An equation derived from market equilibrium that describes the relationship between risk and expected return for all ind
+- [[concepts/self-insurance|Self-Insurance]] — A personal strategy for managing life's risks through individual actions like maintaining moral consistency and diversif
+- [[concepts/self-interest-in-economics|Self-Interest (in Economics)]] — The principle that all agents act to further their own self-interest, based on a broad definition of preferences.
+- [[concepts/senior-thesis-of-john-c-bogle|Senior Thesis of John C. Bogle]] — An influential research paper on the mutual fund industry written by John C. Bogle starting in 1949, which he based on l
+- [[concepts/senior-tranche|Senior Tranche]] — A security that has the first claim on the cash flows from an underlying portfolio and gets paid before junior tranches.
+- [[concepts/separate-pockets|Separate Pockets]] — An organizational design principle that creates profit-and-loss units with independent resource pools, insulated from co
+- [[concepts/separating-equilibrium|Separating Equilibrium]] — An equilibrium state where a firm's actions, such as repurchasing shares, reveal its private information about its value
+- [[concepts/sequence-of-events-model|Sequence of Events Model]] — A multi-period model outlining a firm's decision path between distributing cash via repurchases or dividends, and the pr
+- [[concepts/sequential-equilibrium|Sequential Equilibrium]] — A type of equilibrium in dynamic games that can be supported by different out-of-equilibrium beliefs, some of which may 
+- [[concepts/sha-256|SHA-256 (Secure Hash Algorithm)]] — A deterministic cryptographic hash function that produces a unique 256-bit (64-character hexadecimal) "fingerprint" for 
+- [[concepts/shadow-cost-of-public-funds|Shadow cost of public funds]] — A parameter (λ) representing the societal cost of raising government funds, where λ > 1 indicates an excess burden from 
+- [[concepts/shareholder-wealth-maximization|Shareholder Wealth Maximization]] — The ultimate objective of a corporation's managers, which is to make decisions that benefit the owners of the company.
+- [[concepts/sharpe-ratio|Sharpe Ratio]] — A measure of the risk-reward trade-off, represented by the slope of the line from the risk-free asset to a portfolio, wh
+- [[concepts/short-position|Short Position]] — The position of the counterparty in a forward contract, referred to as the seller, who has agreed to sell the underlying
+- [[concepts/short-sale|Short Sale]] — A method for allowing investors to get negative information into the market price, which is considered a very important 
+- [[concepts/short-selling|Short-Selling]] — A transaction where an investor who does not own a security can borrow it from a broker, sell it, and is obligated to re
+- [[concepts/shorting-and-longing|Shorting and Longing]] — A strategy to exploit mispricing by shorting a high-risk, low-yield asset and going long on a low-risk, high-yield asset
+- [[concepts/shorting|Shorting]] — A trading strategy involving borrowing securities to sell them, which was discussed as a potential trade for low-yield T
+- [[concepts/shub-framework|SHUb Framework]] — A rubric introduced in the book that stands for Simple, Human, and Ubiquitous, used to evaluate the effectiveness of fin
+- [[concepts/shub-test|SHUb Test]] — A framework introduced by the authors to evaluate financial inclusion solutions based on three criteria: being Simple, H
+- [[concepts/siegels-paradox|Siegel's Paradox]] — A paradox related to risk, interest rates, and the forward exchange market, stemming from the fact that the expected val
+- [[concepts/simplicity-filter|Simplicity Filter]] — A criterion of the SHUb test stating that for financial products to be inclusive, they must be simple for customers to u
+- [[concepts/simultaneous-linear-equations-in-finance|Simultaneous Linear Equations in Finance]] — A mathematical method used to model bond prices, where inconsistencies (e.g., more equations than unknowns with no solut
+- [[concepts/single-index-model|Single Index Model]] — A model of security return formation, also called the diagonal model, which was the predicate for William Sharpe's disse
+- [[concepts/single-period-binomial-model|Single-Period Binomial Model]] — A simple model for option pricing where a stock's price in the next period can only take on one of two possible values, 
+- [[concepts/size-anomaly|Size Anomaly]] — The empirical observation that small-capitalization stocks tend to perform better than large-capitalization stocks, a di
+- [[concepts/size-effect|Size Effect]] — An anomaly where the smallest stocks by market capitalization earn significantly higher average annual returns (e.g., 15
+- [[concepts/small-liquidity-traders|Small Liquidity Traders]] — Traders who buy or sell small quantities and trade their entire requirement on a single market, with their trades being 
+- [[concepts/social-attention|Social Attention]] — The level of effort or focus a manager allocates to achieving a social benefit, denoted as 'a', which can be influenced 
+- [[concepts/social-bonds|Social Bonds]] — Informal risk-sharing mechanisms like friendship and community, which represent an unspoken deal for mutual support when
+- [[concepts/social-impact-guarantee|Social Impact Guarantee]] — A proposed security, described as a 'guarantee-against-social-failure contract,' which guarantees a large financial paym
+- [[concepts/social-insurance|Social Insurance]] — A mechanism where groups of people use social and formal contracts to provide mutual aid and take care of each other dur
+- [[concepts/social-venture|Social Venture]] — A project that may produce both a monetary payoff and a social benefit, requiring upfront investment and managerial labo
+- [[concepts/socially-conscious-capital|Socially Conscious Capital]] — A pool of capital from investors, such as the millennial generation, who are pre-disposed to investing in firms that foc
+- [[concepts/soft-fork|Soft Fork]] — An update to a network's protocol that is implemented upon agreement by the community of active miners.
+- [[concepts/solidarity|Solidarity]] — A sense of unity and kindness based on the shared human condition of facing an absurd fate, providing a reason to connec
+- [[concepts/sortino-ratio|Sortino Ratio]] — A financial performance metric that is inflated more significantly than the Sharpe ratio under one-sided misreporting, p
+- [[concepts/sources-of-market-return|Sources of Market Return]] — A framework for creating reasonable expectations about future stock returns by analyzing its components, such as earning
+- [[concepts/sources-of-market-returns|Sources of Market Returns]] — A framework developed by John C. Bogle, inspired by John Maynard Keynes, that deconstructs market returns into two prima
+- [[concepts/speculating|Speculating]] — An activity in financial markets that is contrasted with hedging and is considered by some to be a cause of market dislo
+- [[concepts/speculative-return|Speculative Return]] — A component of market returns in Bogle's framework, defined as the impact of changes in market valuation (such as P/E ra
+- [[concepts/spot-price|Spot Price]] — The current market price of a commodity or asset for immediate transaction and delivery. The current market price of a c
+- [[concepts/spot-rate-of-interest|Spot Rate of Interest]] — An interest rate for a specific time horizon, which can be inferred from the market prices of pure discount bonds with d
+- [[concepts/spot-rate|Spot Rate]] — The current market interest rate for a transaction that begins today and lasts for a specified period, such as a one-yea
+- [[concepts/st-petersburg-paradox|St. Petersburg Paradox]] — A hypothetical gamble proposed by Nicholas Bernoulli where the expected value is infinite, but most people would only pa
+- [[concepts/stable-matching|Stable Matching]] — The equilibrium concept for the matching market, defined as a matching that is individually rational and cannot be block
+- [[concepts/standard-deviation-of-returns|Standard Deviation (of returns)]] — A statistical measure of risk, defined as the square root of the variance, used because its units (percent per year) are
+- [[concepts/static-portfolio-theory|Static Portfolio Theory]] — A financial model that analyzes portfolio returns from one period to the next as a static snapshot, without incorporatin
+- [[concepts/staying-the-course|Staying the Course]] — The standard advice to hold investments during a downturn, which is described as usually, but not always, the right answ
+- [[concepts/stirlings-approximation|Stirling's Approximation]] — A mathematical formula used to approximate the logarithm of the size of the password space in the asymptotic analysis of
+- [[concepts/stock-and-flow|Stock and Flow]] — A critical concept in financial analysis where 'stock' is the level of something (like water in a tub) and 'flow' is the
+- [[concepts/stock-buybacks|Stock Buybacks]] — A method increasingly used by firms to return cash to stockholders, serving as an alternative to dividends. Their growin
+- [[concepts/stock-repurchase|Stock Repurchase]] — A tax-advantaged method for a firm to distribute cash by buying back its own shares, which is optimally used when the st
+- [[concepts/stock-return-regressions|Stock Return Regressions]] — A textbook method to determine risk exposure for hedging, criticized for incorrectly equating variance minimization with
+- [[concepts/stocks-for-the-long-run|Stocks for the Long Run]] — The investment principle that investors with a long-term orientation, such as those saving for retirement, should have t
+- [[concepts/storage-costs|Storage Costs]] — Costs incurred for holding a physical asset over a period of time, such as for gasoline, which must be factored into the
+- [[concepts/straight-line-depreciation|Straight-line Depreciation]] — A depreciation method where an asset's value is reduced by an equal amount every year over its life.
+- [[concepts/strategic-complements|Strategic Complements]] — A situation where higher effort by one agent makes a goal more achievable for others, inspiring them and amplifying tota
+- [[concepts/strategic-default|Strategic Default]] — The act of a borrower voluntarily defaulting on a loan from one lender with the intention of seeking a new loan from ano
+- [[concepts/strategic-substitutes|Strategic Substitutes]] — A situation where higher effort by one agent causes another to free-ride, which occurs when a goal is easy and success i
+- [[concepts/stress-betas|Stress Betas]] — A concept developed to analyze asset class behavior under stress conditions when normal covariance matrices are said to 
+- [[concepts/strict-concavity|Strict Concavity]] — A mathematical property of a function within the model that is used in proofs to establish inequalities related to the v
+- [[concepts/strike-price|Strike Price]] — The fixed price at which an option holder can buy or sell the underlying asset, which is set as part of the option's con
+- [[concepts/structural-advantage|Structural Advantage]] — The principle that an investor should give an extra tilt to asset classes where they have a unique advantage in assessin
+- [[concepts/student-t-distribution|Student-t Distribution]] — A probability distribution with high excess kurtosis used to calibrate simulations, reflecting established evidence of f
+- [[concepts/subprime-mortgage|Subprime Mortgage]] — A type of home loan that enabled millions of people with poor credit to become homeowners, but became problematic when i
+- [[concepts/subprime-mortgages|Subprime Mortgages]] — A type of mortgage that allowed people who otherwise couldn't afford a house to become homeowners, but also contributed 
+- [[concepts/supermodularity-and-complementarity|Supermodularity and Complementarity]] — A mathematical concept which is the subject of a 1998 book published by Princeton University Press.
+- [[concepts/supermodularity|Supermodularity]] — An assumption in the matching model where managerial talent and firm quality are complements, meaning a more talented ma
+- [[concepts/superstar-effect|Superstar Effect]] — A pattern where firms in the growth regime pay more for more talented managers, generating rising compensation as a retu
+- [[concepts/symmetric-two-sided-smoothing|Symmetric Two-Sided Smoothing]] — A manipulation strategy where an agent smooths both good and bad outcomes symmetrically, a tactic that can evade the C_p
+- [[concepts/synergies|Synergies]] — Positive strategic interactions, such as cross-selling opportunities, that are evaluated as a next step after a standalo
+- [[concepts/systematic-risk|Systematic Risk]] — Aggregate, economy-wide risk that affects all companies and cannot be eliminated through diversification, for which inve
+- [[concepts/systemic-risk|Systemic Risk]] — The potential for the failure of large financial institutions to cause 'repercussion effects' or 'knock on effects' that
+- [[concepts/tail-risk|Tail Risk]] — The risk associated with the tails of the distribution of returns, representing the possibility of losing a lot of money
+- [[concepts/tangency-line|Tangency Line]] — The line on a risk-return graph representing all optimal portfolios that can be formed by combining a risk-free asset wi
+- [[concepts/tangency-portfolio|Tangency Portfolio]] — The single, specific risky portfolio on the efficient frontier that, when combined with a risk-free asset, provides the 
+- [[concepts/tax-benefits-of-debt|Tax Benefits of Debt]] — The financial advantage created by using debt to fund operations, primarily because interest expenses are tax deductible
+- [[concepts/tax-management|Tax Management]] — A portfolio management approach that considers the cost of paying taxes against the cost of not paying them (implicit re
+- [[concepts/tax-shield|Tax Shield]] — The reduction in taxes paid resulting from a deduction like depreciation, which is treated as an actual cash flow to the
+- [[concepts/team-production|Team Production]] — A production model where output depends jointly on the efforts of all team members, which canonically generates a free-r
+- [[concepts/temporal-exchange-rate|Temporal Exchange Rate]] — A rate, derived from the market, used to convert a cashflow from a future date into its equivalent value in a base curre
+- [[concepts/the-losers-game-concept|The Loser's Game]] — A concept from a revolutionary 1975 article by Charles Ellis, inspired by Simon Ramo's insight that tennis can be viewed
+- [[concepts/the-perfect-portfolio|The Perfect Portfolio]] — A theoretical ideal portfolio that the text argues does not exist; instead, there is a 'right portfolio' for each specif
+- [[concepts/theory-and-empirical-testing|Theory and Empirical Testing]] — The symbiotic relationship in finance where theory and experience (or empirical testing) are brought closer together, as
+- [[concepts/theory-of-the-maximum|Theory of the Maximum]] — A mathematical theorem used in the paper's proofs to establish the continuity of a solution, specifically in relation to
+- [[concepts/theory-of-thresholds|Theory of Thresholds]] — A framework that derives threshold behavior—long silences followed by sudden, disproportionate action—from the time-seri
+- [[concepts/third-degree-price-discrimination|Third-Degree Price Discrimination (3PD)]] — A boundary case of the Capped Royalty Licensing Mandate where poor countries are charged their maximum reservation price
+- [[concepts/third-party-discrimination|Third-Party Discrimination (3PD)]] — An innovation incentive mechanism that achieves first-best innovation but is criticized for leaving poor countries with 
+- [[concepts/threshold-crossing-time|Threshold Crossing Time]] — The time required for an agent's detection statistic to reach a critical value, derived as a function of signal difficul
+- [[concepts/through-the-cycle-smoothing|Through-the-Cycle Smoothing]] — A technique used by credit rating agencies that averages a firm's performance over multi-year horizons to reduce rating 
+- [[concepts/tiered-pricing|Tiered Pricing]] — A policy requiring an innovator to sell at marginal cost in poor countries while maintaining monopoly prices in rich cou
+- [[concepts/time-based-currency-analogy|Time-Based Currency Analogy]] — The principle that cashflows at different points in time are like different currencies and must be converted to a single
+- [[concepts/time-diversification|Time Diversification]] — A concept that focuses on managing the idiosyncratic volatility of a portfolio over time, rather than just across differ
+- [[concepts/time-horizon-in-asset-allocation|Time Horizon in Asset Allocation]] — The principle that an investor's asset allocation should be determined by their time horizon, with longer horizons justi
+- [[concepts/time-in-finance|Time (in finance)]] — One of the two fundamental factors, along with risk, that makes finance a distinct and challenging discipline.
+- [[concepts/time-value-of-money|Time Value of Money]] — The principle that cash flows now are not the same as cash flows later, as time only flows in one direction.
+- [[concepts/timeline-analysis|Timeline Analysis]] — A method of drawing a timeline to visualize and correctly align a sequence of cashflows, which is recommended to avoid c
+- [[concepts/too-big-to-fail|Too Big to Fail]] — A condition where an institution grows so large and systemically important that it cannot be allowed to fail, which can 
+- [[concepts/total-portfolio|Total Portfolio]] — A broad way of thinking about a portfolio that includes not just financial investments but also other components like a 
+- [[concepts/total-return|Total Return]] — The complete return on an investment, which includes income from dividends or coupons plus any price fluctuations (capit
+- [[concepts/tough-bank-strategy|Tough Bank Strategy]] — A strategy where a bank denies future credit to a borrower who defaults, which is exploited by other banks in a syndicat
+- [[concepts/tournament-theory|Tournament Theory]] — A theory of incentives where prizes are paid for individual rank rather than collective achievement, generating strategi
+- [[concepts/trade-secret|Trade Secret]] — A secret, such as a formula, that is not patented to avoid disclosure and can be kept secret indefinitely as long as ste
+- [[concepts/trading-concentration|Trading Concentration]] — An equilibrium phenomenon where discretionary traders, and consequently informed and large liquidity traders, concentrat
+- [[concepts/traditional-financial-analytics|Traditional Financial Analytics]] — The rational approach to analyzing market value which, while often effective, may break down and fail during extreme mar
+- [[concepts/traditional-index-funds|Traditional Index Funds (TIFs)]] — A category of index funds that Bogle contrasts with ETFs, noting they exhibited stable investor behavior with no monthly
+- [[concepts/tranche|Tranche]] — A class of security created from a portfolio of assets, such as bonds, which has a specific priority of payment relative
+- [[concepts/transaction-costs|Transaction Costs]] — Real-world costs and frictions, such as the inability to short sell, that must be accounted for to determine if an arbit
+- [[concepts/transaction-fees|Transaction Fees]] — Fees attached to transaction records that are collected by miners, incentivizing them to select transactions with higher
+- [[concepts/transactions-cost|Transactions Cost]] — A cost for buying and selling securities that, when included in the CAPM, primarily affects the frequency of portfolio r
+- [[concepts/transparency-as-a-commitment-technology|Transparency as a Commitment Technology]] — A rationale for transparency where making outcomes publicly verifiable prevents a principal from falsely claiming a goal
+- [[concepts/triune-model-of-the-brain|Triune Model of the Brain]] — A model developed by Paul MacLean that decomposes the brain into three separate components: the reptilian brain, the mam
+- [[concepts/two-stage-dividend-discount-model|Two-Stage Dividend Discount Model]] — A valuation model that calculates the value of equity as the present value of expected dividends during a non-stable gro
+- [[concepts/typology-of-firm-behaviors|Typology of Firm Behaviors]] — A classification of firm behaviors into eight archetypes based on the interplay of market signal volatility (σ₀), learni
+- [[concepts/ubiquity-filter|Ubiquity Filter]] — A criterion of the SHUb test requiring that financial solutions be available and accepted everywhere to be truly inclusi
+- [[concepts/uncertainty-aversion|Uncertainty Aversion]] — The human tendency to shy away from and pay less for situations involving uncertainty, where the risks cannot be paramet
+- [[concepts/uncertainty-knights-definition|Uncertainty (Knight's Definition)]] — A type of risk that cannot be parameterized or quantified, which entrepreneurs are rewarded with immense wealth for taki
+- [[concepts/universal-health-coverage|Universal Health Coverage]] — A system where the government pays for a medical good like a vaccine and distributes it at zero cost to all residents.
+- [[concepts/unrewarded-risk|Unrewarded Risk]] — A type of risk taken, such as through lack of diversification, that does not come with a corresponding expectation of hi
+- [[concepts/utility-of-change-in-wealth|Utility of Change in Wealth]] — A concept from a 1952 Markowitz paper stating that utility should be attached to the change in wealth rather than the ab
+- [[concepts/valid-auxiliary-series|Valid Auxiliary Series]] — An observable data series that co-moves with the true outcome but is invariant to the reporting rule, used for the clean
+- [[concepts/valuation-of-assets|Valuation of Assets]] — One of the two fundamental challenges of finance, which involves figuring out the value of assets and is considered the 
+- [[concepts/valuation-operator|Valuation Operator]] — A mechanism created to value any cashflow or asset under simplified circumstances by multiplying its cashflows by the ap
+- [[concepts/valuation|Valuation]] — A framework for pricing financial assets like stocks, bonds, and derivatives, using mathematics such as discounting and 
+- [[concepts/value-additivity|Value Additivity]] — A principle that allows a firm to increase its value by combining high NPV projects, enabling projects to be evaluated o
+- [[concepts/value-investing|Value Investing]] — An investment strategy based on holding assets that are undervalued relative to fundamentals like earnings, rather than 
+- [[concepts/value-of-an-asset|Value of an Asset]] — A function that takes an asset's sequence of cash flows as input and produces a single number representing its worth.
+- [[concepts/value-of-dividends-function|Value of Dividends Function (g(d))]] — An increasing and strictly concave function representing the value of dividends to shareholders, which reflects a decrea
+- [[concepts/value-operator|Value Operator (V_t)]] — A function that takes a sequence of cashflows as input and produces a single number representing the value of the asset 
+- [[concepts/value-premium|Value Premium]] — An anomaly suggesting that stocks with a high book-to-market ratio (value stocks) systematically generate higher expecte
+- [[concepts/variance-compression|Variance Compression]] — A direct consequence of the one-sided reporting rule, where the variance of the reported series is strictly less than th
+- [[concepts/variance-minimizing-hedge-ratio|Variance-Minimizing Hedge Ratio]] — A hedge ratio, often estimated as the beta coefficient from rate-of-return regressions, that minimizes the variance of r
+- [[concepts/variance-of-returns|Variance (of returns)]] — A statistical measure used to proxy for the riskiness of returns, defined as the expected value of the squared excess re
+- [[concepts/village-banking|Village Banking]] — A microfinance model created by John Hatch as part of the microfinance revolution.
+- [[concepts/voice-enabled-atms|Voice-Enabled ATMs]] — A proposed technological enhancement for ATMs to provide auditory guidance, such as confirming the transaction amount, t
+- [[concepts/voice-guided-interface|Voice-Guided Interface]] — A user interface that uses voice as a critical tool, including recorded audio guides and voice search, to assist users w
+- [[concepts/voice-interface|Voice Interface]] — A human-centric technological approach emphasized in the book as essential for making financial services accessible to p
+- [[concepts/voice-notification-service|Voice Notification Service]] — A transparency mechanism using voice calls to confirm transaction history and bank balances, studied as an intervention 
+- [[concepts/voice-recognition-technology|Voice Recognition Technology]] — Technology used for automatic verification in systems like banking IVRs to make transactions quicker, more efficient, an
+- [[concepts/volatility-sigma|Volatility (Sigma)]] — A measure of total risk that is not the relevant measure from a capital markets perspective, as investors are not necess
+- [[concepts/volatility|Volatility]] — A measure of portfolio risk that is largely determined by its beta sensitivity, with many institutional portfolios havin
+- [[concepts/warrants|Warrants]] — Options that are issued by a company on its own shares, in contrast to standard options which are bets between two parti
+- [[concepts/weak-bank|Weak Bank]] — A bank that would continue to extend credit to a defaulter and is therefore refused inclusion in a syndicate because it 
+- [[concepts/weighted-average-cost-of-capital|Weighted Average Cost of Capital (WACC)]] — The discount rate used in the firm valuation approach, representing the overall cost of financing a firm's assets. It is
+- [[concepts/winners-game-vs-losers-game|Winner's Game vs. Loser's Game]] — A concept distinguishing between two strategies in a field like investing: a "Winner's Game" played by brilliant partici
+- [[concepts/winning-the-losers-game|Winning the Loser's Game]] — An investment strategy based on the idea that trying to beat the market is a "loser's game," and superior long-term resu
+- [[concepts/wisdom-of-crowds|Wisdom of Crowds]] — The idea that markets can aggregate information from many individuals to arrive at a correct conclusion with phenomenal 
+- [[concepts/yale-model|The Yale Model]] — A non-traditional investment approach for an endowment fund that emphasizes understanding the unique characteristics of 
+- [[concepts/yield-curve|Yield Curve]] — A plot of interest rates as a function of time, also known as the term structure of interest rates, which gives a sense 
+- [[concepts/yield-to-maturity|Yield to Maturity]] — The total return an investor receives by holding a bond until it matures, which was the measure used for interest rates 
+- [[concepts/yield|Yield]] — The single interest rate which, if assumed constant over time, would make the present value of a bond's coupons and prin
+- [[concepts/zero-balance-accounts|Zero-Balance Accounts]] — Bank accounts that do not require a minimum balance, which can become unprofitable for banks to maintain, leading them t
+- [[concepts/zero-beta-portfolio|Zero Beta Portfolio]] — A portfolio whose rate of return is used in the Black CAPM as a substitute for the risk-free rate.
+- [[concepts/zero-expected-profits-condition|Zero-Expected-Profits Condition]] — An equilibrium condition where all banks must expect to make zero profits on a loan, often due to competition.
+- [[concepts/zero-expected-profits|Zero-Expected Profits]] — A condition under which market makers operate, setting parameters like λ to a level that ensures they break even on aver
+- [[concepts/zero-interest-rate-loan|Zero-Interest Rate Loan]] — A type of loan with no interest charged, which the text equates to charity and suggests it avoids the high collection co
+- [[concepts/zero-knowledge-proof|Zero-Knowledge Proof]] — A method by which one party can prove to another that they have access to certain information without revealing the unde
+- [[concepts/zero-npv-transaction|Zero NPV Transaction]] — A principle where a contract's initial value is zero because the price adjusts to a level where the number of buyers equ
+- [[concepts/zero-transaction-costs|Zero Transaction Costs]] — A proposed model where customers, particularly the vulnerable, pay no fees for digital transactions because the marginal
+- [[concepts/zkp-password-authentication-protocol|ZKP Password Authentication Protocol]] — A novel protocol allowing a user to authenticate by proving knowledge of a password, based on a grid of colored and numb
+- [[concepts/zombie-firms|Zombie Firms]] — A term for firms with high learning intensity in their existing businesses that are more likely to persist in a harvest 
+
+## Extracted Entities (409)
+
+- [[entities/10-year-treasury-note|10-year Treasury Note]] — A US government debt security with a longer maturity and duration than a T-bill, making it a riskier instrument with mor
+- [[entities/15-433|15.433]] — An MIT course referenced as the place to learn advanced methods for balancing non-stationarities and errors in data, and
+- [[entities/1987-stock-market-crash|1987 Stock Market Crash]] — A serious market event on October 19, 1987, where the US stock market lost approximately 20% of its value in a single da
+- [[entities/401k-plan|401(k) Plan]] — A type of retirement savings plan with specific rules, such as time horizons and withdrawal penalties, that complicate a
+- [[entities/401k|401(k)]] — A type of retirement savings plan where employees are presented with a list of funds and past performance data, often le
+- [[entities/aadhaar|Aadhaar]] — A widespread digital identity in India that makes it possible for banks and financial institutions to franchise through 
+- [[entities/acharya-and-volpin-2010|Acharya and Volpin (2010)]] — A cited academic work whose logic is used to explain how governance innovations can be crowded out by market forces.
+- [[entities/admati-and-pfleiderer-1988-model|Admati and Pfleiderer (1988) Model]] — A market microstructure model where the equilibrium concept is Nash in the strategies of all players and the market make
+- [[entities/aghion-and-howitt-1992|Aghion and Howitt (1992)]] — A 1992 paper whose central prediction is that incumbents will rationally resist creative destruction. A model of growth 
+- [[entities/aghion-and-howitt|Aghion and Howitt]] — Economists who, in 1992, formalized Schumpeter's intuition about creative destruction in a mathematical growth model.
+- [[entities/aig|AIG (American International Group)]] — A non-bank insurance company that received an $85 billion loan from the Fed because its failure was deemed a systemic ri
+- [[entities/akerlof-and-kranton-2005|Akerlof and Kranton (2005)]] — A publication that introduced identity economics, explaining why public goals can strengthen effort.
+- [[entities/albert-camus|Albert Camus]] — A philosopher who argued that our shared absurd fate is the foundation for solidarity and that the struggle itself is en
+- [[entities/albert-einstein|Albert Einstein]] — A well-known physicist who published a paper on Brownian motion in 1903, several years after Louis Bachelier had already
+- [[entities/alexa|Alexa]] — An AI-powered smart speaker used as an example of a digital solution that successfully creates a 'human' feel through vo
+- [[entities/alfred-d-chandler|Alfred D. Chandler]] — An author who wrote on the topics of the managerial revolution in American business ("The visible hand") and the dynamic
+- [[entities/amazon-web-services|Amazon Web Services (AWS)]] — A canonical example of the 'Moonshot' archetype, characterized by an enormous initial investment that was negative NPV o
+- [[entities/amazons-aws|Amazon's AWS]] — An example of the 'separate pockets' organizational design, as it was built as a separate business unit shielded from th
+- [[entities/amit-bubna|Amit Bubna]] — A researcher who co-authored a paper with Bhagwan Chowdhry on the Microangels model.
+- [[entities/amitabh-bachchan|Amitabh Bachchan]] — An iconic Indian film star whose trusted voice is cited as an example of creating humanness, personal connection, and a 
+- [[entities/amos-tversky|Amos Tversky]] — A psychologist who, along with Daniel Kahneman, first proposed the concept of loss aversion and would have shared the No
+- [[entities/andrew-lo|Andrew Lo]] — The speaker in the lecture excerpts who is discussing the financial crisis and concepts in finance.
+- [[entities/antonio-damasio|Antonio Damasio]] — A neuroscientist and clinical neurologist who wrote the book 'Descartes' Error' and studied a patient codenamed 'Elliot'
+- [[entities/artificial-intelligence|Artificial Intelligence]] — A modern technology transition characterized by extremely high market signal volatility, creating large option values fo
+- [[entities/asset-backed-securities|Asset-Backed Securities]] — A type of security market that did not exist in 1985 but grew into a multi-trillion dollar market, representing unbridle
+- [[entities/axis-bank|Axis Bank]] — A bank that jointly launched the 'Digi-Prayas' programme with the Digital Empowerment Foundation to increase financial l
+- [[entities/ayushman-bharat|Ayushman Bharat]] — A large nationwide insurance scheme launched by the Indian government in 2018 to provide health coverage of up to Rs 5 l
+- [[entities/bank-of-america|Bank of America]] — A financial institution that considered acquiring Lehman over the weekend but passed after the Fed would not guarantee a
+- [[entities/barclays-indices|Barclays Indices]] — Market indices for bond funds whose market cap data is noted as not being publicly available without a license.
+- [[entities/barclays|Barclays]] — A private financial organization that was willing to acquire Lehman Brothers but withdrew its offer when the Fed refused
+- [[entities/battle-mountain-gold|Battle Mountain Gold]] — A company that hedges up to 25% of its exposure, indicating uncertainty about whether there is a premium for hedging.
+- [[entities/bear-stearns|Bear Stearns]] — A financial firm whose situation is mentioned as one where taxpayers may have ended up footing the bill, contrasting wit
+- [[entities/benabou-and-tirole-2006|Bénabou and Tirole (2006)]] — A publication showing that extrinsic rewards can crowd out prosocial behavior through a reputational channel.
+- [[entities/bengt-holmstrom|Bengt Holmstrom]] — An economist who authored the 1979 paper "Moral hazard and observability" in the Bell Journal of Economics.
+- [[entities/benjamin-graham|Benjamin Graham]] — An influential investor known for the idea that the stock market is a voting machine in the short run and a weighing mac
+- [[entities/bergstrom-et-al-1986|Bergstrom et al. (1986)]] — A cited work whose results on voluntary contributions to public goods are applied to the pharmaceutical prize setting to
+- [[entities/bernardo-and-chowdhry-2002|Bernardo and Chowdhry (2002)]] — A real options framework that models firms as learning about pre-existing general and specific resources by observing in
+- [[entities/bernardo-and-chowdhry|Bernardo and Chowdhry]] — Authors of a 2002 real options model of corporate strategy that is cited as the most proximate antecedent to the paper i
+- [[entities/bertrand-equilibrium|Bertrand Equilibrium]] — A potential market outcome mentioned where competition among multiple lenders would cause all potential profits to be co
+- [[entities/besley-and-ghatak-2005|Besley and Ghatak (2005)]] — A publication whose focus on effort motivation is contrasted with the paper's focus on the knowledge sharing problem.
+- [[entities/bhagavad-gita|Bhagavad Gita]] — A text whose core conclusions are that 'the ground is not solid' and that one should act without attachment to the resul
+- [[entities/bhagwan-chowdhry|Bhagwan Chowdhry]] — Co-author of the book and a researcher who developed the Microangels model to compete with moneylenders.
+- [[entities/bill-and-melinda-gates-foundation|Bill and Melinda Gates Foundation]] — A charitable organization mentioned as preferring to finance initiatives through charity, which the text likens to provi
+- [[entities/bill-sharpe|Bill Sharpe]] — The Nobel Prize winner who discovered the linear relationship between any stock's expected return and market risk, exten
+- [[entities/biogen|Biogen]] — A specific stock used as an example to estimate the CAPM relationship, which was found to have a sizable alpha.
+- [[entities/bitcoin-blockchain|Bitcoin Blockchain]] — The specific distributed ledger for Bitcoin, where miners compete to find a winning "nonce" to close out a block of tran
+- [[entities/bitcoin-improvement-proposals|Bitcoin Improvement Proposals (BIPs)]] — A process allowing anyone to propose updates or changes to the Bitcoin network protocol, which are implemented if accept
+- [[entities/bitcoin|Bitcoin (BTC)]] — An electronic payment system based on cryptographic proof that allows two willing parties to transact directly with each
+- [[entities/black-and-scholes|Black and Scholes]] — The creators of the eponymous option pricing formula, who derived it using a different approach and had not contemplated
+- [[entities/black-capm|Black CAPM]] — A version of the CAPM developed by Fisher Black that does not require a risk-free rate, instead using a zero-beta portfo
+- [[entities/black-scholes-formula|Black-Scholes Formula]] — A famous option pricing formula that is the solution to a parabolic partial differential equation and can be derived as 
+- [[entities/black-scholes-model|Black-Scholes Model]] — An option pricing technology and model that uses a replicating portfolio to determine an option's value based on volatil
+- [[entities/blockbuster|Blockbuster]] — An example of the 'Missed Bet' archetype, which rationally did not invest in streaming due to a lack of organizational p
+- [[entities/bloom-bond-and-van-reenen-2007|Bloom, Bond, and Van Reenen (2007)]] — A study cited as providing evidence that uncertainty raises investment in productive activities while reducing investmen
+- [[entities/bloomberg|Bloomberg]] — A company known for its financial terminals that is used as a case study for evaluating a new venture into the publishin
+- [[entities/bob-litterman|Bob Litterman]] — A financial economist who, along with Fischer Black, developed a procedure built on reverse optimization to mix investor
+- [[entities/bob-merton|Bob Merton]] — An academic who developed a respected and terrific, though slightly different, approach to the option pricing technology
+- [[entities/bob-shiller|Bob Shiller]] — An economist and long-time friend of the speaker, often called a "perma bear," who co-developed the CAPE ratio and is as
+- [[entities/bop-group|BOP group]] — An abbreviation for the 'Bottom of the Pyramid' group, referring to the large number of under-represented people who lac
+- [[entities/bowman-and-hurry|Bowman and Hurry]] — Researchers cited as pioneers of the real-options strand of strategic management research in 1993.
+- [[entities/brac|BRAC (Building Resources Across Communities)]] — An organization associated with Sir Fazle Hasan Abed that was a forerunner in the microfinance revolution.
+- [[entities/brealey-and-myers|Brealey and Myers]] — Authors cited for a simple formulation of firm value in terms of the value of assets in place and expected future growth
+- [[entities/brealey-myers-allen|Brealey and Myers, Allen]] — The authors of a textbook whose chapters two and three are assigned as reading for the course.
+- [[entities/bubna-chowdhry-model|Bubna-Chowdhry model]] — A model in which formal financial institutions find it profitable to lend funds to individual Microangels.
+- [[entities/buddhism|Buddhism]] — A philosophical tradition whose concepts of impermanence and the non-fixed nature of the self are used to understand ris
+- [[entities/business-correspondents-bcs|Business Correspondents (BCs)]] — Financial agents who exemplify the 'human touch' in banking services but are noted in the text as not being ubiquitous e
+- [[entities/campbells-soup|Campbell's Soup]] — A company suggested as a potentially negatively correlated stock during an economic crisis because it is a foodstuff tha
+- [[entities/capital-asset-pricing-model|Capital Asset Pricing Model (CAPM)]] — A model developed by William Sharpe in 1964 that builds upon the principles of portfolio theory.
+- [[entities/capital-group|Capital Group]] — An investment organization representing the American Funds, noted for its different organizational design, values, and f
+- [[entities/capm|CAPM]] — A financial model or theory whose equilibrium concepts are used as the basis for the reverse optimization method.
+- [[entities/cardano|Cardano]] — An individual who stole a mathematical formula but also wrote a book on gambling, "Liber De Ludo Aleae", which developed
+- [[entities/cash|Cash]] — A physical payment instrument that is presented as the prime example of a solution that passes the SHUb test because it 
+- [[entities/caterpillar|Caterpillar]] — A company that manufactures tractors and other heavy machinery, used as an example to illustrate the significant impact 
+- [[entities/challenger-crash-research-paper|The Complexity of Price Discovery in an Efficient Market]] — A 2003 research paper that analyzed the stock market reaction to the Challenger crash to demonstrate how quickly markets
+- [[entities/challenger-crash|Challenger Crash]] — The explosion of the Challenger space shuttle on January 28, 1986, which serves as a case study for how an efficient mar
+- [[entities/charles-d-ellis|Charles D. Ellis]] — The founder of Greenwich Associates and best-selling author of "Winning the Loser's Game" and "The Index Revolution".
+- [[entities/chicago-board-options-exchange|Chicago Board Options Exchange]] — The institution that created the VIX index, which is also described as the most active, all-electronic options exchange 
+- [[entities/chicago-mercantile-exchange|Chicago Mercantile Exchange]] — A futures exchange where contracts, such as for live cattle, are traded.
+- [[entities/cho-kreps-intuitive-criterion|Cho-Kreps (1987) Intuitive Criterion]] — A refinement applied to sequential equilibria that eliminates patently unreasonable outcomes by imposing restrictions on
+- [[entities/chowdhry-1989|Chowdhry (1989)]] — An empirical study that, after controlling for various risk characteristics, found evidence consistent with the Lindert 
+- [[entities/citigroup|Citigroup]] — A financial institution that acquired Wachovia, which was seen as an ideal solution to prevent Wachovia's failure.
+- [[entities/coca-cola|Coca-Cola]] — A company whose formula is a famous example of a trade secret, and whose brand is also a highly valuable, non-physical a
+- [[entities/code-of-hammurabi|Code of Hammurabi]] — An ancient Babylonian code that contains the first known insurance contract, which outlined rules and regulations govern
+- [[entities/collins-and-porras|Collins and Porras]] — Management authors who coined the term 'Big Hairy Audacious Goal' (BHAG) in their 1994 book 'Built to Last' based on a s
+- [[entities/compartamos-banco|Compartamos Banco]] — A Mexican microfinance bank mentioned as an example of an MFI whose blockbuster IPO sparked a debate about making profit
+- [[entities/console|Console]] — A bond issued by the UK government that is a real-world example of a perpetuity, paying a fixed amount to its holder eve
+- [[entities/consolidated-tape|Consolidated Tape]] — A market linkage system established to improve information transmission between various markets trading identical or sim
+- [[entities/contraction-mapping-theorem|Contraction Mapping Theorem]] — A mathematical theorem used to prove the existence of a unique value function that solves the model's dynamic optimizati
+- [[entities/corporate-securities|Corporate Securities]] — Fixed income securities issued by private and public corporations rather than government entities.
+- [[entities/coupon-bond|Coupon Bond]] — A bond that pays periodic coupons and can be theoretically viewed as a package of individual discount bonds.
+- [[entities/covax|COVAX]] — A real-world initiative cited as a large-scale confirmation of the theory that voluntary prize funds for global public g
+- [[entities/cox-ingersoll-ross-model|Cox-Ingersoll-Ross Model]] — A well-known, sophisticated and complex mathematical model of the term structure of interest rates.
+- [[entities/cox-ross-and-rubenstein|Cox, Ross, and Rubenstein]] — The originators of the notation used in the described option pricing model, specifically for the gross rate of return 'r
+- [[entities/crawford-and-sobel-1982|Crawford and Sobel (1982)]] — A publication associated with the cheap talk literature, where strategic information transmission is non-binding.
+- [[entities/credit-default-swap|Credit Default Swap]] — A financial instrument whose pricing, such as the 700 basis points for General Electric, indicates the high cost and per
+- [[entities/credit-default-swaps|Credit Default Swaps]] — A type of financial contract for which a futures-like structure with daily settlement is being considered to reduce risk
+- [[entities/credit-rating-agencies|Credit Rating Agencies (Moody's, S&P, Fitch)]] — Institutions that conduct detailed research on portfolios, claims seniority, legal documents, and historical data to ass
+- [[entities/cross-default-clause|Cross-Default Clause]] — A contractual clause that prevents a borrower from selectively repudiating debt to some banks in a syndicate while servi
+- [[entities/crsp-index|CRSP Index]] — A market index whose publicly available quarterly market cap data is used for rebalancing the US stock portion of a port
+- [[entities/daniel-kahneman|Daniel Kahneman]] — A psychologist who won the Nobel Prize in economics for his work with Amos Tversky on concepts like loss aversion.
+- [[entities/danzon-and-towse|Danzon and Towse]] — Researchers who advocated for mandated tiered pricing, arguing a monopolist loses nothing by serving poor markets at low
+- [[entities/david-swensen|David Swensen]] — The individual associated with managing Yale's endowment fund and developing its non-traditional investment approach, kn
+- [[entities/derivative-markets|Derivative Markets]] — Markets for instruments like futures and options, described as the least expensive way to manage portfolio risk and a ke
+- [[entities/descartes-error|Descartes' Error]] — A book written by Antonio Damasio that describes the case of his patient 'Elliot' to argue that emotion is a necessary c
+- [[entities/digi-prayas|Digi-Prayas]] — A programme launched in 2017 by Digital Empowerment Foundation and Axis Bank to increase financial literacy in rural Ind
+- [[entities/digital-didi|Digital Didi]] — A woman who acts as a human interface for digital financial transactions, helping customers and earning a small stipend,
+- [[entities/digital-empowerment-foundation|Digital Empowerment Foundation]] — An organization that jointly launched the 'Digi-Prayas' programme with Axis Bank to increase financial literacy in rural
+- [[entities/digital-identity-research-initiative-diri|Digital Identity Research Initiative (DIRI)]] — A research initiative at the Indian School of Business (ISB) that estimated the annual cost of balance check transaction
+- [[entities/diri|Digital Identity Research Initiative (DIRI)]] — A research initiative at the Indian School of Business that conducted research and interviews to determine the costs of 
+- [[entities/discounted-coupon-bond|Discounted Coupon Bond]] — A type of bond whose prices implicitly contain a forecast of the future.
+- [[entities/dl-j|DL J]] — An investment firm distinguished by its in-depth research department that produced extensive, 50-150 page reports on com
+- [[entities/donald-m-topkis|Donald M. Topkis]] — The author of the 1998 book "Supermodularity and complementarity" published by Princeton University Press.
+- [[entities/dow-jones-industrial-average|Dow Jones Industrial Average]] — The primary stock market index of its time, which John C. Bogle described as a terrible thing for an index fund to try a
+- [[entities/elliot|Elliot]] — A patient of Antonio Damasio who, after surgery for a brain tumor, lost his ability to feel emotion and became incapable
+- [[entities/ellsberg|Ellsberg]] — A psychologist who developed the paradox involving two urns to demonstrate that people have an aversion to uncertainty.
+- [[entities/envelope-theorem|Envelope Theorem]] — A mathematical result invoked in the model's proofs to simplify the differentiation of the value function with respect t
+- [[entities/etf|ETF (Exchange-Traded Fund)]] — A financial vehicle that provides exposure to an asset but, unlike futures, requires the investor to put up the full val
+- [[entities/etfs|ETFs (Exchange-Traded Funds)]] — An investment vehicle that has exploded in popularity, with firms like WisdomTree being among the first to create innova
+- [[entities/fannie-mae|Fannie Mae]] — A large government-sponsored financial entity that was taken over by the federal government after facing a crisis relate
+- [[entities/fas-157|FAS 157]] — An accounting rule, also known as fair value accounting, that requires companies to use market values for updating their
+- [[entities/fdic|FDIC]] — The Federal Deposit Insurance Corporation, an agency that insures bank deposits up to $100,000 and would have been respo
+- [[entities/federal-agency-securities|Federal Agency Securities]] — A segment of the fixed income market issued by government-sponsored entities like Fannie Mae and Freddie Mac that experi
+- [[entities/federal-funds-rate|Federal Funds Rate]] — The stated interest rate that the Federal Reserve charges its member banks for borrowing, which is distinct from market-
+- [[entities/financial-analyst-journal|Financial Analyst Journal]] — A financial publication to which Martin L. Leibowitz is the most prolific contributor.
+- [[entities/financial-analysts-journal|Financial Analysts Journal]] — A publication that commissioned Marty Leibowitz's 'alpha hunters and beta grazers' paper for its 60th anniversary issue.
+- [[entities/financial-engines|Financial Engines]] — A firm co-founded by William Sharpe, Joe Grundfest, and Craig Johnson with the goal of helping individual employees bett
+- [[entities/financial-planner|Financial Planner]] — A professional whose role is distinguished from a retirement portfolio designer, as a financial planner should take all 
+- [[entities/financial-rescue-package-2008|Financial Rescue Package (2008)]] — A government intervention, also called a bailout, designed to first stop the financial bleeding with money and then addr
+- [[entities/finca|FINCA]] — An organization founded by John Hatch that was part of the microfinance revolution.
+- [[entities/first-index-investment-trust|First Index Investment Trust]] — The original name for the first index mutual fund launched by Vanguard, chosen by John C. Bogle to emphasize that it was
+- [[entities/fischer-black|Fischer Black]] — A financial economist who, along with Bob Litterman, developed a procedure built on reverse optimization to mix investor
+- [[entities/fisher-black|Fisher Black]] — The economist who developed the Black CAPM, a new theory of the CAPM that does not rely on a risk-free rate.
+- [[entities/fitch-ratings|Fitch Ratings]] — A credit rating agency mentioned alongside Moody's and S&P as a key player in rating financial instruments for investors
+- [[entities/fitch|Fitch]] — One of the most popular services that analyzes companies and issues credit ratings on their debt.
+- [[entities/fortune-magazine|Fortune Magazine]] — A magazine that published an article in December 1949, 'Big Money in Boston', which provided the inspiration for John C.
+- [[entities/forward-contract|Forward Contract]] — A derivative product that can be structured to lock in a future borrowing rate, but is often more complex and expensive 
+- [[entities/frank-knight|Frank Knight]] — An economist who proposed that entrepreneurs earn vast sums of money by taking on unquantifiable uncertainty, as distinc
+- [[entities/fred-weston|Fred Weston]] — An advisor and major influence on William Sharpe at UCLA who encouraged him to work with Harry Markowitz and to pursue p
+- [[entities/freddie-mac|Freddie Mac]] — A large government-sponsored financial entity, partnered with Fannie Mae, that was taken over by the federal government 
+- [[entities/ftse-index|FTSE Index]] — A market index whose publicly available monthly market cap data is used for rebalancing the non-US stock portion of a po
+- [[entities/futures-clearing-corporation|Futures Clearing Corporation]] — An intermediary organization that sits between the two parties of a futures contract, serving as the counterparty to bot
+- [[entities/gasoline|Gasoline]] — A commodity used as an example for futures pricing that has significant storage costs and a convenience yield, making it
+- [[entities/general-electric|General Electric]] — A company where Jack Welch started in 1960 and later served as CEO from 1981.
+- [[entities/general-motors|General Motors]] — A company whose stock is part of the S&P 500 and is used as an example to show that a relationship exists between an ind
+- [[entities/gerolamo-cardano|Gerolamo Cardano]] — A 16th-century Italian mathematician who developed what is considered the first-known model for asset prices.
+- [[entities/gillette|Gillette]] — A company used as an example to illustrate the two components of an investment's risk: aggregate (market) risk and uniqu
+- [[entities/glass-steagall-act|Glass-Steagall Act]] — A financial regulation that was dismantled in 1999, a change which allowed banks to become more like hedge funds and is 
+- [[entities/gold|Gold]] — An asset described by Bogle as the ultimate speculation with no internal rate of return, but which he also uses in a sma
+- [[entities/goldman-sachs|Goldman Sachs]] — A firm that quickly raised $10 billion of capital during a market downturn through a $5 billion investment from Warren B
+- [[entities/google-glass|Google Glass]] — An example of the 'Costly Pivot' archetype, where learning in wearable hardware was harvested despite consumer rejection
+- [[entities/google|Google]] — A company whose algorithms are cited as a perfect example of a valuable, non-physical asset.
+- [[entities/gram-vaani|Gram Vaani]] — An organization that conducted a survey with NIPFP which found that many people did not know how to complain about banki
+- [[entities/grameen-bank|Grameen Bank]] — An institution that, along with Muhammad Yunus, pioneered the Microfinance Revolution.
+- [[entities/great-depression|Great Depression]] — A historical period of economic hardship cited as an example of a traumatic experience that can indelibly alter a person
+- [[entities/greenwich-associates|Greenwich Associates]] — A consulting firm founded by Charles D. Ellis in 1972 that specializes in gathering confidential feedback from instituti
+- [[entities/griliches-1992|Griliches (1992)]] — A publication that documented substantial empirical evidence of R&D spillovers across different firms and industries.
+- [[entities/guay-and-kothari|Guay and Kothari]] — Academics who published a paper showing that 57% of a sample of 413 large companies used derivatives in 1997.
+- [[entities/harry-m-markowitz|Harry M. Markowitz]] — The speaker, who developed the 1952 idea for portfolio theory and a 1959 computer program for finding mean-variance effi
+- [[entities/harry-markowitz|Harry Markowitz]] — A pioneer of portfolio optimization who worked at the Rand Corporation and served as William Sharpe's unofficial dissert
+- [[entities/harvard-business-school|Harvard Business School]] — An institution described by Charles D. Ellis as providing a transformational experience where students learn to identify
+- [[entities/hedge-fund|Hedge Fund]] — A type of investor seeking high returns of 15-40% that provided a market for the risky, high-yield junior tranches creat
+- [[entities/hedge-funds|Hedge Funds]] — A type of investment fund that can use strategies like short selling, and which led the way for institutional investors 
+- [[entities/henderson-and-clark-1990|Henderson and Clark (1990)]] — A study that documented that established firms in architectural transitions that did invest tended to do so at a large s
+- [[entities/henri-poincare|Henri Poincare]] — A renowned French mathematician who was the academic advisor to Louis Bachelier.
+- [[entities/henrik-kleven-and-mazhar-waseem|Henrik Kleven and Mazhar Waseem]] — Researchers whose 2013 work is cited as an example of the bunching methodology, using notches to uncover optimization fr
+- [[entities/high-yield-bonds|High-Yield Bonds]] — Also known as junk bonds, these are debt instruments that the speaker invested in via a Vanguard fund, achieving stock-l
+- [[entities/holmstrom-1982|Holmström (1982)]] — A publication that established the canonical result that team production creates a free-rider problem that cannot be sol
+- [[entities/holocaust|Holocaust]] — A historical event mentioned as an example of an extraordinary emotional trauma that can permanently affect an individua
+- [[entities/homestake-mining|Homestake Mining]] — A mining company with an explicit corporate policy of not hedging, based on the belief that shareholders achieve maximum
+- [[entities/hyperledger|Hyperledger]] — A project started by the Linux Foundation in 2015 that provides private blockchain solutions that do not require a nativ
+- [[entities/index-fund|Index Fund]] — An investment vehicle that implements passive investing, with the first major fund being created at Wells Fargo by John 
+- [[entities/index-funds|Index Funds]] — A financial instrument explicitly recommended for portfolio diversification as a way to manage risk, with the advice not
+- [[entities/indian-institute-of-science-iisc|Indian Institute of Science (IISc)]] — An institute collecting data and building open-source models for speech technology in nine Indian languages through its 
+- [[entities/indian-school-of-business-isb|Indian School of Business (ISB)]] — An educational institution in India that is home to the Digital Identity Research Initiative (DIRI).
+- [[entities/indian-school-of-business|Indian School of Business]] — The educational institution where the Digital Identity Research Initiative (DIRI) is located.
+- [[entities/informed-trader|Informed Trader]] — A market participant whose aggressive trading strategy in one period can be made to adversely affect their expected prof
+- [[entities/inside-the-yield-book|Inside the Yield Book]] — A classic book by Marty Leibowitz that originated from memoranda explaining flaws in traditional bond yield calculations
+- [[entities/intermarket-trading-system|Intermarket Trading System]] — A market linkage system created as part of the effort to achieve a unified securities market.
+- [[entities/internet-bubble|Internet Bubble]] — A market event whose bursting caused many retail investors to leave the market, which was followed by a period of increa
+- [[entities/internet-saathi|Internet Saathi]] — A programme where trained women ('Saathis') are given smartphones or tablets to teach other women in their own and nearb
+- [[entities/investment-company-act-of-1940|Investment Company Act of 1940]] — A piece of legislation governing mutual funds that John C. Bogle studied for his senior thesis when the act was only nin
+- [[entities/iowa-electronic-markets|Iowa Electronic Markets]] — A futures exchange created by the University of Iowa that allows trading on contracts based on the outcomes of president
+- [[entities/jack-treynor|Jack Treynor]] — A foundational thinker in portfolio theory whose work is cited alongside that of Markowitz and Sharpe.
+- [[entities/jack-welch|Jack Welch]] — A former CEO of General Electric with a PhD in engineering who started at the company in 1960 and became its CEO in 1981
+- [[entities/jacobs-1970|Jacobs (1970)]] — An author who emphasized that knowledge spillovers are largest across industries rather than within them, making diversi
+- [[entities/james-march|James March]] — A researcher who developed the 1991 exploration-exploitation framework, which the paper's model endogenizes as a choice 
+- [[entities/james-simons|James Simons]] — A former math professor and differential geometer who started what is described as the single most successful hedge fund
+- [[entities/jeremy-siegel|Jeremy Siegel]] — A professor at the Wharton School at the University of Pennsylvania known for his research on long-term historical stock
+- [[entities/joel-mokyr|Joel Mokyr]] — A researcher whose 2017 analysis of how rigid social structures inhibit societal innovation is cited as an analogue to t
+- [[entities/john-burr-williams|John Burr Williams]] — A financial theorist whose 1938 book proposed valuing stocks based on the present value of future dividends, which promp
+- [[entities/john-c-bogle|John C. Bogle]] — A key figure in the mutual fund industry who wrote an influential senior thesis, worked at and was later fired from Well
+- [[entities/john-campbell|John Campbell]] — An academic who collaborated with Bob Shiller to create the cyclically adjusted P/E ratio, or CAPE ratio.
+- [[entities/john-cox|John Cox]] — An academic who co-developed the Cox-Ingersoll-Ross model for the term structure of interest rates.
+- [[entities/john-f-kennedy|John F. Kennedy]] — A U.S. President whose 1961 declaration to land a man on the moon by the end of the decade is used as a canonical exampl
+- [[entities/john-hatch|John Hatch]] — A forerunner in the microfinance revolution who founded FINCA and created the Village Banking model.
+- [[entities/john-maynard-keynes|John Maynard Keynes]] — An influential economist whose writings on how markets work inspired John C. Bogle's framework for the sources of market
+- [[entities/john-mcleod|John McLeod]] — The head of the management science group at Wells Fargo who engaged the speaker to conduct research on the idea of passi
+- [[entities/john-mcquown|John McQuown]] — An individual who, along with Bill Fouse at Wells Fargo, brought about the first serious, major index fund.
+- [[entities/john-wiley-and-sons|John Wiley & Sons]] — A publicly-traded publishing company identified as a "pure play" comparable, whose beta is used to calculate the cost of
+- [[entities/jonathan-steinberg|Jonathan Steinberg]] — A Wharton graduate and son of Saul Steinberg who approached the speaker to help create fundamentally weighted ETFs for h
+- [[entities/joseph-schumpeter|Joseph Schumpeter]] — An economist credited with the 1942 concept of creative destruction, the process by which innovation drives growth by re
+- [[entities/journal-of-portfolio-management|Journal of Portfolio Management]] — A financial publication to which Martin L. Leibowitz is the most prolific contributor.
+- [[entities/jp-morgan|JP Morgan]] — The financial firm that acquired Bear Stearns in a deal that was negotiated and backstopped by the Fed.
+- [[entities/justin-mccrary|Justin McCrary]] — An econometrician whose 2008 work on a density test is cited as a primary example of the bunching methodology for detect
+- [[entities/kaplan-and-ruback-1995|Kaplan and Ruback (1995)]] — Authors who presented a variation on the Adjusted Present Value (APV) approach, which they termed the compressed APV app
+- [[entities/kenneth-arrow|Kenneth Arrow]] — An economist credited with the 1962 concept of learning-by-doing, where accumulated expertise makes production more prod
+- [[entities/kodak|Kodak]] — An example of the 'Rational Harvest' archetype and the 'Caricature Effect', whose identity as a film company hardened ar
+- [[entities/kogut|Kogut]] — A researcher cited as a pioneer of the real-options strand of strategic management research in 1991.
+- [[entities/kondratiev-cycles|Kondratiev cycles]] — A concept of very long-term, 50-year economic periods used to illustrate the problem of non-stationarity when using hist
+- [[entities/kreps-and-wilson-1982a|Kreps and Wilson (1982a)]] — A cited work used to demonstrate how banks may want to acquire a reputation for being tough.
+- [[entities/kundera|Kundera]] — A writer or thinker who corrects Camus's heroic perspective by acknowledging that knowing the struggle is absurd does no
+- [[entities/kyle-1985-model|Kyle (1985) Model]] — A market microstructure model in which risk-neutral market makers at each location engage in a Bertrand competition in p
+- [[entities/lazear-and-rosen-1981|Lazear and Rosen (1981)]] — A publication associated with tournament theory, where prizes are based on individual rank.
+- [[entities/lehman-brothers|Lehman Brothers]] — A major mortgage lender and CDO investor whose stock was under significant pressure and was considered almost certain to
+- [[entities/liber-de-ludo-aleae|Liber De Ludo Aleae]] — A book on gambling written by Cardano that developed the precursor to the modern mathematical description of stock price
+- [[entities/lindert-and-morton-1987|Lindert and Morton (1987)]] — An empirical study finding that governments with histories of default paid slightly less in interest on loans than gover
+- [[entities/lintner-1956|Lintner (1956)]] — A classic study cited as providing empirical evidence for the practice of dividend smoothing by firms.
+- [[entities/linux-foundation|Linux Foundation]] — The organization that started the Hyperledger project in 2015 to provide private blockchain solutions.
+- [[entities/lipitor|Lipitor]] — A cholesterol-reducing drug used as an example of a product that a pharmaceutical company would patent rather than keep 
+- [[entities/liquidity-trader|Liquidity Trader]] — A market participant whose losses to informed insiders can be reduced when there is competition among multiple informed 
+- [[entities/loan-syndicate|Loan Syndicate]] — A group of banks that jointly lend to a single borrower, where the loan is divided equally among all members and total f
+- [[entities/locke-and-latham-1990|Locke and Latham (1990)]] — A publication that established through decades of evidence that specific, challenging goals outperform vague or easy one
+- [[entities/louis-bachelier|Louis Bachelier]] — A French mathematics PhD student who, in his dissertation on pricing warrants, developed the mathematics of Brownian mot
+- [[entities/macaulay|Macaulay]] — The person who first proposed the concept of duration as a way to measure how risky a bond is based on its price sensiti
+- [[entities/major-regulatory-changes|Major Regulatory Changes]] — A set of historical reforms, including market liberalization, airline deregulation, and telecommunication reforms, that 
+- [[entities/maloney-and-mulhearn|Michael Maloney and Herold Mulhearn]] — Two economists who authored a 2003 research paper analyzing the stock market's reaction to the Challenger crash as a dem
+- [[entities/market-maker|Market Maker]] — A market participant who sets the liquidity parameter (λ) and can voluntarily institute an insider surveillance system t
+- [[entities/market-portfolio|Market Portfolio]] — A theoretical portfolio that the text argues is likely not an efficient portfolio for everybody and is not actually held
+- [[entities/markowitz-1952-idea|Markowitz 1952 Idea]] — The foundational concept developed by Harry Markowitz in 1952, which is now being increasingly well-exploited in portfol
+- [[entities/markowitz-1959-work|Markowitz (1959)]] — A 1959 publication by Markowitz that provided a computer program to find mean-variance efficient portfolios subject to a
+- [[entities/martin-l-leibowitz|Martin L. Leibowitz]] — The speaker in the text, identified as the most prolific contributor to the Financial Analyst Journal and the Journal of
+- [[entities/marty-leibowitz|Marty Leibowitz]] — Author of the classic book 'Inside the Yield Book' and a key figure in developing concepts like asset-liability manageme
+- [[entities/mcdonalds|McDonald's]] — A company used as an example of an asset that a rational investor would not hold over Merck, as its historical data show
+- [[entities/mcgraw-hill|McGraw-Hill]] — A diversified company with publishing and other businesses, such as Standard & Poor's, making it a less suitable "pure p
+- [[entities/medicines-patent-pool|Medicines Patent Pool (MPP)]] — An organization that has operated a Capped Royalty Licensing Mandate for HIV antiretrovirals since 2010, serving as a re
+- [[entities/merck|Merck]] — A company used as an example of an asset that, based on historical data, offered a higher return for lower risk compared
+- [[entities/merrill-lynch|Merrill Lynch]] — A financial institution noted as having large exposure similar to Lehman, but possessing other sources of revenue that a
+- [[entities/michael-c-jensen|Michael C. Jensen]] — An author who wrote the article "Eclipse of the public corporation" in a 1989 issue of the Harvard Business Review.
+- [[entities/michael-kremer|Michael Kremer]] — An economist who, in 1998, proposed the concept of patent buyouts where governments pay innovators for their patents and
+- [[entities/microsoft|Microsoft]] — A company used as an example of an investment whose risk is affected by an economic downturn, illustrating aggregate or 
+- [[entities/milgrom-and-roberts-1982|Milgrom and Roberts (1982)]] — A cited work used to demonstrate how banks may want to acquire a reputation for being tough.
+- [[entities/milton-friedman|Milton Friedman]] — A professor at the University of Chicago whose class and paper on explaining gambling and insurance influenced Harry Mar
+- [[entities/mit-endowment|MIT Endowment]] — The institution where Seth Alexander serves as the Chief Investment Officer.
+- [[entities/mit-retirement-plan|MIT Retirement Plan]] — A specific retirement plan used as an example where predictable career progression and salary bumps can be built into an
+- [[entities/mit|MIT]] — The graduate school where the speaker and Bob Shiller met on their first day in 1967.
+- [[entities/moderna|Moderna]] — A pharmaceutical company whose vaccine revenues are combined with Pfizer's to provide a real-world estimate for the mode
+- [[entities/modigliani-and-miller-1963|Modigliani and Miller (1963)]] — Authors who made an early attempt to isolate the effect of tax benefits from borrowing. They valued the present value of
+- [[entities/mokyr-2017|Mokyr (2017)]] — A 2017 work that identifies three institutional prerequisites that determine whether creative destruction can operate at
+- [[entities/money-market-fund|Money Market Fund]] — An investment vehicle used by ordinary consumers like a checking account, which experienced massive withdrawals after fe
+- [[entities/moneylenders|Moneylenders]] — A type of informal lender described as being ubiquitous and simple to access, but failing the 'human' test due to their 
+- [[entities/moodys|Moody's]] — One of the most popular services that analyzes companies and issues credit ratings on their debt. A credit rating agency
+- [[entities/morgan-stanley|Morgan Stanley]] — An investment firm where Marty Leibowitz conducted research, including the paper on 'alpha hunters and beta grazers'.
+- [[entities/mortgage-backed-securities|Mortgage-Backed Securities]] — A type of complex, less liquid fixed income security that experienced tremendous market growth between 1985 and 2007, be
+- [[entities/mortgage-backed-security|Mortgage-Backed Security]] — An example of a complex derivative security for which numerical methods like the binomial model are more practical for p
+- [[entities/morton-thiokol|Morton Thiokol]] — The contractor whose stock was the only one to drop significantly on the day of the Challenger explosion, indicating the
+- [[entities/motorola|Motorola]] — A company used as an example of a stock with high volatility but also a higher average return than the broader market.
+- [[entities/muhammad-yunus|Muhammad Yunus]] — A 2006 Nobel Peace Prize recipient recognized for pioneering the Microfinance Revolution with Grameen Bank. A renowned m
+- [[entities/mutual-fund|Mutual Fund]] — An investment vehicle that, in aggregate and net of fees, has been shown to deliver negative excess returns on average, 
+- [[entities/myers-1974|Myers (1974)]] — The individual who first presented the Adjusted Present Value (APV) approach in its current form. His work examined the 
+- [[entities/myers-and-majluf-1984|Myers and Majluf (1984)]] — A model where information asymmetry can lead firms to forgo positive net present-value projects if they must be financed
+- [[entities/myron-scholes|Myron Scholes]] — An academic and professor famous for co-developing the Black-Scholes option pricing model and technology.
+- [[entities/nasdaq|NASDAQ]] — A market index composed of smaller, technology-oriented stocks that exhibits a very strong common relationship and a tig
+- [[entities/national-association-of-investment-companies|National Association of Investment Companies]] — The former name of the Investment Company Institute, which provided John C. Bogle with data for his thesis after a seven
+- [[entities/national-bureau-of-economic-research-nber|National Bureau of Economic Research (NBER)]] — A research organization whose affiliated researchers conducted an experiment in India to study the effects of a voice-ca
+- [[entities/national-institute-of-public-finance-and-policy-nipfp|National Institute of Public Finance and Policy (NIPFP)]] — An institute that, along with Gram Vaani, conducted a survey showing a significant percentage of people did not seek red
+- [[entities/national-payments-corporation-of-india-npci|National Payments Corporation of India (NPCI)]] — The organization that launched UPI 123PAY to provide digital financial solutions to feature phone users in India.
+- [[entities/new-york-stock-exchange|New York Stock Exchange]] — A stock exchange where, 50 to 60 years ago, less than 10% of trading was conducted by institutions, a stark contrast to 
+- [[entities/newsweek|Newsweek]] — A magazine in which Paul Samuelson wrote a regular column that gave a significant boost to Vanguard's first index fund.
+- [[entities/nicholas-bernoulli|Nicholas Bernoulli]] — An economist who proposed a hypothetical gamble, known as the St. Petersburg Paradox, in one of the most widely cited th
+- [[entities/nifty-fifty|Nifty Fifty]] — A group of large-cap growth stocks from the 1970s that became overvalued, which Jeremy Siegel used as a basis for his an
+- [[entities/niti-aayog|National Institution for Transforming India (NITI Aayog)]] — An institution that developed a modular, scalable, and interoperable IT platform to facilitate the smooth, paperless, an
+- [[entities/nomura|Nomura]] — A well-capitalized bank identified as a front-runner in negotiations to purchase certain valuable assets and operations 
+- [[entities/npci|NPCI (National Payments Corporation of India)]] — An organization whose creation is cited as an example of a successful government expenditure on infrastructure with enor
+- [[entities/nymex|NYMEX]] — The New York Mercantile Exchange, cited as an example of a futures exchange where contracts for commodities like oil are
+- [[entities/nyse|NYSE (New York Stock Exchange)]] — A primary securities exchange whose pricing is heavily relied upon by other, subsidiary markets for trading its listed s
+- [[entities/october-1987-crash|October, 1987 crash]] — A market event where the market dropped by about 20% in a day, which began when arbitrageurs exploited a discrepancy by 
+- [[entities/october-1987-market-crash|October 1987 market crash]] — A specific market decline cited as an event that was followed by a notable increase in stock repurchase activity.
+- [[entities/one-year-t-bill|One-year T-bill]] — A short-term US government debt security used as a benchmark for a low-risk investment with a historically low but sligh
+- [[entities/ozler-1988|Ozler (1988)]] — An empirical study that found countries with histories of default faced higher spreads, a finding that contrasts with ot
+- [[entities/pacific-stock-exchange|Pacific Stock Exchange]] — A subsidiary market that relies heavily on the pricing procedures used by the NYSE for NYSE-listed stocks.
+- [[entities/paper-cfr|Paper Cfr (Chowdhry & Schwartz, 2016)]] — The paper "How Should Firms Hedge Market Risk?" which argues that firms should use a conservative hedge to minimize fina
+- [[entities/paris-agreement|Paris Agreement]] — A climate accord whose 1.5°C target serves as a contemporary example of a precise, publicly announced mission for a comp
+- [[entities/paris-bourse|Paris Bourse]] — The stock exchange in Paris where the warrants studied by Louis Bachelier in his dissertation were traded.
+- [[entities/passive-index-fund|Passive Index Fund]] — An investment vehicle, advocated by firms like Vanguard, that allows an investor to gain diversified access to many secu
+- [[entities/paul-maclean|Paul MacLean]] — A neuroscientist credited with developing the Triune Model of the Brain, which decomposes the brain into three distinct 
+- [[entities/paul-samuelson|Paul Samuelson]] — A Nobel Prize-winning economist who was Jeremy Siegel's professor and was regarded by Siegel as the greatest theoretical
+- [[entities/pay-for-social-success-security|Pay-for-Social-Success Security]] — The for-profit owner's residual claim which, as a counterpart to a social impact guarantee, yields a higher payoff when 
+- [[entities/paytm-sound-box|Paytm Sound Box]] — A voice-enabled QR code display that announces the amount credited to a merchant's account in multiple Indian languages,
+- [[entities/pension-fund|Pension Fund]] — A type of conservative institutional investor that seeks safe, boring bond portfolios and provided a market for the low-
+- [[entities/peter-bernstein|Peter Bernstein]] — An author and financial historian who characterized Markowitz's work as creating a formal 'process' for institutional in
+- [[entities/pfizer|Pfizer]] — A pharmaceutical company whose COVID-19 vaccine revenues, along with Moderna's, are used to calibrate the model's rich-c
+- [[entities/phil-cooper|Phil Cooper]] — A former partner of Goldman Sachs with his own private equity company who teaches practitioner courses.
+- [[entities/philip-morris|Philip Morris]] — A company proposed as a potentially negatively correlated stock based on the theory that people smoke more when they are
+- [[entities/pisano-1994|Pisano (1994)]] — A study of learning dynamics in pharmaceutical manufacturing providing direct evidence that firms with stronger learning
+- [[entities/pmjdy-account|PMJDY account]] — A simple, basic bank account that government-run initiatives compel banks to offer to BOP customers, often reluctantly a
+- [[entities/pmjdy|PMJDY]] — A government scheme in India (Pradhan Mantri Jan Dhan Yojana) that, by being linked to Aadhaar and its associated benefi
+- [[entities/pons-and-fleischmann-experiment|Pons and Fleischmann experiment]] — A controversial experiment that appeared to generate a nuclear reaction at room temperature, cited as an example of new 
+- [[entities/portfolio-selection-book|Portfolio Selection (Book)]] — A 1959 book by Harry Markowitz that expanded on his 1952 paper and from which William Sharpe learned matrix algebra.
+- [[entities/pradhan-mantri-jan-dhan-yojana-pmjdy|Pradhan Mantri Jan-Dhan Yojana (PMJDY)]] — A national financial inclusion mission in India that is presented as having failed to enroll eligible people in benefits
+- [[entities/pradhan-mantri-jan-dhan-yojana|Pradhan Mantri Jan Dhan Yojana (PMJDY)]] — A Government of India scheme to increase financial inclusion by opening bank accounts, which resulted in 490 million acc
+- [[entities/private-equity-funds|Private Equity (PE) Funds]] — A type of fund where clawback provisions are often observed because they have a definite ending date, which facilitates 
+- [[entities/private-equity|Private Equity]] — An alternative asset class with equity-like risk that is noted to have a high stress beta.
+- [[entities/professor-wang|Professor Wang]] — An instructor who teaches other sections of the finance course and has coordinated with the speaker to have the same app
+- [[entities/pure-discount-bond|Pure Discount Bond]] — A financial instrument whose price is determined by its face value discounted to the present using an appropriate intere
+- [[entities/r-l-morgan|R.L. Morgan]] — A great mentor to John C. Bogle who hired him at the Wellington Fund and considered it the best decision he had ever mad
+- [[entities/rand-corporation|Rand Corporation]] — The institution where Harry Markowitz worked and where William Sharpe was able to run the computer analysis for his diss
+- [[entities/rbi-integrated-ombudsman-scheme|RBI Integrated Ombudsman Scheme]] — A scheme launched by the Reserve Bank of India in late 2021 for consumers to address grievances with banks, NBFCs, and d
+- [[entities/real-estate|Real Estate]] — An asset class that was once believed to have a low correlation to equities, causing unconstrained portfolio optimizatio
+- [[entities/regulation-t|Regulation T]] — A regulation that imposes constraints on investors, making certain theoretical trading strategies like extreme shorting 
+- [[entities/renaissance-technologies|Renaissance Technologies]] — A hedge fund started by James Simons that has a track record described as having beaten every other hedge fund manager b
+- [[entities/rene-stulz|René Stulz]] — An academic credited with the insight that a firm's stock return sensitivity to market returns may be due to common disc
+- [[entities/reserve-bank-of-india|Reserve Bank of India (RBI)]] — India's central bank, where the term "financial inclusion" was officially introduced by its former governor Y.V. Reddy. 
+- [[entities/reserve-fund|Reserve Fund]] — A retail money market fund whose 'breaking the buck' was the event that prompted the government to take substantial acti
+- [[entities/respin|RESPIN (REcognizing SPeech in INdian languages)]] — A project by the Indian Institute of Science (IISc) to collect data and build open-source models for developing speech r
+- [[entities/review-of-finance|Review of Finance]] — The official journal of the European Finance Association where the research paper on the Microangels model appeared.
+- [[entities/richard-feynman|Richard Feynman]] — A physicist who was a member of the presidential commission that investigated the Challenger space shuttle explosion and
+- [[entities/risk-return-analysis-book|Risk-Return Analysis]] — A four-volume book being written by Harry Markowitz with the subtitle 'The Theory and Practice of Rational Investing,' w
+- [[entities/rob-arnott|Rob Arnott]] — The editor of the Financial Analysts Journal who asked Marty Leibowitz to write a non-mathematical article for the journ
+- [[entities/robert-c-merton|Robert C. Merton]] — Winner of the 1997 Nobel Prize in economics for derivative pricing theory, who applied continuous-time stochastic optimi
+- [[entities/robert-fano|Robert Fano]] — The originator of Fano's inequality, a theorem from information theory used in the paper to establish a lower bound on a
+- [[entities/robert-j-shiller|Robert J. Shiller]] — A Nobel Laureate in Economics who has pointed out that the level of formal insurance for many life risks, such as unempl
+- [[entities/robert-merton|Robert Merton]] — A Nobel Prize winner who was a classmate and close friend of Jeremy Siegel.
+- [[entities/robichek-and-myers-1966|Robichek and Myers (1966)]] — Authors cited in the text for providing examples of computations related to certainty equivalents. Their work is referen
+- [[entities/robo-advisor|Robo-advisor]] — An automated financial advisor that functions as a decision support system, helping an investor choose a portfolio based
+- [[entities/rockefeller-family-office|Rockefeller family office]] — The investment management organization where Charles D. Ellis began his career after graduating from business school.
+- [[entities/rupay|RuPay]] — An Indian debit card network whose cards were issued with PMJDY accounts, with usage being a prerequisite for a free lif
+- [[entities/russell-2000|Russell 2000]] — A market-cap weighted index of 2,000 stocks that serves as a close proxy for the all-encompassing market portfolio.
+- [[entities/s&p-500|S&P 500]] — A broad aggregate stock market index used as a benchmark to compare against individual stock returns and to illustrate m
+- [[entities/s-and-p-500-futures-contract|S&P 500 Futures Contract]] — A financial future whose notional value is a multiplier (e.g., 250) times the S&P 500 index level, used to gain equivale
+- [[entities/s-and-p-500|S&P 500]] — A stock market index that can be the underlying asset for a financial future, allowing investors to gain broadly diversi
+- [[entities/s-and-p|S&P]] — One of the most popular services that analyzes companies and issues credit ratings on their debt.
+- [[entities/s-p-500|S&P 500]] — A well-diversified stock index that is used as a practical proxy for the theoretical market portfolio.
+- [[entities/salomon-brothers|Salomon Brothers]] — A Wall Street firm that hired MIT graduates in the 1970s to apply quantitative methods like solving simultaneous linear 
+- [[entities/sarada-scheme|Sarada Scheme]] — A malicious Ponzi scheme in India that was projected to help the poor become investors but instead stole their entire pr
+- [[entities/satoshi-nakamoto|Satoshi Nakamoto]] — The pseudonymous author of the 2008 Bitcoin whitepaper who designed the Bitcoin system.
+- [[entities/saudi-aramco|Saudi Aramco]] — Described as the biggest oil company in the world, whose senior vice-president for oil exploration was cited as an examp
+- [[entities/sec|SEC]] — A regulatory body mentioned for its rules that mandate the disclosure of past fund performance to investors, which is de
+- [[entities/securities-acts-amendments-of-1975|Securities Acts Amendments of 1975]] — A regulation that mandates the SEC to move toward the implementation of a truly nationwide competitive securities market
+- [[entities/seth-alexander|Seth Alexander]] — The current Chief Investment Officer of the MIT Endowment who teaches practitioner pro seminars.
+- [[entities/shanghai-stock-exchange|Shanghai Stock Exchange]] — An institution cited as an example of an inefficient market in its early history, where prices were not volatile but als
+- [[entities/shapiro-and-stiglitz-1984|Shapiro and Stiglitz (1984)]] — A cited work that discusses using "efficiency wages" to induce agents to avoid shirking.
+- [[entities/sharpe-ratio|Sharpe Ratio]] — A performance metric whose denominator (total volatility) is compressed by strictly less than the misreporting intensity
+- [[entities/shiva-kumar|Shiva Kumar]] — The chief general manager at the Hyderabad Local Head Office of the State Bank of India who designed and implemented the
+- [[entities/simon-ramo|Simon Ramo]] — An industrialist from TRW and athlete who analyzed tennis as two distinct games, providing the inspiration for Charles D
+- [[entities/sir-fazle-hasan-abed|Sir Fazle Hasan Abed]] — A visionary and forerunner in the microfinance revolution, associated with BRAC.
+- [[entities/sks-microfinance|SKS Microfinance]] — An Indian microfinance company mentioned as an example of an MFI whose IPO led to a debate about charging high interest 
+- [[entities/sms-unhappy|SMS Unhappy]] — A consumer complaint program implemented in 2010 for the State Bank of India in Andhra Pradesh, allowing customers to te
+- [[entities/social-impact-bond|Social Impact Bond]] — A pay-for-social-success contract commonly used when profit-motivated investors partner with governments to fund public 
+- [[entities/social-impact-guarantee|Social Impact Guarantee]] — A financial security held by an impact investor that provides a greater financial return when the project fails to produ
+- [[entities/social-security|Social Security]] — A program that provides for individuals in retirement, but is considered insufficient on its own and is viewed as unlike
+- [[entities/sortino-ratio|Sortino Ratio]] — A performance metric that is inflated strictly more than the Sharpe ratio by return smoothing because its denominator (d
+- [[entities/sp-500-index|S&P 500 Index]] — A stock market index that serves as an underlying asset for options, which can be used to buy insurance against a broad 
+- [[entities/sp-500|S&P 500]] — A stock market index used as the underlying asset for futures contracts in examples of betting and hedging.
+- [[entities/standard-and-poors|Standard & Poor's]] — A credit rating agency, also known as S&P, mentioned as an institution that investors rely on but whose objectivity may 
+- [[entities/stapleton-1971|Stapleton (1971)]] — An author cited for the proposition that risk-adjusted discount rates and certainty equivalents yield identical net pres
+- [[entities/state-bank-of-india|State Bank of India (SBI)]] — An Indian bank where the 'SMS Unhappy' consumer complaint programme was implemented, leading to it being ranked number o
+- [[entities/steve-ross|Steve Ross]] — An academic who co-developed the Cox-Ingersoll-Ross model for the term structure of interest rates.
+- [[entities/strips|Strips]] — Securities created from US Treasury bonds that function as real-world examples of pure discount bonds, each representing
+- [[entities/sydney-homer|Sydney Homer]] — An 'old-school' author writing a book on the mathematics of bonds who collaborated with Marty Leibowitz on a memorandum 
+- [[entities/syspin|SYSPIN (Synthesizing SPeech in INdian languages)]] — A project by the Indian Institute of Science (IISc) to collect data and build open-source models for developing text-to-
+- [[entities/t-bills|T-bills]] — A financial instrument representing a risk-free asset that can be held in a portfolio or shorted to borrow money for lev
+- [[entities/tangency-portfolio|Tangency Portfolio]] — The optimal portfolio of risky securities that has the best risk-reward trade-off and is held by all investors in combin
+- [[entities/target-date-fund|Target-Date Fund]] — A type of investment fund that reallocates its equity-bond split based on a time horizon to retirement, which is critici
+- [[entities/tata-nano|Tata Nano]] — A car project with a precise public cost target that spurred genuine manufacturing process innovation, illustrating that
+- [[entities/tech-sector-bubble-1999|Tech Sector Bubble (1999)]] — The period of market overvaluation in 1999-2000 that caused the speaker to switch from pure indexing to a value-based in
+- [[entities/the-bell-journal|The Bell Journal]] — The academic journal that published Bob Merton's paper on option pricing in the same year as the Black and Scholes paper
+- [[entities/the-fed|The Fed]] — The U.S. Federal Reserve, which declined to provide a bailout or a financial backstop for Lehman Brothers, contributing 
+- [[entities/the-federal-reserve|The Federal Reserve]] — A government organization, also known as the Fed or the Federal Reserve System, that manages monetary policy, controls t
+- [[entities/the-jpe|The JPE]] — The Journal of Political Economy, which ultimately accepted and published the option pricing paper by Black and Scholes.
+- [[entities/the-market|The Market]] — The source from which temporal exchange rates (discount rates) are obtained, making financial markets a critical input f
+- [[entities/the-pricing-of-options-and-corporate-liabilities|The Pricing of Options and Corporate Liabilities]] — The title of the seminal paper by Fischer Black and Myron Scholes on option pricing, which was finally accepted by The J
+- [[entities/the-reserve-fund|The Reserve Fund]] — A specific money market fund that "broke the buck" by returning only $0.97 for every dollar invested, sparking widesprea
+- [[entities/the-treasury|The Treasury]] — The government entity from which the Federal Reserve gets its money to engage in activities like open market operations.
+- [[entities/tips|TIPS (Treasury Inflation-Protected Securities)]] — Government bonds that protect against inflation, which the speaker prefers over nominal bonds, especially when held in a
+- [[entities/tough-bank|Tough Bank]] — A type of bank whose payoffs differ from others, causing it to lose more if it does not carry out a policy of denying cr
+- [[entities/treasury-bills|Treasury Bills]] — Short-term US government securities considered to have no default risk, which experienced a massive increase in demand a
+- [[entities/treasury-securities|Treasury Securities]] — Fixed income securities issued by the United States Treasury and other foreign treasuries.
+- [[entities/treasury|Treasury]] — The US government department that made the decision to take over Fannie Mae and Freddie Mac to stave off market dislocat
+- [[entities/treasurydirect-gov|TreasuryDirect.gov]] — A website that allows individual investors to directly participate in Treasury auctions and purchase Treasury securities
+- [[entities/ucla|UCLA]] — The university where William Sharpe was a student and where his advisors Fred Weston and Arman Alchian were on the facul
+- [[entities/ujjivan-mobile-banking-application|Ujjivan Mobile Banking application]] — A mobile banking app that uses a voice-guided interface in eight regional languages, powered by AI and machine learning,
+- [[entities/ujjivan-small-finance-bank|Ujjivan Small Finance Bank]] — A bank that works to improve the interface between customers and banks for groups with limited digital literacy, with th
+- [[entities/unified-payments-interface-upi|Unified Payments Interface (UPI)]] — A real-time payment system in India that allows users to link bank accounts to a mobile app for instant fund transfers u
+- [[entities/university-of-chicago|University of Chicago]] — The institution where Harry Markowitz worked on his dissertation and developed the initial ideas for modern portfolio th
+- [[entities/upi-123pay|UPI 123PAY]] — A payment system that enables feature phone users to access and utilize UPI services securely without a smartphone or in
+- [[entities/upi|UPI (Unified Payments Interface)]] — A payment system in India that has experienced a significant surge in QR code-based transactions, but for which the disp
+- [[entities/us-government|US Government]] — The federal authority that took over Fannie Mae and Freddie Mac, backing their issued paper with its full faith and cred
+- [[entities/us-treasuries|US Treasuries]] — Debt instruments issued by the US government that are considered a safe asset to own, particularly during a flight to li
+- [[entities/us-treasury-bills|US Treasury Bills]] — A type of security issued by the US government that serves as an example of a pure discount bond.
+- [[entities/us-treasury-securities|US Treasury Securities]] — Government securities used as a primary example to construct and analyze historical yield curves.
+- [[entities/us-treasury|US Treasury]] — The government body tasked with implementing the proposed $700 billion purchase of troubled assets, whose ability to pri
+- [[entities/value-weighted-index|Value Weighted Index (VW)]] — A stock market index of all stocks on the NYSE, Amex, and NASDAQ, where each component is weighted according to its outs
+- [[entities/vanguard-500-index|Vanguard 500 Index]] — The subsequent name for the fund originally called the First Index Investment Trust.
+- [[entities/vanguard|Vanguard]] — An investment company whose low-fee index funds and ETFs are used by Sharpe to construct his personal four-component glo
+- [[entities/vasundhara-sharma|Vasundhara Sharma]] — An author of the paper "ZKP Password Authentication" and affiliated with the Indian School of Business.
+- [[entities/vix|VIX]] — An index created by the Chicago Board Options Exchange, also known as the Volatility Implied Index, which measures the i
+- [[entities/wachovia|Wachovia]] — A financial institution with a significant retail network that was acquired by Citigroup to prevent its failure and avoi
+- [[entities/wal-mart|Wal-Mart]] — A retail company discussed as a potential negatively correlated investment, though it is noted that historically, retail
+- [[entities/warren-buffett|Warren Buffett]] — An investor based in Omaha who built an incredible investment empire by reading company prospectuses, income statements,
+- [[entities/wellington-fund|Wellington Fund]] — A balanced fund where John C. Bogle worked that was once the best-selling fund in the marketplace but suffered a disastr
+- [[entities/wells-fargo-bank|Wells Fargo Bank]] — The institution where the speaker recommended a shift from active to passive management, leading to research on the topi
+- [[entities/wells-fargo|Wells Fargo]] — The institution where John McQuown headed an operations research group and, with Bill Fouse, created the first major ind
+- [[entities/wharton-school|Wharton School]] — The business school at the University of Pennsylvania where Jeremy Siegel is a faculty member.
+- [[entities/william-sharpe|William Sharpe]] — The originator of the Capital Asset Pricing Model and a founder of passive investing who later co-founded the firm Finan
+- [[entities/winning-the-losers-game|Winning the Loser's Game]] — An impactful, revolutionary, and controversial article written by Charles D. Ellis in 1975, which was also the title of 
+- [[entities/wisdomtree-investments|WisdomTree Investments]] — An asset management firm focusing on ETFs, associated with Jonathan Steinberg, that was one of the first to offer non-in
+- [[entities/y-v-reddy|Y.V. Reddy]] — A former governor of the Reserve Bank of India who is credited with coining the term "financial inclusion" while working
+- [[entities/yale-school-of-management|Yale School of Management]] — The institution where the author teaches a course on successful investing.
+- [[entities/yale-university|Yale University]] — A 300+ year old university with an international scope and a long-term time horizon, which are critical factors shaping 
+
+## Query-Synthesized Pages (2)
+
+- [[synthesized/real-options-volatility-unlevering|Real Options Volatility Unlevering]] — When applying real options valuation, the volatility input must be **asset volatility** (σ_A), not the observed **equity
+- [[synthesized/regime-dependent-dcf-limitations|Regime-Dependent DCF Limitations Under Systemic Risk]] — Standard discounted cash flow (DCF) analysis is a firm-level tool: it embeds assumptions about survival probabilities, e
+
+## RAG Stubs (48)
+
+- [[stub-valuation-damodaran|Valuation Approaches and Metrics: A Survey of the Theory and Evidence]]
+- [[stubs/stub-book-blockchain-by-chowdhry-and-kim-palgrave-handbook-of-technological-finance-1|Book Blockchain By Chowdhry And Kim Palgrave Handbook Of Technological Finance (1)]] — This chapter by Bhagwan Chowdhry and Seoyoung Kim, published in the Palgrave Handbook of Technological Finance, provides
+- [[stubs/stub-book-blockchain-by-chowdhry-and-kim-palgrave-handbook-of-technological-finance-2|Book Blockchain By Chowdhry And Kim Palgrave Handbook Of Technological Finance (2)]] — This source is primarily the book *Fintech for Billions* by Bhagwan Chowdhry and Anas Ahmed, published by Penguin Random
+- [[stubs/stub-in-pursuit-of-the-perfect-porfolio-william-f-sharpe-xsxolz9u7ji|In Pursuit Of The Perfect Porfolio William F Sharpe Xsxolz9U7Ji]] — This is a long-form interview conducted by Andrew Lo (MIT) with Nobel laureate William F. Sharpe, as part of the researc
+- [[stubs/stub-in-pursuit-of-the-perfect-portfolio-charles-d-ellis-fve3djvygju|In Pursuit Of The Perfect Portfolio Charles D Ellis Fve3Djvygju]] — This is a long-form video interview with Charles D. ("Charlie") Ellis, best-selling author of *Winning the Loser's Game*
+- [[stubs/stub-in-pursuit-of-the-perfect-portfolio-eugene-f-fama-dj-ro4mh-wa|In Pursuit of the Perfect Portfolio: Eugene F. Fama]] — This is a video interview with Eugene F. Fama produced by the MIT Laboratory for Financial Engineering as part of the "I
+- [[stubs/stub-in-pursuit-of-the-perfect-portfolio-harry-m-markowitz-wdeoipcftdu|In Pursuit of the Perfect Portfolio: Harry M. Markowitz]] — This is a video interview with Harry M. Markowitz, the 1990 Nobel Prize in Economics winner and father of modern portfol
+- [[stubs/stub-in-pursuit-of-the-perfect-portfolio-jeremy-siegel-2fwe5bvzu-c|In Pursuit Of The Perfect Portfolio Jeremy Siegel 2Fwe5Bvzu C]] — This is a video interview with Jeremy Siegel of the Wharton School, conducted by Andrew Lo and Steve Foerster as part of
+- [[stubs/stub-in-pursuit-of-the-perfect-portfolio-john-c-bogle-3ujbhremus4|In Pursuit Of The Perfect Portfolio John C Bogle 3Ujbhremus4]] — This is a video interview conducted by Andrew Lo (MIT) with John C. "Jack" Bogle, founder of Vanguard and pioneer of ind
+- [[stubs/stub-in-pursuit-of-the-perfect-portfolio-martin-l-leibowitz-jpcc8ho5zns|In Pursuit Of The Perfect Portfolio Martin L Leibowitz Jpcc8Ho5Zns]] — This is a long-form video interview with Dr. Martin L. Leibowitz, author of the classic *Inside the Yield Book* and the 
+- [[stubs/stub-in-pursuit-of-the-perfect-portfolio-myron-s-scholes-d5mdcrwxmgy|In Pursuit Of The Perfect Portfolio: Myron S. Scholes]] — This is a video interview with Nobel laureate Myron Scholes, conducted by Steve Foerster as part of the "In Pursuit of t
+- [[stubs/stub-in-pursuit-of-the-perfect-portfolio-robert-c-merton-ipkmu59ub4c|In Pursuit Of The Perfect Portfolio Robert C Merton Ipkmu59Ub4C]] — This is a video interview of Nobel laureate Robert C. Merton conducted by Andrew Lo at MIT, part of the "Perfect Portfol
+- [[stubs/stub-in-pursuit-of-the-perfect-portfolio-robert-j-shiller-smtdom61zku|In Pursuit Of The Perfect Portfolio Robert J Shiller Smtdom61Zku]] — This is a video interview conducted by Andrew Lo (MIT) with Nobel laureate Robert J. Shiller (Yale University) as part o
+- [[stubs/stub-mit15-401f08-ses01-300ksrt|Mit15 401F08 Ses01 300K.Srt]] — This is the transcript of the first lecture (Session 1) of MIT 15.401 Finance Theory, taught by Professor Andrew W. Lo a
+- [[stubs/stub-mit15-401f08-ses02-300ksrt|Mit15 401F08 Ses02 300K.Srt]] — This is the transcript of Session 2 of MIT 15.401 (Finance Theory I), taught by Professor Andrew Lo in Fall 2008. The le
+- [[stubs/stub-mit15-401f08-ses03-300ksrt|Mit15 401F08 Ses03 300K.Srt]] — This is a transcript of Session 3 of MIT 15.401 (Finance Theory I), Fall 2008, taught by Professor Andrew Lo. The lectur
+- [[stubs/stub-mit15-401f08-ses04-300ksrt|Mit15 401F08 Ses04 300K.Srt]] — This is a transcript from Session 4 of MIT's 15.401 Finance Theory course (Fall 2008), taught by Professor Andrew Lo. Th
+- [[stubs/stub-mit15-401f08-ses05-300ksrt|Mit15 401F08 Ses05 300K.Srt]] — This is the transcript of Session 5 of MIT 15.401 (Finance Theory), Fall 2008, taught by Professor Andrew Lo. The lectur
+- [[stubs/stub-mit15-401f08-ses06-300ksrt|Mit15 401F08 Ses06 300K.Srt]] — This is the transcript of Session 6 of MIT 15.401 (Finance Theory), Fall 2008, taught by Andrew Lo. The lecture covers a
+- [[stubs/stub-mit15-401f08-ses07-300ksrt|Mit15 401F08 Ses07 300K.Srt]] — This is a transcript of Session 7 from MIT 15.401 (Finance Theory), Fall 2008, taught by Professor Andrew Lo. The lectur
+- [[stubs/stub-mit15-401f08-ses08-300ksrt|Mit15 401F08 Ses08 300K.Srt]] — This is a transcript of Session 8 from MIT's 15.401 Finance Theory course (Fall 2008), taught by Professor Andrew Lo. Th
+- [[stubs/stub-mit15-401f08-ses09-300ksrt|Mit15 401F08 Ses09 300K.Srt]] — This is the transcript of Session 9 from MIT 15.401 (Finance Theory I), Fall 2008, taught by Professor Andrew Lo. The le
+- [[stubs/stub-mit15-401f08-ses10-300ksrt|Mit15 401F08 Ses10 300K.Srt]] — This is a transcript of Session 10 from MIT's 15.401 Finance Theory course (Fall 2008), taught by Andrew Lo. The lecture
+- [[stubs/stub-mit15-401f08-ses11-300ksrt|Mit15 401F08 Ses11 300K.Srt]] — This is a transcript from MIT 15.401 (Finance Theory I), Session 11, taught by Andrew Lo in Fall 2008. The lecture intro
+- [[stubs/stub-mit15-401f08-ses12-300ksrt|Mit15 401F08 Ses12 300K.Srt]] — This is a lecture transcript from MIT's 15.401 Finance course (Fall 2008, Session 12) focused on option pricing theory. 
+- [[stubs/stub-mit15-401f08-ses13-300ksrt|Mit15 401F08 Ses13 300K.Srt]] — This is a lecture transcript from MIT's 15.401 Finance Theory course (Fall 2008, Session 13) covering the empirical prop
+- [[stubs/stub-mit15-401f08-ses14-300ksrt|Mit15 401F08 Ses14 300K.Srt]] — This is a lecture transcript from MIT 15.401 (Finance Theory I), Session 14, taught by Andrew Lo. The lecture continues 
+- [[stubs/stub-mit15-401f08-ses15-300ksrt|Mit15 401F08 Ses15 300K.Srt]] — This is a transcript from MIT 15.401 (Finance Theory I), Session 15, taught by Andrew Lo. The lecture focuses on portfol
+- [[stubs/stub-mit15-401f08-ses16-300ksrt|Mit15 401F08 Ses16 300K.Srt]] — This is a transcript of Session 16 from MIT 15.401 (Finance Theory I), Fall 2008, taught by Professor Andrew Lo. The lec
+- [[stubs/stub-mit15-401f08-ses17-300ksrt|Mit15 401F08 Ses17 300K.Srt]] — This is a lecture transcript from MIT 15.401 (Finance Theory I), Session 17, taught by Andrew Lo. The lecture continues 
+- [[stubs/stub-mit15-401f08-ses18-300ksrt|Mit15 401F08 Ses18 300K.Srt]] — This is a lecture transcript from MIT 15.401 (Finance Theory I), Session 18, taught by Professor Andrew Lo. The lecture 
+- [[stubs/stub-mit15-401f08-ses19-300ksrt|Mit15 401F08 Ses19 300K.Srt]] — This is a lecture transcript from MIT 15.401 (Finance Theory I), Fall 2008, Session 19, taught by Andrew Lo. The lecture
+- [[stubs/stub-mit15-401f08-ses20-300ksrt|Mit15 401F08 Ses20 300K.Srt]] — This is a transcript of MIT 15.401 (Finance Theory I) Session 20, taught by Andrew Lo in Fall 2008. The lecture continue
+- [[stubs/stub-paper-bhag-submission|Paper Bhag Submission]] — This paper by Bhagwan Chowdhry presents a formal theory of how a principal can overcome the public-goods failure in know
+- [[stubs/stub-paper-cfr|Paper Cfr]] — This paper by Bhagwan Chowdhry and Eduardo Schwartz, published in the *Critical Finance Review* (2016), examines how fir
+- [[stubs/stub-paper-cs26-submission|Paper Cs26 Submission]] — This working paper by Bhagwan Chowdhry (ISB/UCLA) and Konark Saxena (ESCP Business School), dated March 2026, develops a
+- [[stubs/stub-paper-economic-inquiry-2011-chowdhry-possibility-of-dying-as-a-unified-explanati|Paper Economic Inquiry 2011 Chowdhry Possibility Of Dying As A Unified Explanation Of Why We Discount The Future Get]] — Bhagwan Chowdhry presents a parsimonious evolutionary model demonstrating that the possibility of dying from external fa
+- [[stubs/stub-paper-entrepreneurship-model|Paper Entrepreneurship Model]] — This paper by Bhagwan Chowdhry and Nirvana Mitra (March 2026, preliminary draft) develops a formal model of entrepreneur
+- [[stubs/stub-paper-finfrapub|Paper Finfrapub]] — This paper by Bhagwan Chowdhry, published in *Finance Research Letters*, proposes an equity-like auction protocol for fi
+- [[stubs/stub-paper-intlending|Paper Intlending]] — This paper by Bhagwan Chowdhry (UCLA) addresses the fundamental question of how enforceability is achieved in internatio
+- [[stubs/stub-paper-investing-for-impact|Paper Investing For Impact]] — This paper by Bhagwan Chowdhry (UCLA), Shaun William Davies (CU Boulder), and Brian Waters (CU Boulder) studies joint fi
+- [[stubs/stub-paper-mmtrading|Paper Mmtrading]] — This paper by Bhagwan Chowdhry and Vikram Nanda analyzes what happens when a security trades at multiple locations simul
+- [[stubs/stub-paper-repurchase|Paper Repurchase]] — This paper by Bhagwan Chowdhry and Vikram Nanda proposes a dynamic model of corporate payout policies explaining why fir
+- [[stubs/stub-paper-rigged-economies-mssubmission|Paper Rigged Economies Mssubmission]] — This paper by Franklin Allen, Archishman Chakraborty, Bhagwan Chowdhry, and Nishant Ravi (December 2025) studies optimal
+- [[stubs/stub-paper-rnd|Paper Rnd]] — This paper by Bhagwan Chowdhry and Deepa Mani (ISB, March 2026) derives a mechanism called the Capped Royalty Licensing 
+- [[stubs/stub-paper-thresholds|Paper Thresholds]] — This paper by Bhagwan Chowdhry (March 2026) derives threshold behavior—long periods of inaction followed by sudden, disp
+- [[stubs/stub-paper-which-firms-innovate-v3|Paper Which Firms Innovate V3]] — This paper by Bhagwan Chowdhry, Deepa Mani, and Madan Pillutla (November 2025) provides firm-level microfoundations for 
+- [[stubs/stub-paper-zkp-full-paper|Paper Zkp Full Paper]] — This paper by Bhagwan Chowdhry and Vasundhara Sharma (Indian School of Business, November 2022, revised March 2026) prop
+
+## Other (12)
+
+- [[answer-tea-and-coffee-are-what-economists-call-substitute|Substitute Goods, Mechanism Design, and Restaurant Marketing]]
+- [[can-genetic-diversity-measure-economic-distance-that-should-matter-for|Genetic Diversity as Economic Distance Proxy]]
+- [[fab-blockchain-identity-and-threshold-behavior-in-financial-inclusion|FAB, Blockchain Identity, and Threshold Behavior in Financial Inclusion]]
+- [[gravity-model-applied-to-financial-transactions-costs|Gravity Model Applied to Financial Transactions Costs]]
+- [[how-can-historic-institutions-affect-economic-outcomes-in-the-current|Historical Institutions and Financial Exclusion]]
+- [[how-do-gravity-models-determine-transactions-costs-in-the-currency|Gravity Model Residuals and Remittance Corridors]]
+- [[prof-bhagwan-chowdhry|Prof. Bhagwan Chowdhry]] — Two commitments, inherited from Chicago but tempered by moral urgency:
+- [[systematic-risk-versus-systemic-risk|Systematic Risk Versus Systemic Risk]]
+- [[the-answer-establishes-a-novel-triangulation-framework|Triangulation Framework for Transaction Costs]]
+- [[the-conversation-reveals-a-productive-three-way-synthesis|Language Barriers as Financial Distance]]
+- [[the-conversation-surfaces-a-novel-three-way-connection|Genetic Distance, Trust, and Home Bias]]
+- [[what-is-the-fab-initiative|FAB and Threshold Behavior Theory]]
+
+- [[synthesized/startup-failure-risk-dcf|Quantifying Startup Failure Risk in DCF: Probability-Weighted Survival vs. Discount Rate Inflation]] — synthesized from query
