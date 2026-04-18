@@ -16886,6 +16886,22 @@
         "valuation"
       ],
       "path": "wiki/synthesized/lbo-equity-as-call-option-premium.md"
+    },
+    "hedge-fund-return-distributions": {
+      "type": "synthesized",
+      "title": "Hedge Fund Return Distributions",
+      "aliases": [
+        "Hedge Fund Returns",
+        "Distributional Properties of Hedge Funds"
+      ],
+      "tags": [
+        "hedge-funds",
+        "return-distributions",
+        "risk-management",
+        "portfolio-theory",
+        "statistics"
+      ],
+      "path": "wiki/synthesized/hedge-fund-return-distributions.md"
     }
   },
   "edges": [
@@ -34167,6 +34183,31 @@
     {
       "from": "lbo-equity-as-call-option-premium",
       "to": "option-premium",
+      "type": "extends"
+    },
+    {
+      "from": "hedge-fund-return-distributions",
+      "to": "hedge-fund",
+      "type": "extends"
+    },
+    {
+      "from": "hedge-fund-return-distributions",
+      "to": "hedge-funds",
+      "type": "extends"
+    },
+    {
+      "from": "hedge-fund-return-distributions",
+      "to": "mean-variance-framework",
+      "type": "extends"
+    },
+    {
+      "from": "hedge-fund-return-distributions",
+      "to": "mean-variance-analysis",
+      "type": "extends"
+    },
+    {
+      "from": "hedge-fund-return-distributions",
+      "to": "capital-structure-arbitrage",
       "type": "extends"
     }
   ]
