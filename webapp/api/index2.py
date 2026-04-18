@@ -72,13 +72,13 @@ except ImportError:
 # Paths and constants
 # ---------------------------------------------------------------------------
 
-# Deployed assets live in webapp/data/ (written by export_for_web.py)
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
-MODELS_DIR = Path(__file__).resolve().parent.parent / "models"  # committed ONNX model cache
+DATA_DIR   = Path(__file__).resolve().parent.parent / "data"
+MODELS_DIR = Path(__file__).resolve().parent.parent / "models"
 _WIKI_FAISS_CACHE = DATA_DIR / "wiki_search.faiss"
 _WIKI_FAISS_SLUGS = DATA_DIR / "wiki_search_slugs.json"
 INDEX_MD_PATH = WIKI_DIR / "index.md"
-LOG_MD_PATH = WIKI_DIR / "log.md"
+LOG_MD_PATH   = WIKI_DIR / "log.md"
+
 
 # WIKI_LLM = Sonnet (cheap navigation), MAIN_LLM = Opus (heavy synthesis)
 # Override via env or --model1/--model2 flags
@@ -133,6 +133,8 @@ def _load_wiki_pages() -> list:
             })
         except Exception as e:
             print(f"[WikiLoad] Skipped {md_file.name}: {e}")
+
+    print(f"[WikiLoad] Loaded {len(pages)} pages from {WIKI_DIR}")
 
     return pages
 
@@ -260,25 +262,31 @@ class WikiSearchIndex:
                 print(f"[WikiSearch] Cache load failed: {e} — re-encoding")
 
         if embs is None:
-            print(f"[WikiSearch] Encoding {len(wiki_pages)} pages with {model_name} (first run)…")
-            model = _get_wiki_embed_model()
-            embs = _encode(model, texts, batch_size=64)
-            idx = _faiss.IndexFlatIP(embs.shape[1])
-            idx.add(embs)
+            print(f"[WikiSearch] Encoding {len(wiki_pages)} pages with {model_name}…")
             try:
-                _faiss.write_index(idx, str(_WIKI_FAISS_CACHE))
-                _WIKI_FAISS_SLUGS.write_text(
-                    json.dumps({"model": model_name, "slugs": slugs}), encoding="utf-8"
-                )
-                print(f"[WikiSearch] Saved FAISS cache ({len(slugs)} pages)")
-            except OSError as e:
-                print(f"[WikiSearch] Cache save skipped (read-only fs): {e}")
+                model = _get_wiki_embed_model()
+                embs = _encode(model, texts, batch_size=64)
+                idx = _faiss.IndexFlatIP(embs.shape[1])
+                idx.add(embs)
+                try:
+                    _faiss.write_index(idx, str(_WIKI_FAISS_CACHE))
+                    _WIKI_FAISS_SLUGS.write_text(
+                        json.dumps({"model": model_name, "slugs": slugs}), encoding="utf-8"
+                    )
+                    print(f"[WikiSearch] Saved FAISS cache ({len(slugs)} pages)")
+                except Exception as e:
+                    print(f"[WikiSearch] Cache save skipped (read-only fs): {e}")
+            except Exception as e:
+                print(f"[WikiSearch] MiniLM encoding failed: {e} — BM25-only mode")
+                idx = None
+                embs = None
 
         self.bm25 = BM25Okapi([t.lower().split() for t in texts])
         self.faiss_index = idx
         self._embeddings = embs
         self.pages = list(wiki_pages)
-        print(f"[WikiSearch] Index ready: {len(wiki_pages)} pages")
+        mode = "hybrid BM25+FAISS" if idx is not None else "BM25-only"
+        print(f"[WikiSearch] Index ready: {len(wiki_pages)} pages ({mode})")
 
     def add_or_update(self, page: dict):
         """Incremental update after a wiki page is synthesized — encodes ONE page only."""
@@ -304,33 +312,41 @@ class WikiSearchIndex:
         texts = [_build_wiki_search_text(p) for p in self.pages]
         self.bm25 = BM25Okapi([t.lower().split() for t in texts])
         # Persist updated FAISS index so next startup loads from cache
-        try:
-            _faiss.write_index(self.faiss_index, str(_WIKI_FAISS_CACHE))
-            _WIKI_FAISS_SLUGS.write_text(
-                json.dumps({
-                    "model": _WIKI_EMBED_MODEL_NAME,
-                    "slugs": [p["slug"] for p in self.pages],
-                }), encoding="utf-8"
-            )
-        except OSError:
-            pass
+        if self.faiss_index is not None:
+            try:
+                _faiss.write_index(self.faiss_index, str(_WIKI_FAISS_CACHE))
+                _WIKI_FAISS_SLUGS.write_text(
+                    json.dumps({
+                        "model": _WIKI_EMBED_MODEL_NAME,
+                        "slugs": [p["slug"] for p in self.pages],
+                    }), encoding="utf-8"
+                )
+            except Exception:  # faiss raises RuntimeError, not OSError, on read-only fs
+                pass
         print(f"[WikiSearch] Incremental update: {len(self.pages)} pages (1 encoded)")
 
     def search(self, query: str, top_k: int = 5) -> list:
-        if not self.pages or self.bm25 is None or self.faiss_index is None:
+        if not self.pages or self.bm25 is None:
             return []
         n = len(self.pages)
         bm25_scores = np.array(self.bm25.get_scores(query.lower().split()), dtype=np.float32)
         bm25_max = bm25_scores.max() or 1.0
         bm25_norm = bm25_scores / bm25_max
-        model = _get_wiki_embed_model()
-        q_emb = _encode(model, [query])
-        sem_scores, sem_idx = self.faiss_index.search(q_emb, n)
-        sem_norm = np.zeros(n, dtype=np.float32)
-        for i, s in zip(sem_idx[0], sem_scores[0]):
-            if 0 <= i < n:
-                sem_norm[i] = float(s)
-        hybrid = 0.3 * bm25_norm + 0.7 * sem_norm
+
+        hybrid = bm25_norm  # default: BM25-only
+        if self.faiss_index is not None:
+            try:
+                model = _get_wiki_embed_model()
+                q_emb = _encode(model, [query])
+                sem_scores, sem_idx = self.faiss_index.search(q_emb, n)
+                sem_norm = np.zeros(n, dtype=np.float32)
+                for i, s in zip(sem_idx[0], sem_scores[0]):
+                    if 0 <= i < n:
+                        sem_norm[i] = float(s)
+                hybrid = 0.3 * bm25_norm + 0.7 * sem_norm
+            except Exception as e:
+                print(f"[WikiSearch] Semantic search failed: {e} — BM25-only")
+
         top_idx = np.argsort(hybrid)[::-1][:top_k]
         return [self.pages[i] for i in top_idx]
 
@@ -573,7 +589,7 @@ Before declaring sufficient=true, ask: "Can I quote a specific sentence from the
 - YES → output JSON with sufficient=true and that exact quote in evidence.
 - NO → call read_page on the most promising relationship slug. The search results are a starting point, not the answer. Relationships connect to deeper, more specific pages — follow them.
 
-Use read_page whenever the current pages are topically related but don't directly answer. Stop only when you have a quotable answer or have exhausted promising leads.
+Only call read_page if a relationship is directly relevant to the query — not just topically adjacent. Stop as soon as you have a quotable answer or have exhausted genuinely relevant leads.
 
 ## Valid slugs for read_page
 
@@ -655,7 +671,7 @@ def run_wiki_llm(
     )}]
 
     accumulated_slugs = [p["slug"] for p in top_pages]
-    _MAX_HOPS = 5
+    _MAX_HOPS = 4
 
     print(f"\n{'─'*60}")
     print(f"[WikiLLM] PROMPT TO WIKI LLM:\n{messages[0]['content']}")
@@ -748,7 +764,7 @@ _METADATA_SCHEMA = """\
 _METADATA_MARKER = "\n[METADATA]\n"
 
 _MAIN_LLM_SYSTEM_BASE = """\
-You are Dee — a Digital Transformation professor with three decades of teaching experience.
+You are Finn — a Finance professor with three decades of teaching experience.
 
 ## Voice & Style
 - Blend personal narrative with domain principles — open with an anecdote when it adds warmth
@@ -1236,6 +1252,11 @@ def _pipeline_setup(user_query: str, kb: KnowledgeBase, client: Anthropic):
         graph       = kb.graph
         wiki_search = kb.wiki_search
 
+    # Per-request diagnostics — always visible in Vercel logs
+    print(f"[Diag] WIKI_DIR={WIKI_DIR} exists={WIKI_DIR.exists()}")
+    print(f"[Diag] wiki_pages={len(wiki_pages)} rag_chunks={len(chunks)} graph_nodes={len(graph.get('nodes',{}))}")
+    print(f"[Diag] wiki_search.pages={len(wiki_search.pages)} bm25={'ok' if wiki_search.bm25 else 'NONE'} faiss={'ok' if wiki_search.faiss_index else 'NONE'}")
+
     page_by_slug = {p["slug"]: p for p in wiki_pages}
 
     wiki_result = run_wiki_llm(
@@ -1337,6 +1358,22 @@ app = Flask(__name__)
 
 # Static files are one level up from webapp/api/ → webapp/
 STATIC_DIR = str(Path(__file__).resolve().parent.parent)
+
+# CORS — allow the Vercel frontend (or any origin when ALLOWED_ORIGIN=*)
+ALLOWED_ORIGIN = os.environ.get("ALLOWED_ORIGIN", "*")
+
+
+@app.after_request
+def _cors(response):
+    response.headers["Access-Control-Allow-Origin"] = ALLOWED_ORIGIN
+    response.headers["Access-Control-Allow-Headers"] = "Content-Type"
+    response.headers["Access-Control-Allow-Methods"] = "GET, POST, OPTIONS"
+    return response
+
+
+@app.route("/api/<path:path>", methods=["OPTIONS"])
+def _options(path):
+    return "", 204
 
 # Module-level singletons — initialised once at process start
 _KB: KnowledgeBase = None
@@ -1522,17 +1559,21 @@ if __name__ == "__main__":
     _p = _argparse.ArgumentParser(add_help=False)
     _p.add_argument("--serve", action="store_true",
                     help="Run Flask dev server instead of REPL")
-    _p.add_argument("--port", type=int, default=5001)
+    _p.add_argument("--host", default="127.0.0.1",
+                    help="Bind host (use 0.0.0.0 for Cloud Run)")
+    _p.add_argument("--port", type=int,
+                    default=int(os.environ.get("PORT", 5001)),
+                    help="Bind port (Cloud Run sets $PORT=8080)")
     _known, _rest = _p.parse_known_args()
 
-    if _known.serve:
+    if _known.serve or _known.host != "127.0.0.1" or _known.port != 5001:
         try:
             from dotenv import load_dotenv as _load_dotenv
             _load_dotenv(PROJECT_ROOT / ".env")
         except ImportError:
             pass
-        print(f"[index2] Starting Flask dev server on http://localhost:{_known.port}")
-        app.run(debug=True, port=_known.port, use_reloader=False)
+        print(f"[index2] Starting Flask server on http://{_known.host}:{_known.port}")
+        app.run(host=_known.host, port=_known.port, debug=False, use_reloader=False)
     else:
         sys.argv = [sys.argv[0]] + _rest
         main()

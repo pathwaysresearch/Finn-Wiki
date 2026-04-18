@@ -21,10 +21,10 @@ build/
 # (chunks.json ~19MB text-only, chunks_embeddings.npy ~70MB, wiki_pages.json ~700KB)
 
 # Extracted markdown from PDFs (regenerate via ingest)
-prof-bhagwan-hybrid-demo/raw/**/extracted_md/
+Vault/raw/**/extracted_md/
 
 # Raw source materials (copyrighted books, large PDFs — not for public repos)
-prof-bhagwan-hybrid-demo/raw/
+Vault/raw/
 
 # Issue analysis and internal notes
 ISSUE_ANALYSIS.md
@@ -33,7 +33,7 @@ ISSUE_ANALYSIS.md
 .claude/
 
 # Obsidian workspace (user-specific, changes on every session)
-prof-bhagwan-hybrid-demo/.obsidian/workspace.json
+Vault/.obsidian/workspace.json
 
 # OS
 .DS_Store
