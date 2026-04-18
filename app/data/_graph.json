@@ -16871,23 +16871,21 @@
       "tags": [],
       "path": "wiki\\what-is-the-fab-initiative.md"
     },
-    "startup-failure-risk-dcf": {
+    "lbo-equity-as-call-option-premium": {
       "type": "synthesized",
-      "title": "Quantifying Startup Failure Risk in DCF: Probability-Weighted Survival vs. Discount Rate Inflation",
+      "title": "LBO Equity as a Call Option: Why It's Not Free",
       "aliases": [
-        "startup-dcf-failure-risk",
-        "venture-dcf-survival-probability"
+        "LBO Free Option Misconception",
+        "Equity Premium in LBO"
       ],
       "tags": [
-        "startup",
-        "dcf",
-        "valuation",
-        "risk-management",
-        "venture-capital",
-        "certainty-equivalent",
-        "corporate-finance"
+        "options",
+        "leveraged-buyout",
+        "corporate-finance",
+        "capital-structure",
+        "valuation"
       ],
-      "path": "wiki/synthesized/startup-failure-risk-dcf.md"
+      "path": "wiki/synthesized/lbo-equity-as-call-option-premium.md"
     }
   },
   "edges": [
@@ -34147,44 +34145,29 @@
       "type": "references"
     },
     {
-      "from": "startup-failure-risk-dcf",
-      "to": "certainty-equivalent-models",
+      "from": "lbo-equity-as-call-option-premium",
+      "to": "equity-as-a-call-option",
       "type": "extends"
     },
     {
-      "from": "startup-failure-risk-dcf",
-      "to": "exploration-risk",
+      "from": "lbo-equity-as-call-option-premium",
+      "to": "option-pricing-theory",
       "type": "extends"
     },
     {
-      "from": "startup-failure-risk-dcf",
-      "to": "idiosyncratic-risk",
-      "type": "relates-to"
+      "from": "lbo-equity-as-call-option-premium",
+      "to": "debt-as-a-short-put-position",
+      "type": "extends"
     },
     {
-      "from": "startup-failure-risk-dcf",
-      "to": "market-risk",
-      "type": "relates-to"
+      "from": "lbo-equity-as-call-option-premium",
+      "to": "call-option",
+      "type": "extends"
     },
     {
-      "from": "startup-failure-risk-dcf",
-      "to": "risk-and-return-models",
-      "type": "relates-to"
-    },
-    {
-      "from": "startup-failure-risk-dcf",
-      "to": "double-counting-of-risk",
-      "type": "relates-to"
-    },
-    {
-      "from": "startup-failure-risk-dcf",
-      "to": "portfolio-theory",
-      "type": "relates-to"
-    },
-    {
-      "from": "startup-failure-risk-dcf",
-      "to": "tail-risk",
-      "type": "relates-to"
+      "from": "lbo-equity-as-call-option-premium",
+      "to": "option-premium",
+      "type": "extends"
     }
   ]
 }
