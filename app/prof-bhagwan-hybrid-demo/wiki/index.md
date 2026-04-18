@@ -1407,6 +1407,4 @@ Master catalog — 1387 pages · last rebuilt 2026-04-17
 - [[the-conversation-surfaces-a-novel-three-way-connection|Genetic Distance, Trust, and Home Bias]]
 - [[what-is-the-fab-initiative|FAB and Threshold Behavior Theory]]
 
-- [[synthesized/lbo-equity-as-call-option-premium|LBO Equity as a Call Option: Why It's Not Free]] — synthesized from query
-
-- [[synthesized/hedge-fund-return-distributions|Hedge Fund Return Distributions]] — synthesized from query
+- [[synthesized/profitability-index-vs-npv|Profitability Index vs NPV: Identical Decisions, Different Rankings]] — synthesized from query
