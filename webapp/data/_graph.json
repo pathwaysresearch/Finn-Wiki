@@ -16870,6 +16870,25 @@
       "aliases": [],
       "tags": [],
       "path": "wiki\\what-is-the-fab-initiative.md"
+    },
+    "regime-switching-cvar-optimization-with-options-implied-calibration": {
+      "type": "synthesized",
+      "title": "Regime-Switching CVaR Optimization with Options-Implied Calibration",
+      "aliases": [
+        "CVaR Portfolio Optimization",
+        "Robust Portfolio Construction Under Regime Shifts"
+      ],
+      "tags": [
+        "portfolio-theory",
+        "risk-management",
+        "tail-risk",
+        "non-gaussian",
+        "regime-switching",
+        "quantitative-finance",
+        "options",
+        "robust-optimization"
+      ],
+      "path": "wiki/synthesized/regime-switching-cvar-optimization-with-options-implied-calibration.md"
     }
   },
   "edges": [
@@ -34127,6 +34146,41 @@
       "from": "what-is-the-fab-initiative",
       "to": "thinking-patterns-and-frameworks",
       "type": "references"
+    },
+    {
+      "from": "regime-switching-cvar-optimization-with-options-implied-calibration",
+      "to": "time-diversification",
+      "type": "extends"
+    },
+    {
+      "from": "regime-switching-cvar-optimization-with-options-implied-calibration",
+      "to": "modern-portfolio-theory",
+      "type": "extends"
+    },
+    {
+      "from": "regime-switching-cvar-optimization-with-options-implied-calibration",
+      "to": "portfolio-optimization",
+      "type": "extends"
+    },
+    {
+      "from": "regime-switching-cvar-optimization-with-options-implied-calibration",
+      "to": "dynamic-portfolio-theory",
+      "type": "extends"
+    },
+    {
+      "from": "regime-switching-cvar-optimization-with-options-implied-calibration",
+      "to": "dynamic-optimization-problem",
+      "type": "related_to"
+    },
+    {
+      "from": "regime-switching-cvar-optimization-with-options-implied-calibration",
+      "to": "intertemporal-optimization",
+      "type": "related_to"
+    },
+    {
+      "from": "regime-switching-cvar-optimization-with-options-implied-calibration",
+      "to": "dynamic-programming",
+      "type": "related_to"
     }
   ]
 }
