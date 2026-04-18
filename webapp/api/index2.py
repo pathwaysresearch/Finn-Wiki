@@ -74,6 +74,7 @@ except ImportError:
 
 # Deployed assets live in webapp/data/ (written by export_for_web.py)
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+MODELS_DIR = Path(__file__).resolve().parent.parent / "models"  # committed ONNX model cache
 _WIKI_FAISS_CACHE = DATA_DIR / "wiki_search.faiss"
 _WIKI_FAISS_SLUGS = DATA_DIR / "wiki_search_slugs.json"
 INDEX_MD_PATH = WIKI_DIR / "index.md"
@@ -186,15 +187,22 @@ def _load_faiss_index():
 # Wiki search index — BM25 + MiniLM hybrid for wiki page navigation
 # ---------------------------------------------------------------------------
 
-_WIKI_MINILM_MODEL = None  # lazy singleton — loaded once, cached on disk by sentence-transformers
+_WIKI_MINILM_MODEL = None  # lazy singleton — fastembed TextEmbedding (ONNX, no PyTorch)
+_WIKI_EMBED_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
 
 def _get_wiki_embed_model():
     global _WIKI_MINILM_MODEL
     if _WIKI_MINILM_MODEL is None:
-        from sentence_transformers import SentenceTransformer
-        _WIKI_MINILM_MODEL = SentenceTransformer("all-MiniLM-L6-v2")
+        from fastembed import TextEmbedding
+        # cache_dir points to webapp/models/ (committed to repo — works on Vercel without download)
+        _WIKI_MINILM_MODEL = TextEmbedding(_WIKI_EMBED_MODEL_NAME, cache_dir=str(MODELS_DIR))
     return _WIKI_MINILM_MODEL
+
+
+def _encode(model, texts: list, batch_size: int = 64, show_progress: bool = False) -> np.ndarray:
+    """Encode texts with fastembed. Returns normalized float32 array (n, 384)."""
+    return np.array(list(model.embed(texts, batch_size=batch_size)), dtype=np.float32)
 
 
 def _build_wiki_search_text(page: dict) -> str:
@@ -230,33 +238,38 @@ class WikiSearchIndex:
 
         texts = [_build_wiki_search_text(p) for p in wiki_pages]
         slugs = [p["slug"] for p in wiki_pages]
+        model_name = _WIKI_EMBED_MODEL_NAME
 
-        # Try loading FAISS index from cache if slug list matches exactly
+        # Try loading FAISS index from cache — must match both model name and slug list
         idx = None
         embs = None
         if _WIKI_FAISS_CACHE.exists() and _WIKI_FAISS_SLUGS.exists():
             try:
-                cached_slugs = json.loads(_WIKI_FAISS_SLUGS.read_text(encoding="utf-8"))
-                if cached_slugs == slugs:
+                meta = json.loads(_WIKI_FAISS_SLUGS.read_text(encoding="utf-8"))
+                if (
+                    isinstance(meta, dict)
+                    and meta.get("model") == model_name
+                    and meta.get("slugs") == slugs
+                ):
                     idx = _faiss.read_index(str(_WIKI_FAISS_CACHE))
                     embs = idx.reconstruct_n(0, idx.ntotal).astype(np.float32)
-                    print(f"[WikiSearch] Loaded FAISS cache ({len(slugs)} pages)")
+                    print(f"[WikiSearch] Loaded FAISS cache ({len(slugs)} pages, {model_name})")
+                else:
+                    print("[WikiSearch] Cache model/slugs mismatch — re-encoding")
             except Exception as e:
                 print(f"[WikiSearch] Cache load failed: {e} — re-encoding")
-                idx = None
-                embs = None
 
         if embs is None:
-            print(f"[WikiSearch] Encoding {len(wiki_pages)} pages with MiniLM (first run)…")
+            print(f"[WikiSearch] Encoding {len(wiki_pages)} pages with {model_name} (first run)…")
             model = _get_wiki_embed_model()
-            embs = model.encode(
-                texts, normalize_embeddings=True, batch_size=64, show_progress_bar=True
-            ).astype(np.float32)
+            embs = _encode(model, texts, batch_size=64)
             idx = _faiss.IndexFlatIP(embs.shape[1])
             idx.add(embs)
             try:
                 _faiss.write_index(idx, str(_WIKI_FAISS_CACHE))
-                _WIKI_FAISS_SLUGS.write_text(json.dumps(slugs), encoding="utf-8")
+                _WIKI_FAISS_SLUGS.write_text(
+                    json.dumps({"model": model_name, "slugs": slugs}), encoding="utf-8"
+                )
                 print(f"[WikiSearch] Saved FAISS cache ({len(slugs)} pages)")
             except OSError as e:
                 print(f"[WikiSearch] Cache save skipped (read-only fs): {e}")
@@ -275,9 +288,7 @@ class WikiSearchIndex:
         from rank_bm25 import BM25Okapi
         import faiss as _faiss
         model = _get_wiki_embed_model()
-        new_emb = model.encode(
-            [_build_wiki_search_text(page)], normalize_embeddings=True
-        ).astype(np.float32)
+        new_emb = _encode(model, [_build_wiki_search_text(page)])
         existing = next((i for i, p in enumerate(self.pages) if p["slug"] == page["slug"]), None)
         if existing is not None:
             self.pages[existing] = page
@@ -296,7 +307,10 @@ class WikiSearchIndex:
         try:
             _faiss.write_index(self.faiss_index, str(_WIKI_FAISS_CACHE))
             _WIKI_FAISS_SLUGS.write_text(
-                json.dumps([p["slug"] for p in self.pages]), encoding="utf-8"
+                json.dumps({
+                    "model": _WIKI_EMBED_MODEL_NAME,
+                    "slugs": [p["slug"] for p in self.pages],
+                }), encoding="utf-8"
             )
         except OSError:
             pass
@@ -310,7 +324,7 @@ class WikiSearchIndex:
         bm25_max = bm25_scores.max() or 1.0
         bm25_norm = bm25_scores / bm25_max
         model = _get_wiki_embed_model()
-        q_emb = model.encode([query], normalize_embeddings=True).astype(np.float32)
+        q_emb = _encode(model, [query])
         sem_scores, sem_idx = self.faiss_index.search(q_emb, n)
         sem_norm = np.zeros(n, dtype=np.float32)
         for i, s in zip(sem_idx[0], sem_scores[0]):
@@ -318,7 +332,7 @@ class WikiSearchIndex:
                 sem_norm[i] = float(s)
         hybrid = 0.3 * bm25_norm + 0.7 * sem_norm
         top_idx = np.argsort(hybrid)[::-1][:top_k]
-        return [self.pages[i] for i in top_idx if hybrid[i] > 0]
+        return [self.pages[i] for i in top_idx]
 
 
 # ---------------------------------------------------------------------------
@@ -734,7 +748,7 @@ _METADATA_SCHEMA = """\
 _METADATA_MARKER = "\n[METADATA]\n"
 
 _MAIN_LLM_SYSTEM_BASE = """\
-You are Finn — a Finance professor with three decades of teaching experience.
+You are Dee — a Digital Transformation professor with three decades of teaching experience.
 
 ## Voice & Style
 - Blend personal narrative with domain principles — open with an anecdote when it adds warmth
