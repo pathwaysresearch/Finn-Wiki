@@ -1407,4 +1407,4 @@ Master catalog — 1387 pages · last rebuilt 2026-04-17
 - [[the-conversation-surfaces-a-novel-three-way-connection|Genetic Distance, Trust, and Home Bias]]
 - [[what-is-the-fab-initiative|FAB and Threshold Behavior Theory]]
 
-- [[synthesized/startup-failure-risk-dcf|Quantifying Startup Failure Risk in DCF: Probability-Weighted Survival vs. Discount Rate Inflation]] — synthesized from query
+- [[synthesized/lbo-equity-as-call-option-premium|LBO Equity as a Call Option: Why It's Not Free]] — synthesized from query
