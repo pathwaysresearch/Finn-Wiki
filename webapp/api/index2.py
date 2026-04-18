@@ -22,6 +22,8 @@ CLI usage (from project root):
     python webapp/api/index2.py                        # interactive REPL
     python webapp/api/index2.py --query "..."          # single query
     python webapp/api/index2.py --rebuild-graph        # rebuild _graph.json
+    python webapp/api/index2.py --build-wiki-index     # build FAISS index → data/ (no API key needed)
+    python webapp/api/index2.py --serve                # run Flask dev server
     python webapp/api/index2.py --model1 claude-sonnet-4-6 --model2 claude-opus-4-6
 """
 
@@ -1497,6 +1499,8 @@ def main():
                         help="Run a single query and exit")
     parser.add_argument("--rebuild-graph", action="store_true",
                         help="Rebuild _graph.json from wiki pages and exit")
+    parser.add_argument("--build-wiki-index", action="store_true",
+                        help="Build wiki search FAISS index and save to data/ then exit (no API key needed)")
     parser.add_argument("--model1", metavar="MODEL",
                         help=f"WIKI LLM model override (default: {WIKI_LLM_MODEL})")
     parser.add_argument("--model2", metavar="MODEL",
@@ -1507,6 +1511,16 @@ def main():
         graph = save_graph()
         print(f"Built graph: {len(graph['nodes'])} nodes, {len(graph['edges'])} edges")
         print(f"Saved to: {DATA_DIR / '_graph.json'}")
+        return
+
+    if args.build_wiki_index:
+        pages = _load_wiki_pages()
+        if not pages:
+            print("[Error] No wiki pages found — check WIKI_DIR")
+            sys.exit(1)
+        idx = WikiSearchIndex()
+        idx.build(pages)
+        print(f"[Done] {len(pages)} pages → {_WIKI_FAISS_CACHE}")
         return
     if args.model1:
         WIKI_LLM_MODEL = args.model1
@@ -1573,6 +1587,9 @@ if __name__ == "__main__":
         except ImportError:
             pass
         print(f"[index2] Starting Flask server on http://{_known.host}:{_known.port}")
+        print("[index2] Initializing knowledge base...")
+        _get_kb()  # eager init — load wiki + build FAISS before first request
+        print("[index2] Knowledge base ready.")
         app.run(host=_known.host, port=_known.port, debug=False, use_reloader=False)
     else:
         sys.argv = [sys.argv[0]] + _rest
