@@ -17010,24 +17010,23 @@
       ],
       "path": "wiki/synthesized/idiosyncratic-versus-systematic-risk-in-dcf-discount-rates.md"
     },
-    "real-options-beta-and-systematic-risk": {
+    "finance-war-nexus": {
       "type": "synthesized",
-      "title": "Real Options Have Higher Betas Than Assets-in-Place",
+      "title": "Finance and War: Historical Connections Between Sovereign Debt and Military Conflict",
       "aliases": [
-        "real options beta",
-        "growth option beta",
-        "PVGO beta decomposition"
+        "Finance-War Nexus",
+        "Sovereign Debt and War",
+        "Debt and Military Intervention"
       ],
       "tags": [
-        "real-options",
-        "beta",
-        "systematic-risk",
-        "valuation",
-        "growth-options",
-        "capm",
-        "corporate-finance"
+        "sovereign-debt",
+        "international-finance",
+        "history",
+        "geopolitics",
+        "military-intervention",
+        "credit-risk"
       ],
-      "path": "wiki/synthesized/real-options-beta-and-systematic-risk.md"
+      "path": "wiki/synthesized/finance-war-nexus.md"
     }
   },
   "edges": [
@@ -34527,34 +34526,24 @@
       "type": "relates-to"
     },
     {
-      "from": "real-options-beta-and-systematic-risk",
-      "to": "real-options-framework",
+      "from": "finance-war-nexus",
+      "to": "partial-default",
       "type": "extends"
     },
     {
-      "from": "real-options-beta-and-systematic-risk",
-      "to": "real-options-volatility-unlevering",
-      "type": "related"
+      "from": "finance-war-nexus",
+      "to": "debt-overhang",
+      "type": "extends"
     },
     {
-      "from": "real-options-beta-and-systematic-risk",
-      "to": "bernardo-and-chowdhry-2002",
-      "type": "related"
+      "from": "finance-war-nexus",
+      "to": "international-lending-enforceability-model",
+      "type": "extends"
     },
     {
-      "from": "real-options-beta-and-systematic-risk",
-      "to": "exploration-risk",
-      "type": "related"
-    },
-    {
-      "from": "real-options-beta-and-systematic-risk",
-      "to": "systematic-risk-versus-systemic-risk",
-      "type": "related"
-    },
-    {
-      "from": "real-options-beta-and-systematic-risk",
-      "to": "portfolio-theory",
-      "type": "related"
+      "from": "finance-war-nexus",
+      "to": "stub-paper-intlending",
+      "type": "extends"
     }
   ]
 }
