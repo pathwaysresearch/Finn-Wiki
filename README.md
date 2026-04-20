@@ -2,7 +2,7 @@
 
 A hybrid knowledge architecture combining an LLM-maintained wiki (synthesised insights) with vector RAG (large source documents). Deployed as a streaming chatbot: **frontend on Vercel, backend on Google Cloud Run**.
 
-Built for **Prof. Bhagwan Chowdhry** (Finance, ISB & UCLA Anderson) — adaptable to any professor or domain expert.
+Built for **Prof. Bhagwan Chowdhry** (Finance,ISB & UCLA Anderson) — adaptable to any professor or domain expert.
 
 ---
 
