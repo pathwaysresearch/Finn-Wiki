@@ -747,3 +747,7 @@ Append-only chronological record of ingests and queries.
 - stubs_written: 0
 - index_rebuilt: True
 - elapsed_s: 1.5
+
+## [2026-04-20] synthesize | warfare-doctrine-corporate-finance-analogies
+- Pages created: warfare-doctrine-corporate-finance-analogies.md
+- From query: what does warfare have to do copporate finance? make it interesting, must be novel
