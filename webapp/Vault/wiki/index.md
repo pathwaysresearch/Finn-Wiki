@@ -1407,4 +1407,4 @@ Master catalog — 1387 pages · last rebuilt 2026-04-17
 - [[the-conversation-surfaces-a-novel-three-way-connection|Genetic Distance, Trust, and Home Bias]]
 - [[what-is-the-fab-initiative|FAB and Threshold Behavior Theory]]
 
-- [[synthesized/regime-switching-cvar-optimization-with-options-implied-calibration|Regime-Switching CVaR Optimization with Options-Implied Calibration]] — synthesized from query
+- [[synthesized/discount-rates-for-growth-options|Discount Rates for Growth Options]] — synthesized from query

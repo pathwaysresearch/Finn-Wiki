@@ -16889,6 +16889,22 @@
         "robust-optimization"
       ],
       "path": "wiki/synthesized/regime-switching-cvar-optimization-with-options-implied-calibration.md"
+    },
+    "discount-rates-for-growth-options": {
+      "type": "synthesized",
+      "title": "Discount Rates for Growth Options",
+      "aliases": [
+        "Growth Option Discount Rates",
+        "Risk and Growth Options"
+      ],
+      "tags": [
+        "valuation",
+        "risk",
+        "options",
+        "capm",
+        "corporate-finance"
+      ],
+      "path": "wiki/synthesized/discount-rates-for-growth-options.md"
     }
   },
   "edges": [
@@ -34181,6 +34197,36 @@
       "from": "regime-switching-cvar-optimization-with-options-implied-calibration",
       "to": "dynamic-programming",
       "type": "related_to"
+    },
+    {
+      "from": "discount-rates-for-growth-options",
+      "to": "risk-adjusted-discount-rates",
+      "type": "extends"
+    },
+    {
+      "from": "discount-rates-for-growth-options",
+      "to": "idiosyncratic-risk",
+      "type": "uses"
+    },
+    {
+      "from": "discount-rates-for-growth-options",
+      "to": "exploration-risk",
+      "type": "uses"
+    },
+    {
+      "from": "discount-rates-for-growth-options",
+      "to": "options-theory",
+      "type": "uses"
+    },
+    {
+      "from": "discount-rates-for-growth-options",
+      "to": "multiplicative-uncertainty-effect",
+      "type": "uses"
+    },
+    {
+      "from": "discount-rates-for-growth-options",
+      "to": "convexity",
+      "type": "uses"
     }
   ]
 }
