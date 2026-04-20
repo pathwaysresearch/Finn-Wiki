@@ -17009,6 +17009,25 @@
         "corporate-finance"
       ],
       "path": "wiki/synthesized/idiosyncratic-versus-systematic-risk-in-dcf-discount-rates.md"
+    },
+    "real-options-beta-and-systematic-risk": {
+      "type": "synthesized",
+      "title": "Real Options Have Higher Betas Than Assets-in-Place",
+      "aliases": [
+        "real options beta",
+        "growth option beta",
+        "PVGO beta decomposition"
+      ],
+      "tags": [
+        "real-options",
+        "beta",
+        "systematic-risk",
+        "valuation",
+        "growth-options",
+        "capm",
+        "corporate-finance"
+      ],
+      "path": "wiki/synthesized/real-options-beta-and-systematic-risk.md"
     }
   },
   "edges": [
@@ -34506,6 +34525,36 @@
       "from": "idiosyncratic-versus-systematic-risk-in-dcf-discount-rates",
       "to": "systematic-risk-versus-systemic-risk",
       "type": "relates-to"
+    },
+    {
+      "from": "real-options-beta-and-systematic-risk",
+      "to": "real-options-framework",
+      "type": "extends"
+    },
+    {
+      "from": "real-options-beta-and-systematic-risk",
+      "to": "real-options-volatility-unlevering",
+      "type": "related"
+    },
+    {
+      "from": "real-options-beta-and-systematic-risk",
+      "to": "bernardo-and-chowdhry-2002",
+      "type": "related"
+    },
+    {
+      "from": "real-options-beta-and-systematic-risk",
+      "to": "exploration-risk",
+      "type": "related"
+    },
+    {
+      "from": "real-options-beta-and-systematic-risk",
+      "to": "systematic-risk-versus-systemic-risk",
+      "type": "related"
+    },
+    {
+      "from": "real-options-beta-and-systematic-risk",
+      "to": "portfolio-theory",
+      "type": "related"
     }
   ]
 }
