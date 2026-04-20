@@ -1407,4 +1407,4 @@ Master catalog — 1387 pages · last rebuilt 2026-04-17
 - [[the-conversation-surfaces-a-novel-three-way-connection|Genetic Distance, Trust, and Home Bias]]
 - [[what-is-the-fab-initiative|FAB and Threshold Behavior Theory]]
 
-- [[synthesized/finance-war-nexus|Finance and War: Historical Connections Between Sovereign Debt and Military Conflict]] — synthesized from query
+- [[synthesized/gunboat-diplomacy-to-reputational-enforcement|From Gunboat Diplomacy to Reputational Enforcement in Sovereign Debt]] — synthesized from query
