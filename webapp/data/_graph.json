@@ -16918,6 +16918,17 @@
         "beginner"
       ],
       "path": "wiki/synthesized/corporate-finance-learning-sequence.md"
+    },
+    "stock-options": {
+      "type": "synthesized",
+      "title": "Stock Options",
+      "aliases": [],
+      "tags": [
+        "finance",
+        "derivatives",
+        "executive-compensation"
+      ],
+      "path": "wiki/synthesized/stock-options.md"
     }
   },
   "edges": [
@@ -34283,6 +34294,16 @@
     },
     {
       "from": "options",
+      "to": "pay-volatility-co-movement",
+      "type": "relates_to"
+    },
+    {
+      "from": "stock-options",
+      "to": "high-powered-equity-linked-incentives",
+      "type": "drives"
+    },
+    {
+      "from": "stock-options",
       "to": "pay-volatility-co-movement",
       "type": "relates_to"
     }

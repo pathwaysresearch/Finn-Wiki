@@ -1408,3 +1408,5 @@ Master catalog — 1387 pages · last rebuilt 2026-04-17
 - [[what-is-the-fab-initiative|FAB and Threshold Behavior Theory]]
 
 - [[synthesized/options|Stock Options]] — synthesized from query
+
+- [[synthesized/stock-options|Stock Options]] — synthesized from query
