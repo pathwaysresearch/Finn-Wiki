@@ -16905,6 +16905,20 @@
         "corporate-finance"
       ],
       "path": "wiki/synthesized/discount-rates-for-growth-options.md"
+    },
+    "corporate-finance-learning-sequence": {
+      "type": "synthesized",
+      "title": "Corporate Finance Learning Sequence",
+      "aliases": [
+        "Corporate Finance Roadmap",
+        "How to Learn Corporate Finance"
+      ],
+      "tags": [
+        "corporate-finance",
+        "learning-path",
+        "beginner"
+      ],
+      "path": "wiki/synthesized/corporate-finance-learning-sequence.md"
     }
   },
   "edges": [
@@ -34227,6 +34241,41 @@
       "from": "discount-rates-for-growth-options",
       "to": "convexity",
       "type": "uses"
+    },
+    {
+      "from": "corporate-finance-learning-sequence",
+      "to": "corporate-finance",
+      "type": "extends"
+    },
+    {
+      "from": "corporate-finance-learning-sequence",
+      "to": "valuation",
+      "type": "extends"
+    },
+    {
+      "from": "corporate-finance-learning-sequence",
+      "to": "discounting",
+      "type": "extends"
+    },
+    {
+      "from": "corporate-finance-learning-sequence",
+      "to": "net-present-value",
+      "type": "extends"
+    },
+    {
+      "from": "corporate-finance-learning-sequence",
+      "to": "capital-budgeting",
+      "type": "extends"
+    },
+    {
+      "from": "corporate-finance-learning-sequence",
+      "to": "capital-asset-pricing-model",
+      "type": "extends"
+    },
+    {
+      "from": "corporate-finance-learning-sequence",
+      "to": "market-portfolio",
+      "type": "extends"
     }
   ]
 }

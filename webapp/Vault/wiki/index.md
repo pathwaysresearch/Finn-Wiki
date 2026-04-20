@@ -1407,4 +1407,4 @@ Master catalog — 1387 pages · last rebuilt 2026-04-17
 - [[the-conversation-surfaces-a-novel-three-way-connection|Genetic Distance, Trust, and Home Bias]]
 - [[what-is-the-fab-initiative|FAB and Threshold Behavior Theory]]
 
-- [[synthesized/discount-rates-for-growth-options|Discount Rates for Growth Options]] — synthesized from query
+- [[synthesized/corporate-finance-learning-sequence|Corporate Finance Learning Sequence]] — synthesized from query
