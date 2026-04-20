@@ -40,7 +40,7 @@ from datetime import date
 import numpy as np
 import requests
 
-from anthropic import Anthropic
+from llm_client import LLMClient, NormalizedResponse
 
 # ---------------------------------------------------------------------------
 # Path setup — this file lives at webapp/api/index2.py; project root is 3 up
@@ -89,8 +89,10 @@ _GITHUB_BASE = os.environ.get("GITHUB_BASE_PATH", "webapp")
 
 # WIKI_LLM = Sonnet (cheap navigation), MAIN_LLM = Opus (heavy synthesis)
 # Override via env or --model1/--model2 flags
-WIKI_LLM_MODEL = os.environ.get("WIKI_LLM_MODEL", "claude-sonnet-4-6")  # wiki agent
-MAIN_LLM_MODEL = os.environ.get("MAIN_LLM_MODEL", "claude-opus-4-6")    # answer agent
+WIKI_LLM_MODEL    = os.environ.get("WIKI_LLM_MODEL",    "claude-sonnet-4-6")  # wiki agent
+MAIN_LLM_MODEL    = os.environ.get("MAIN_LLM_MODEL",    "claude-opus-4-6")    # answer agent
+WIKI_LLM_PROVIDER = os.environ.get("WIKI_LLM_PROVIDER", "claude")             # "claude" | "nebius"
+MAIN_LLM_PROVIDER = os.environ.get("MAIN_LLM_PROVIDER", "claude")             # "claude" | "nebius"
 
 # Gemini embedding (same model used during ingest)
 EMBED_MODEL = "gemini-embedding-2-preview"
@@ -671,7 +673,7 @@ def run_wiki_llm(
     wiki_search: WikiSearchIndex,
     page_by_slug: dict,
     graph: dict,
-    client: Anthropic,
+    client: LLMClient,
 ) -> dict:
     """
     Run WIKI_LLM navigation pass. Returns:
@@ -704,35 +706,32 @@ def run_wiki_llm(
 
 
     for _ in range(_MAX_HOPS + 1):
-        response = client.messages.create(
-            model=WIKI_LLM_MODEL,
-            max_tokens=3500,
-            thinking={"type": "enabled", "budget_tokens": 2000},
+        response = client.complete_with_tools(
             system=_WIKI_LLM_NAVIGATION_SYSTEM,
             messages=messages,
             tools=_WIKI_LLM_TOOLS,
+            max_tokens=3500,
+            thinking={"type": "enabled", "budget_tokens": 2000},
         )
         if response.stop_reason != "tool_use":
             break
 
-        tool_results = []
-        for block in response.content:
-            if block.type == "tool_use" and block.name == "read_page":
-                slug = block.input.get("slug", "")
+        tool_calls_to_run = []
+        results = []
+        for tc in response.tool_calls:
+            if tc.name == "read_page":
+                slug = tc.input.get("slug", "")
                 slug = slug.split("/")[-1].removesuffix(".md").split("|")[0].strip()
                 print(f"[WikiLLM] read_page({slug!r})")
                 result = tool_read_page(slug, page_by_slug, graph)
                 if "error" not in result and slug not in accumulated_slugs:
                     accumulated_slugs.append(slug)
-                tool_results.append({
-                    "type": "tool_result",
-                    "tool_use_id": block.id,
-                    "content": json.dumps(result, ensure_ascii=False),
-                })
-        messages.append({"role": "assistant", "content": response.content})
-        messages.append({"role": "user", "content": tool_results})
+                tool_calls_to_run.append(tc)
+                results.append(json.dumps(result, ensure_ascii=False))
+        client.append_assistant_turn(messages, response)
+        client.append_tool_results(messages, tool_calls_to_run, results)
 
-    final_text = "".join(b.text for b in response.content if hasattr(b, "text"))
+    final_text = response.text
     result = _extract_json(final_text)
 
     if not result or "selected_slugs" not in result:
@@ -916,7 +915,7 @@ def run_main_llm_streaming(
     sufficient: bool,
     chunks: list,
     faiss_index,
-    client: Anthropic,
+    client: LLMClient,
 ):
     """
     Streaming generator for MAIN_LLM (answer agent).
@@ -945,15 +944,17 @@ def run_main_llm_streaming(
 
     for _ in range(_MAX_RAG_CALLS + 1):  # up to MAX_RAG_CALLS tool calls + 1 final answer
         # Once rag budget is used up, strip tools so LLM MUST write the final answer
-        current_tools = _tools_available if _rag_calls_made < _MAX_RAG_CALLS else {}
-        with client.messages.stream(
-            model=MAIN_LLM_MODEL,
-            max_tokens=4096,
+        current_tool_list = _MAIN_LLM_TOOLS if _rag_calls_made < _MAX_RAG_CALLS else None
+        final_response = None
+
+        for event, payload in client.stream_text(
             system=system,
             messages=messages,
-            **current_tools,
-        ) as stream:
-            for text_chunk in stream.text_stream:
+            tools=current_tool_list,
+            max_tokens=4096,
+        ):
+            if event == "text":
+                text_chunk = payload
                 full_response += text_chunk
 
                 if metadata_mode:
@@ -981,24 +982,26 @@ def run_main_llm_streaming(
                         yield ("text", tail_buffer[:safe_len])
                         tail_buffer = tail_buffer[safe_len:]
 
-            final_msg = stream.get_final_message()
+            elif event == "final":
+                final_response = payload
 
-        if final_msg.stop_reason != "tool_use":
+        if final_response.stop_reason != "tool_use":
             if not metadata_mode and tail_buffer:
                 yield ("text", tail_buffer)
                 tail_buffer = ""
             break
 
         # Tool call: execute rag_search, then resume streaming
-        tool_results = []
-        for block in final_msg.content:
-            if block.type == "tool_use" and block.name == "rag_search":
-                print(f"[MainLLM] rag_search({block.input.get('query')!r})")
+        tool_calls_to_run = []
+        results = []
+        for tc in final_response.tool_calls:
+            if tc.name == "rag_search":
+                print(f"[MainLLM] rag_search({tc.input.get('query')!r})")
                 rag_results = do_rag_search(
-                    query=block.input.get("query", user_query),
+                    query=tc.input.get("query", user_query),
                     chunks=chunks,
                     faiss_index=faiss_index,
-                    top_k=block.input.get("top_k", 7),
+                    top_k=tc.input.get("top_k", 7),
                 )
                 _rag_calls_made += 1
                 # Track unique source titles for synthetic metadata fallback
@@ -1006,19 +1009,16 @@ def run_main_llm_streaming(
                     src = r.get("source", "")
                     if src and src not in rag_sources_used:
                         rag_sources_used.append(src)
-                tool_results.append({
-                    "type": "tool_result",
-                    "tool_use_id": block.id,
-                    "content": json.dumps(rag_results, ensure_ascii=False),
-                })
+                tool_calls_to_run.append(tc)
+                results.append(json.dumps(rag_results, ensure_ascii=False))
 
         safe_len = max(0, len(tail_buffer) - len(_METADATA_MARKER))
         if safe_len > 0:
             yield ("text", tail_buffer[:safe_len])
             tail_buffer = tail_buffer[safe_len:]
 
-        messages.append({"role": "assistant", "content": final_msg.content})
-        messages.append({"role": "user", "content": tool_results})
+        client.append_assistant_turn(messages, final_response)
+        client.append_tool_results(messages, tool_calls_to_run, results)
 
     # --- Metadata parsing (3-tier fallback) ---
     # Tier 1: clean metadata_buf captured after [METADATA] marker
@@ -1058,7 +1058,7 @@ def update_wiki_async(
     synthesis: str,
     sources: dict,
     original_query: str,
-    client: Anthropic,
+    client: LLMClient,
     kb: KnowledgeBase,
 ):
     """Trigger wiki update in a background thread. Never blocks the caller."""
@@ -1075,7 +1075,7 @@ def _do_wiki_update(
     synthesis: str,
     sources: dict,
     original_query: str,
-    client: Anthropic,
+    client: LLMClient,
     kb: KnowledgeBase,
 ):
     """
@@ -1096,9 +1096,7 @@ def _do_wiki_update(
 
     system = f"<related_pages>\n{related_text}\n</related_pages>\n\n{_WIKI_LLM_MAINTENANCE_SYSTEM}"
 
-    response = client.messages.create(
-        model=WIKI_LLM_MODEL,
-        max_tokens=4096,
+    response = client.complete_with_tools(
         system=system,
         messages=[
             {
@@ -1111,9 +1109,11 @@ def _do_wiki_update(
                 ),
             }
         ],
+        tools=[],
+        max_tokens=4096,
     )
 
-    text = "".join(b.text for b in response.content if hasattr(b, "text"))
+    text = response.text
     page_data = _extract_json(text)
 
     if not page_data or "slug" not in page_data:
@@ -1268,7 +1268,7 @@ def _write_wiki_page(page_data: dict, kb: KnowledgeBase, original_query: str = "
 # ---------------------------------------------------------------------------
 
 
-def _pipeline_setup(user_query: str, kb: KnowledgeBase, client: Anthropic):
+def _pipeline_setup(user_query: str, kb: KnowledgeBase, wiki_client: LLMClient, main_client: LLMClient = None):
     """
     Shared setup for both query() and query_streaming():
     snapshot KB state, run WIKI_LLM (hybrid search + read_page), return selected_pages + metadata.
@@ -1297,7 +1297,7 @@ def _pipeline_setup(user_query: str, kb: KnowledgeBase, client: Anthropic):
         wiki_search=wiki_search,
         page_by_slug=page_by_slug,
         graph=graph,
-        client=client,
+        client=wiki_client,
     )
     print(f"[WikiLLM] selected slugs: {wiki_result.get('selected_slugs')} | sufficient={wiki_result.get('sufficient')}")
 
@@ -1315,7 +1315,7 @@ def _pipeline_setup(user_query: str, kb: KnowledgeBase, client: Anthropic):
     return selected_pages, wiki_result, chunks, faiss_index
 
 
-def query_streaming(user_query: str, kb: KnowledgeBase, client: Anthropic):
+def query_streaming(user_query: str, kb: KnowledgeBase, wiki_client: LLMClient, main_client: LLMClient):
     """
     Full dual-LLM query pipeline — streaming generator.
 
@@ -1328,7 +1328,7 @@ def query_streaming(user_query: str, kb: KnowledgeBase, client: Anthropic):
     Wiki update is triggered asynchronously after streaming completes.
     """
     selected_pages, wiki_result, chunks, faiss_index = _pipeline_setup(
-        user_query, kb, client
+        user_query, kb, wiki_client
     )
     sufficient = wiki_result.get("sufficient", False)
     metadata = {}
@@ -1340,7 +1340,7 @@ def query_streaming(user_query: str, kb: KnowledgeBase, client: Anthropic):
         sufficient=sufficient,
         chunks=chunks,
         faiss_index=faiss_index,
-        client=client,
+        client=main_client,
     ):
         if event_type == "text":
             yield ("text", data)
@@ -1354,21 +1354,21 @@ def query_streaming(user_query: str, kb: KnowledgeBase, client: Anthropic):
             synthesis=metadata["new_synthesis"],
             sources=metadata.get("sources", {}),
             original_query=user_query,
-            client=client,
+            client=wiki_client,
             kb=kb,
         )
 
     yield ("done", metadata)
 
 
-def query(user_query: str, kb: KnowledgeBase, client: Anthropic) -> dict:
+def query(user_query: str, kb: KnowledgeBase, wiki_client: LLMClient, main_client: LLMClient) -> dict:
     """
     Blocking wrapper for the CLI REPL — collects all streamed chunks.
     Returns dict with 'answer', 'sources', 'new_synthesis', 'should_wiki_update'.
     """
     answer_parts = []
     metadata = {}
-    for event_type, data in query_streaming(user_query, kb, client):
+    for event_type, data in query_streaming(user_query, kb, wiki_client, main_client):
         if event_type == "text":
             answer_parts.append(data)
         elif event_type == "done":
@@ -1410,7 +1410,8 @@ def _options(path):
 
 # Module-level singletons — initialised once at process start
 _KB: KnowledgeBase = None
-_CLIENT: Anthropic = None
+_WIKI_CLIENT: LLMClient = None
+_MAIN_CLIENT: LLMClient = None
 
 
 def _get_kb() -> KnowledgeBase:
@@ -1420,14 +1421,31 @@ def _get_kb() -> KnowledgeBase:
     return _KB
 
 
-def _get_client() -> Anthropic:
-    global _CLIENT
-    if _CLIENT is None:
-        api_key = os.environ.get("ANTHROPIC_API_KEY", "")
-        if not api_key:
+def _make_client(provider: str, model: str) -> LLMClient:
+    if provider == "claude":
+        key = os.environ.get("ANTHROPIC_API_KEY", "")
+        if not key:
             raise RuntimeError("ANTHROPIC_API_KEY is not set")
-        _CLIENT = Anthropic(api_key=api_key)
-    return _CLIENT
+    else:
+        key = os.environ.get("NEBIUS_API_KEY", "")
+        if not key:
+            raise RuntimeError("NEBIUS_API_KEY is not set")
+    base_url = os.environ.get("NEBIUS_BASE_URL") if provider == "nebius" else None
+    return LLMClient(provider=provider, model=model, api_key=key, base_url=base_url)
+
+
+def _get_wiki_client() -> LLMClient:
+    global _WIKI_CLIENT
+    if _WIKI_CLIENT is None:
+        _WIKI_CLIENT = _make_client(WIKI_LLM_PROVIDER, WIKI_LLM_MODEL)
+    return _WIKI_CLIENT
+
+
+def _get_main_client() -> LLMClient:
+    global _MAIN_CLIENT
+    if _MAIN_CLIENT is None:
+        _MAIN_CLIENT = _make_client(MAIN_LLM_PROVIDER, MAIN_LLM_MODEL)
+    return _MAIN_CLIENT
 
 
 @app.route("/api/chat", methods=["POST"])
@@ -1443,7 +1461,8 @@ def chat():
         data: [DONE]            — stream complete
     """
     try:
-        client = _get_client()
+        wiki_client = _get_wiki_client()
+        main_client = _get_main_client()
     except RuntimeError as e:
         return jsonify({"error": str(e)}), 500
 
@@ -1456,7 +1475,7 @@ def chat():
 
     def generate():
         try:
-            for event_type, data in query_streaming(user_message, kb, client):
+            for event_type, data in query_streaming(user_message, kb, wiki_client, main_client):
                 if event_type == "text":
                     yield f"data: {json.dumps({'text': data})}\n\n"
                 # "done" event is internal — not forwarded to the frontend
@@ -1558,21 +1577,21 @@ def main():
     if args.model2:
         MAIN_LLM_MODEL = args.model2
 
-    api_key = os.environ.get("ANTHROPIC_API_KEY", "")
-    if not api_key:
-        print("[Error] ANTHROPIC_API_KEY is not set.")
-        print("        Set it in .env or export ANTHROPIC_API_KEY=sk-ant-...")
+    try:
+        wiki_client = _make_client(WIKI_LLM_PROVIDER, WIKI_LLM_MODEL)
+        main_client = _make_client(MAIN_LLM_PROVIDER, MAIN_LLM_MODEL)
+    except RuntimeError as e:
+        print(f"[Error] {e}")
         sys.exit(1)
 
-    client = Anthropic(api_key=api_key)
     kb = KnowledgeBase()
 
-    print(f"\nModels — WIKI LLM (wiki agent / navigation): {WIKI_LLM_MODEL}")
-    print(f"         MAIN LLM (answer agent / synthesis):  {MAIN_LLM_MODEL}")
+    print(f"\nModels — WIKI LLM ({WIKI_LLM_PROVIDER}): {WIKI_LLM_MODEL}")
+    print(f"         MAIN LLM ({MAIN_LLM_PROVIDER}): {MAIN_LLM_MODEL}")
     print(f"GitHub push: {'enabled' if os.environ.get('GITHUB_TOKEN') else 'disabled (GITHUB_TOKEN not set)'}")
 
     if args.query:
-        result = query(args.query, kb, client)
+        result = query(args.query, kb, wiki_client, main_client)
         print(f"\n{'='*60}")
         print(result.get("answer", "[No answer returned]"))
         print(f"{'='*60}")
@@ -1595,7 +1614,7 @@ def main():
         if user_input.lower() in ("exit", "quit", "q"):
             break
 
-        result = query(user_input, kb, client)
+        result = query(user_input, kb, wiki_client, main_client)
         print(f"\nAssistant:\n{result.get('answer', '[No answer returned]')}\n")
 
 
