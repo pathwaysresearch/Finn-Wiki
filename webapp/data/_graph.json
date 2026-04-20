@@ -16920,16 +16920,13 @@
       "path": "wiki/synthesized/corporate-finance-learning-sequence.md"
     },
     "stock-options": {
-      "type": "synthesized",
+      "type": "concept",
       "title": "Stock Options",
-      "aliases": [
-        "Options",
-        "Equity Options"
-      ],
+      "aliases": [],
       "tags": [
-        "stock-options",
-        "derivatives",
-        "executive-compensation"
+        "options",
+        "equity",
+        "compensation"
       ],
       "path": "wiki/synthesized/stock-options.md"
     },
@@ -16957,112 +16954,20 @@
       ],
       "path": "wiki/synthesized/stock-options-dual-roles.md"
     },
-    "separation-of-expected-cash-flows-and-risk-adjustment": {
-      "type": "concept",
-      "title": "Separation of Expected Cash Flows and Risk Adjustment in DCF",
-      "aliases": [
-        "Expected Cash Flow and Risk Separation Principle"
-      ],
-      "tags": [
-        "DCF",
-        "risk-adjusted discount rates",
-        "expected cash flows",
-        "valuation principle"
-      ],
-      "path": "wiki/synthesized/separation-of-expected-cash-flows-and-risk-adjustment.md"
-    },
-    "quantifying-failure-risk-in-dcf": {
+    "microequity-systemic-risk-relocation": {
       "type": "synthesized",
-      "title": "Quantifying Failure Risk in DCF: Regime-Dependence and Probability-Weighted Frameworks",
-      "aliases": [
-        "failure-risk-dcf",
-        "dcf-default-probability",
-        "regime-dependent-failure-risk"
-      ],
-      "tags": [
-        "dcf",
-        "valuation",
-        "risk-quantification",
-        "default-risk",
-        "systemic-risk",
-        "certainty-equivalent",
-        "probability-weighting",
-        "corporate-finance"
-      ],
-      "path": "wiki/synthesized/quantifying-failure-risk-in-dcf.md"
-    },
-    "idiosyncratic-versus-systematic-risk-in-dcf-discount-rates": {
-      "type": "synthesized",
-      "title": "Idiosyncratic vs. Systematic Risk in DCF: Why Inflating the Discount Rate Conflates the Two",
-      "aliases": [
-        "failure-risk-denominator",
-        "idiosyncratic-systematic-confusion-dcf"
-      ],
-      "tags": [
-        "dcf",
-        "valuation",
-        "systematic-risk",
-        "idiosyncratic-risk",
-        "wacc",
-        "risk-adjusted-discount-rates",
-        "probability-weighting",
-        "corporate-finance"
-      ],
-      "path": "wiki/synthesized/idiosyncratic-versus-systematic-risk-in-dcf-discount-rates.md"
-    },
-    "finance-war-nexus": {
-      "type": "synthesized",
-      "title": "Finance and War: Historical Connections Between Sovereign Debt and Military Conflict",
-      "aliases": [
-        "Finance-War Nexus",
-        "Sovereign Debt and War",
-        "Debt and Military Intervention"
-      ],
-      "tags": [
-        "sovereign-debt",
-        "international-finance",
-        "history",
-        "geopolitics",
-        "military-intervention",
-        "credit-risk"
-      ],
-      "path": "wiki/synthesized/finance-war-nexus.md"
-    },
-    "gunboat-diplomacy-to-reputational-enforcement": {
-      "type": "synthesized",
-      "title": "From Gunboat Diplomacy to Reputational Enforcement in Sovereign Debt",
-      "aliases": [
-        "Gunboat Diplomacy and Finance",
-        "War and Sovereign Debt Enforcement",
-        "Military Enforcement of Debt"
-      ],
-      "tags": [
-        "sovereign-debt",
-        "international-finance",
-        "history-of-finance",
-        "enforcement-mechanisms",
-        "game-theory"
-      ],
-      "path": "wiki/synthesized/gunboat-diplomacy-to-reputational-enforcement.md"
-    },
-    "microequity-as-systemic-risk-reduction": {
-      "type": "synthesized",
-      "title": "Microequity as a Systemic Risk Reduction Instrument",
-      "aliases": [
-        "microequity-systemic-risk",
-        "equity-over-debt-at-household-scale"
-      ],
+      "title": "Microequity and Systemic Risk: Replacing Debt Triggers or Relocating Them?",
+      "aliases": [],
       "tags": [
         "microequity",
         "systemic-risk",
-        "financial-inclusion",
-        "debt-rigidity",
-        "risk-sharing",
-        "corporate-finance",
-        "macroeconomics",
-        "fab"
+        "contagion",
+        "securitization",
+        "CDO",
+        "household-finance",
+        "financial-stability"
       ],
-      "path": "wiki/synthesized/microequity-as-systemic-risk-reduction.md"
+      "path": "wiki/synthesized/microequity-systemic-risk-relocation.md"
     }
   },
   "edges": [
@@ -34470,171 +34375,6 @@
       "from": "stock-options-dual-roles",
       "to": "high-powered-equity-linked-incentives",
       "type": "related"
-    },
-    {
-      "from": "separation-of-expected-cash-flows-and-risk-adjustment",
-      "to": "discounted-cash-flow-valuation",
-      "type": "relates_to"
-    },
-    {
-      "from": "separation-of-expected-cash-flows-and-risk-adjustment",
-      "to": "risk-adjusted-discount-rates",
-      "type": "relates_to"
-    },
-    {
-      "from": "separation-of-expected-cash-flows-and-risk-adjustment",
-      "to": "certainty-equivalent-models",
-      "type": "relates_to"
-    },
-    {
-      "from": "stock-options",
-      "to": "options",
-      "type": "extends"
-    },
-    {
-      "from": "stock-options",
-      "to": "high-powered-equity-linked-incentives",
-      "type": "extends"
-    },
-    {
-      "from": "stock-options",
-      "to": "pay-volatility-co-movement",
-      "type": "explains"
-    },
-    {
-      "from": "quantifying-failure-risk-in-dcf",
-      "to": "regime-dependent-dcf-limitations",
-      "type": "extends"
-    },
-    {
-      "from": "quantifying-failure-risk-in-dcf",
-      "to": "certainty-equivalent-models",
-      "type": "relates-to"
-    },
-    {
-      "from": "quantifying-failure-risk-in-dcf",
-      "to": "risk-adjusted-discount-rates",
-      "type": "relates-to"
-    },
-    {
-      "from": "quantifying-failure-risk-in-dcf",
-      "to": "discounted-cash-flow-valuation",
-      "type": "extends"
-    },
-    {
-      "from": "quantifying-failure-risk-in-dcf",
-      "to": "double-counting-of-risk",
-      "type": "relates-to"
-    },
-    {
-      "from": "quantifying-failure-risk-in-dcf",
-      "to": "uncertainty-aversion",
-      "type": "relates-to"
-    },
-    {
-      "from": "idiosyncratic-versus-systematic-risk-in-dcf-discount-rates",
-      "to": "quantifying-failure-risk-in-dcf",
-      "type": "extends"
-    },
-    {
-      "from": "idiosyncratic-versus-systematic-risk-in-dcf-discount-rates",
-      "to": "risk-adjusted-discount-rates",
-      "type": "relates-to"
-    },
-    {
-      "from": "idiosyncratic-versus-systematic-risk-in-dcf-discount-rates",
-      "to": "double-counting-of-risk",
-      "type": "relates-to"
-    },
-    {
-      "from": "idiosyncratic-versus-systematic-risk-in-dcf-discount-rates",
-      "to": "regime-dependent-dcf-limitations",
-      "type": "relates-to"
-    },
-    {
-      "from": "idiosyncratic-versus-systematic-risk-in-dcf-discount-rates",
-      "to": "certainty-equivalent-models",
-      "type": "relates-to"
-    },
-    {
-      "from": "idiosyncratic-versus-systematic-risk-in-dcf-discount-rates",
-      "to": "systematic-risk-versus-systemic-risk",
-      "type": "relates-to"
-    },
-    {
-      "from": "finance-war-nexus",
-      "to": "partial-default",
-      "type": "extends"
-    },
-    {
-      "from": "finance-war-nexus",
-      "to": "debt-overhang",
-      "type": "extends"
-    },
-    {
-      "from": "finance-war-nexus",
-      "to": "international-lending-enforceability-model",
-      "type": "extends"
-    },
-    {
-      "from": "finance-war-nexus",
-      "to": "stub-paper-intlending",
-      "type": "extends"
-    },
-    {
-      "from": "gunboat-diplomacy-to-reputational-enforcement",
-      "to": "international-lending-enforceability-model",
-      "type": "extends"
-    },
-    {
-      "from": "gunboat-diplomacy-to-reputational-enforcement",
-      "to": "reputation-as-a-discipline-mechanism",
-      "type": "extends"
-    },
-    {
-      "from": "gunboat-diplomacy-to-reputational-enforcement",
-      "to": "partial-default",
-      "type": "is_related_to"
-    },
-    {
-      "from": "gunboat-diplomacy-to-reputational-enforcement",
-      "to": "debt-overhang",
-      "type": "is_related_to"
-    },
-    {
-      "from": "microequity-as-systemic-risk-reduction",
-      "to": "systemic-risk",
-      "type": "extends"
-    },
-    {
-      "from": "microequity-as-systemic-risk-reduction",
-      "to": "systematic-risk-versus-systemic-risk",
-      "type": "relates-to"
-    },
-    {
-      "from": "microequity-as-systemic-risk-reduction",
-      "to": "regime-dependent-dcf-limitations",
-      "type": "relates-to"
-    },
-    {
-      "from": "microequity-as-systemic-risk-reduction",
-      "to": "debt-overhang",
-      "type": "relates-to"
-    },
-    {
-      "from": "microequity-as-systemic-risk-reduction",
-      "to": "microlending",
-      "type": "extends"
-    },
-    {
-      "from": "microequity-as-systemic-risk-reduction",
-      "to": "leverage",
-      "type": "relates-to"
-    },
-    {
-      "from": "microequity-as-systemic-risk-reduction",
-      "to": "what-is-the-fab-initiative",
-      "type": "relates-to"
     }
   ]
 }
