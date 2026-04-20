@@ -7380,16 +7380,15 @@
       "path": "wiki\\concepts\\options-theory.md"
     },
     "options": {
-      "type": "concept",
-      "title": "Options",
-      "aliases": [
-        "Options"
-      ],
+      "type": "synthesized",
+      "title": "Stock Options",
+      "aliases": [],
       "tags": [
-        "financial-instrument",
-        "derivatives"
+        "finance",
+        "derivatives",
+        "executive-compensation"
       ],
-      "path": "wiki\\concepts\\options.md"
+      "path": "wiki/synthesized/options.md"
     },
     "order-flow-correlation": {
       "type": "concept",
@@ -34276,6 +34275,16 @@
       "from": "corporate-finance-learning-sequence",
       "to": "market-portfolio",
       "type": "extends"
+    },
+    {
+      "from": "options",
+      "to": "high-powered-equity-linked-incentives",
+      "type": "drives"
+    },
+    {
+      "from": "options",
+      "to": "pay-volatility-co-movement",
+      "type": "relates_to"
     }
   ]
 }
