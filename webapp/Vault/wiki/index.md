@@ -1407,4 +1407,4 @@ Master catalog — 1387 pages · last rebuilt 2026-04-17
 - [[the-conversation-surfaces-a-novel-three-way-connection|Genetic Distance, Trust, and Home Bias]]
 - [[what-is-the-fab-initiative|FAB and Threshold Behavior Theory]]
 
-- [[synthesized/separation-of-expected-cash-flows-and-risk-adjustment|Separation of Expected Cash Flows and Risk Adjustment in DCF]] — synthesized from query
+- [[synthesized/stock-options|Stock Options]] — synthesized from query

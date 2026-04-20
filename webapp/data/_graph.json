@@ -16920,13 +16920,16 @@
       "path": "wiki/synthesized/corporate-finance-learning-sequence.md"
     },
     "stock-options": {
-      "type": "concept",
+      "type": "synthesized",
       "title": "Stock Options",
-      "aliases": [],
+      "aliases": [
+        "Options",
+        "Equity Options"
+      ],
       "tags": [
-        "options",
-        "equity",
-        "compensation"
+        "stock-options",
+        "derivatives",
+        "executive-compensation"
       ],
       "path": "wiki/synthesized/stock-options.md"
     },
@@ -34389,6 +34392,21 @@
       "from": "separation-of-expected-cash-flows-and-risk-adjustment",
       "to": "certainty-equivalent-models",
       "type": "relates_to"
+    },
+    {
+      "from": "stock-options",
+      "to": "options",
+      "type": "extends"
+    },
+    {
+      "from": "stock-options",
+      "to": "high-powered-equity-linked-incentives",
+      "type": "extends"
+    },
+    {
+      "from": "stock-options",
+      "to": "pay-volatility-co-movement",
+      "type": "explains"
     }
   ]
 }
