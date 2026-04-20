@@ -1408,3 +1408,5 @@ Master catalog — 1387 pages · last rebuilt 2026-04-17
 - [[what-is-the-fab-initiative|FAB and Threshold Behavior Theory]]
 
 - [[synthesized/gunboat-diplomacy-to-reputational-enforcement|From Gunboat Diplomacy to Reputational Enforcement in Sovereign Debt]] — synthesized from query
+
+- [[synthesized/weather-and-corporate-finance|Weather and Corporate Finance: A Multi-Horizon Risk Framework]] — synthesized from query
