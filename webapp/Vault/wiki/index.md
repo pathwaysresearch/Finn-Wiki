@@ -1410,3 +1410,5 @@ Master catalog — 1387 pages · last rebuilt 2026-04-17
 - [[synthesized/stock-options|Stock Options]] — synthesized from query
 
 - [[synthesized/stock-options-dual-roles|Stock Options Dual Roles: Information and Incentives]] — synthesized from query
+
+- [[synthesized/equity-as-a-call-option|Equity as a Call Option]] — synthesized from query

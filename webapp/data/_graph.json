@@ -3141,7 +3141,7 @@
         "valuation",
         "options"
       ],
-      "path": "wiki\\concepts\\equity-as-a-call-option.md"
+      "path": "wiki/synthesized/equity-as-a-call-option.md"
     },
     "equity-ownership": {
       "type": "concept",
