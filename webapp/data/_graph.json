@@ -16920,13 +16920,13 @@
       "path": "wiki/synthesized/corporate-finance-learning-sequence.md"
     },
     "stock-options": {
-      "type": "synthesized",
+      "type": "concept",
       "title": "Stock Options",
       "aliases": [],
       "tags": [
-        "finance",
-        "derivatives",
-        "executive-compensation"
+        "options",
+        "equity",
+        "compensation"
       ],
       "path": "wiki/synthesized/stock-options.md"
     },
@@ -34327,6 +34327,16 @@
       "from": "equivalence-of-risk-adjustment-methods",
       "to": "risk-adjusted-discount-rates",
       "type": "extends"
+    },
+    {
+      "from": "stock-options",
+      "to": "options",
+      "type": "is_a_type_of"
+    },
+    {
+      "from": "stock-options",
+      "to": "warrants",
+      "type": "contrasted_with"
     }
   ]
 }
