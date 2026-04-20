@@ -16968,6 +16968,26 @@
         "financial-stability"
       ],
       "path": "wiki/synthesized/microequity-systemic-risk-relocation.md"
+    },
+    "warfare-doctrine-corporate-finance-analogies": {
+      "type": "synthesized",
+      "title": "Warfare Doctrine and Corporate Finance: Three Non-Superficial Analogies",
+      "aliases": [
+        "War and Corporate Finance",
+        "Military Finance Analogies",
+        "Clausewitz Corporate Finance"
+      ],
+      "tags": [
+        "corporate-finance",
+        "capital-structure",
+        "strategy",
+        "analogy",
+        "teaching",
+        "risk-management",
+        "hedging",
+        "mergers-and-acquisitions"
+      ],
+      "path": "wiki/synthesized/warfare-doctrine-corporate-finance-analogies.md"
     }
   },
   "edges": [
@@ -34375,6 +34395,21 @@
       "from": "stock-options-dual-roles",
       "to": "high-powered-equity-linked-incentives",
       "type": "related"
+    },
+    {
+      "from": "warfare-doctrine-corporate-finance-analogies",
+      "to": "capital-structure-arbitrage",
+      "type": "relates-to"
+    },
+    {
+      "from": "warfare-doctrine-corporate-finance-analogies",
+      "to": "regime-dependent-dcf-limitations",
+      "type": "relates-to"
+    },
+    {
+      "from": "warfare-doctrine-corporate-finance-analogies",
+      "to": "capital-market-efficiency",
+      "type": "relates-to"
     }
   ]
 }

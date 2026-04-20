@@ -1406,3 +1406,11 @@ Master catalog — 1387 pages · last rebuilt 2026-04-17
 - [[the-conversation-reveals-a-productive-three-way-synthesis|Language Barriers as Financial Distance]]
 - [[the-conversation-surfaces-a-novel-three-way-connection|Genetic Distance, Trust, and Home Bias]]
 - [[what-is-the-fab-initiative|FAB and Threshold Behavior Theory]]
+
+- [[synthesized/stock-options|Stock Options]] — synthesized from query
+
+- [[synthesized/stock-options-dual-roles|Stock Options Dual Roles: Information and Incentives]] — synthesized from query
+
+- [[synthesized/equity-as-a-call-option|Equity as a Call Option]] — synthesized from query
+
+- [[synthesized/warfare-doctrine-corporate-finance-analogies|Warfare Doctrine and Corporate Finance: Three Non-Superficial Analogies]] — synthesized from query
