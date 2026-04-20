@@ -16940,6 +16940,19 @@
         "equivalence"
       ],
       "path": "wiki/synthesized/equivalence-of-risk-adjustment-methods.md"
+    },
+    "stock-options-dual-roles": {
+      "type": "synthesized",
+      "title": "Stock Options Dual Roles: Information and Incentives",
+      "aliases": [
+        "stock options dual role"
+      ],
+      "tags": [
+        "finance",
+        "options",
+        "executive-compensation"
+      ],
+      "path": "wiki/synthesized/stock-options-dual-roles.md"
     }
   },
   "edges": [
@@ -34337,6 +34350,16 @@
       "from": "stock-options",
       "to": "warrants",
       "type": "contrasted_with"
+    },
+    {
+      "from": "stock-options-dual-roles",
+      "to": "options",
+      "type": "related"
+    },
+    {
+      "from": "stock-options-dual-roles",
+      "to": "high-powered-equity-linked-incentives",
+      "type": "related"
     }
   ]
 }
