@@ -1407,6 +1407,4 @@ Master catalog — 1387 pages · last rebuilt 2026-04-17
 - [[the-conversation-surfaces-a-novel-three-way-connection|Genetic Distance, Trust, and Home Bias]]
 - [[what-is-the-fab-initiative|FAB and Threshold Behavior Theory]]
 
-- [[synthesized/gunboat-diplomacy-to-reputational-enforcement|From Gunboat Diplomacy to Reputational Enforcement in Sovereign Debt]] — synthesized from query
-
-- [[synthesized/weather-and-corporate-finance|Weather and Corporate Finance: A Multi-Horizon Risk Framework]] — synthesized from query
+- [[synthesized/microequity-as-systemic-risk-reduction|Microequity as a Systemic Risk Reduction Instrument]] — synthesized from query

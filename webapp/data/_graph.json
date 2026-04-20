@@ -17045,23 +17045,24 @@
       ],
       "path": "wiki/synthesized/gunboat-diplomacy-to-reputational-enforcement.md"
     },
-    "weather-and-corporate-finance": {
+    "microequity-as-systemic-risk-reduction": {
       "type": "synthesized",
-      "title": "Weather and Corporate Finance: A Multi-Horizon Risk Framework",
+      "title": "Microequity as a Systemic Risk Reduction Instrument",
       "aliases": [
-        "Weather Risk in Corporate Finance",
-        "Climate and Capital Structure"
+        "microequity-systemic-risk",
+        "equity-over-debt-at-household-scale"
       ],
       "tags": [
+        "microequity",
+        "systemic-risk",
+        "financial-inclusion",
+        "debt-rigidity",
+        "risk-sharing",
         "corporate-finance",
-        "risk-management",
-        "behavioral-finance",
-        "hedging",
-        "financial-distress",
-        "climate",
-        "synthesis"
+        "macroeconomics",
+        "fab"
       ],
-      "path": "wiki/synthesized/weather-and-corporate-finance.md"
+      "path": "wiki/synthesized/microequity-as-systemic-risk-reduction.md"
     }
   },
   "edges": [
@@ -34601,44 +34602,39 @@
       "type": "is_related_to"
     },
     {
-      "from": "weather-and-corporate-finance",
-      "to": "financial-distress-costs",
+      "from": "microequity-as-systemic-risk-reduction",
+      "to": "systemic-risk",
       "type": "extends"
     },
     {
-      "from": "weather-and-corporate-finance",
-      "to": "minimizing-costs-of-financial-distress",
+      "from": "microequity-as-systemic-risk-reduction",
+      "to": "systematic-risk-versus-systemic-risk",
+      "type": "relates-to"
+    },
+    {
+      "from": "microequity-as-systemic-risk-reduction",
+      "to": "regime-dependent-dcf-limitations",
+      "type": "relates-to"
+    },
+    {
+      "from": "microequity-as-systemic-risk-reduction",
+      "to": "debt-overhang",
+      "type": "relates-to"
+    },
+    {
+      "from": "microequity-as-systemic-risk-reduction",
+      "to": "microlending",
       "type": "extends"
     },
     {
-      "from": "weather-and-corporate-finance",
-      "to": "costs-of-financial-distress",
-      "type": "extends"
+      "from": "microequity-as-systemic-risk-reduction",
+      "to": "leverage",
+      "type": "relates-to"
     },
     {
-      "from": "weather-and-corporate-finance",
-      "to": "minimizing-cash-flow-variance",
-      "type": "extends"
-    },
-    {
-      "from": "weather-and-corporate-finance",
-      "to": "stub-paper-cfr",
-      "type": "extends"
-    },
-    {
-      "from": "weather-and-corporate-finance",
-      "to": "behavioral-finance",
-      "type": "extends"
-    },
-    {
-      "from": "weather-and-corporate-finance",
-      "to": "time-diversification",
-      "type": "extends"
-    },
-    {
-      "from": "weather-and-corporate-finance",
-      "to": "stock-return-regressions",
-      "type": "extends"
+      "from": "microequity-as-systemic-risk-reduction",
+      "to": "what-is-the-fab-initiative",
+      "type": "relates-to"
     }
   ]
 }
