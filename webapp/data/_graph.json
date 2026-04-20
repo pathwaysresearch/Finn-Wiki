@@ -16970,6 +16970,26 @@
         "valuation principle"
       ],
       "path": "wiki/synthesized/separation-of-expected-cash-flows-and-risk-adjustment.md"
+    },
+    "quantifying-failure-risk-in-dcf": {
+      "type": "synthesized",
+      "title": "Quantifying Failure Risk in DCF: Regime-Dependence and Probability-Weighted Frameworks",
+      "aliases": [
+        "failure-risk-dcf",
+        "dcf-default-probability",
+        "regime-dependent-failure-risk"
+      ],
+      "tags": [
+        "dcf",
+        "valuation",
+        "risk-quantification",
+        "default-risk",
+        "systemic-risk",
+        "certainty-equivalent",
+        "probability-weighting",
+        "corporate-finance"
+      ],
+      "path": "wiki/synthesized/quantifying-failure-risk-in-dcf.md"
     }
   },
   "edges": [
@@ -34407,6 +34427,36 @@
       "from": "stock-options",
       "to": "pay-volatility-co-movement",
       "type": "explains"
+    },
+    {
+      "from": "quantifying-failure-risk-in-dcf",
+      "to": "regime-dependent-dcf-limitations",
+      "type": "extends"
+    },
+    {
+      "from": "quantifying-failure-risk-in-dcf",
+      "to": "certainty-equivalent-models",
+      "type": "relates-to"
+    },
+    {
+      "from": "quantifying-failure-risk-in-dcf",
+      "to": "risk-adjusted-discount-rates",
+      "type": "relates-to"
+    },
+    {
+      "from": "quantifying-failure-risk-in-dcf",
+      "to": "discounted-cash-flow-valuation",
+      "type": "extends"
+    },
+    {
+      "from": "quantifying-failure-risk-in-dcf",
+      "to": "double-counting-of-risk",
+      "type": "relates-to"
+    },
+    {
+      "from": "quantifying-failure-risk-in-dcf",
+      "to": "uncertainty-aversion",
+      "type": "relates-to"
     }
   ]
 }

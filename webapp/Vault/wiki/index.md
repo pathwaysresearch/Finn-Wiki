@@ -1407,4 +1407,4 @@ Master catalog — 1387 pages · last rebuilt 2026-04-17
 - [[the-conversation-surfaces-a-novel-three-way-connection|Genetic Distance, Trust, and Home Bias]]
 - [[what-is-the-fab-initiative|FAB and Threshold Behavior Theory]]
 
-- [[synthesized/stock-options|Stock Options]] — synthesized from query
+- [[synthesized/quantifying-failure-risk-in-dcf|Quantifying Failure Risk in DCF: Regime-Dependence and Probability-Weighted Frameworks]] — synthesized from query
