@@ -1408,3 +1408,5 @@ Master catalog — 1387 pages · last rebuilt 2026-04-17
 - [[what-is-the-fab-initiative|FAB and Threshold Behavior Theory]]
 
 - [[synthesized/quantifying-failure-risk-in-dcf|Quantifying Failure Risk in DCF: Regime-Dependence and Probability-Weighted Frameworks]] — synthesized from query
+
+- [[synthesized/idiosyncratic-versus-systematic-risk-in-dcf-discount-rates|Idiosyncratic vs. Systematic Risk in DCF: Why Inflating the Discount Rate Conflates the Two]] — synthesized from query

@@ -16990,6 +16990,25 @@
         "corporate-finance"
       ],
       "path": "wiki/synthesized/quantifying-failure-risk-in-dcf.md"
+    },
+    "idiosyncratic-versus-systematic-risk-in-dcf-discount-rates": {
+      "type": "synthesized",
+      "title": "Idiosyncratic vs. Systematic Risk in DCF: Why Inflating the Discount Rate Conflates the Two",
+      "aliases": [
+        "failure-risk-denominator",
+        "idiosyncratic-systematic-confusion-dcf"
+      ],
+      "tags": [
+        "dcf",
+        "valuation",
+        "systematic-risk",
+        "idiosyncratic-risk",
+        "wacc",
+        "risk-adjusted-discount-rates",
+        "probability-weighting",
+        "corporate-finance"
+      ],
+      "path": "wiki/synthesized/idiosyncratic-versus-systematic-risk-in-dcf-discount-rates.md"
     }
   },
   "edges": [
@@ -34456,6 +34475,36 @@
     {
       "from": "quantifying-failure-risk-in-dcf",
       "to": "uncertainty-aversion",
+      "type": "relates-to"
+    },
+    {
+      "from": "idiosyncratic-versus-systematic-risk-in-dcf-discount-rates",
+      "to": "quantifying-failure-risk-in-dcf",
+      "type": "extends"
+    },
+    {
+      "from": "idiosyncratic-versus-systematic-risk-in-dcf-discount-rates",
+      "to": "risk-adjusted-discount-rates",
+      "type": "relates-to"
+    },
+    {
+      "from": "idiosyncratic-versus-systematic-risk-in-dcf-discount-rates",
+      "to": "double-counting-of-risk",
+      "type": "relates-to"
+    },
+    {
+      "from": "idiosyncratic-versus-systematic-risk-in-dcf-discount-rates",
+      "to": "regime-dependent-dcf-limitations",
+      "type": "relates-to"
+    },
+    {
+      "from": "idiosyncratic-versus-systematic-risk-in-dcf-discount-rates",
+      "to": "certainty-equivalent-models",
+      "type": "relates-to"
+    },
+    {
+      "from": "idiosyncratic-versus-systematic-risk-in-dcf-discount-rates",
+      "to": "systematic-risk-versus-systemic-risk",
       "type": "relates-to"
     }
   ]
