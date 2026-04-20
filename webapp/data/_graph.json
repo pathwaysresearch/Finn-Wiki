@@ -16929,6 +16929,17 @@
         "executive-compensation"
       ],
       "path": "wiki/synthesized/stock-options.md"
+    },
+    "equivalence-of-risk-adjustment-methods": {
+      "type": "synthesized",
+      "title": "Equivalence of Certainty Equivalent and Risk-Adjusted Discount Rate Approaches",
+      "aliases": [],
+      "tags": [
+        "valuation",
+        "risk-adjustment",
+        "equivalence"
+      ],
+      "path": "wiki/synthesized/equivalence-of-risk-adjustment-methods.md"
     }
   },
   "edges": [
@@ -34306,6 +34317,16 @@
       "from": "stock-options",
       "to": "pay-volatility-co-movement",
       "type": "relates_to"
+    },
+    {
+      "from": "equivalence-of-risk-adjustment-methods",
+      "to": "certainty-equivalent-models",
+      "type": "extends"
+    },
+    {
+      "from": "equivalence-of-risk-adjustment-methods",
+      "to": "risk-adjusted-discount-rates",
+      "type": "extends"
     }
   ]
 }
