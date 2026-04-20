@@ -16953,6 +16953,20 @@
         "executive-compensation"
       ],
       "path": "wiki/synthesized/stock-options-dual-roles.md"
+    },
+    "separation-of-expected-cash-flows-and-risk-adjustment": {
+      "type": "concept",
+      "title": "Separation of Expected Cash Flows and Risk Adjustment in DCF",
+      "aliases": [
+        "Expected Cash Flow and Risk Separation Principle"
+      ],
+      "tags": [
+        "DCF",
+        "risk-adjusted discount rates",
+        "expected cash flows",
+        "valuation principle"
+      ],
+      "path": "wiki/synthesized/separation-of-expected-cash-flows-and-risk-adjustment.md"
     }
   },
   "edges": [
@@ -34360,6 +34374,21 @@
       "from": "stock-options-dual-roles",
       "to": "high-powered-equity-linked-incentives",
       "type": "related"
+    },
+    {
+      "from": "separation-of-expected-cash-flows-and-risk-adjustment",
+      "to": "discounted-cash-flow-valuation",
+      "type": "relates_to"
+    },
+    {
+      "from": "separation-of-expected-cash-flows-and-risk-adjustment",
+      "to": "risk-adjusted-discount-rates",
+      "type": "relates_to"
+    },
+    {
+      "from": "separation-of-expected-cash-flows-and-risk-adjustment",
+      "to": "certainty-equivalent-models",
+      "type": "relates_to"
     }
   ]
 }
