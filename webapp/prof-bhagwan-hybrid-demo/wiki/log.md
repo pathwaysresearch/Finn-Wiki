@@ -751,3 +751,13 @@ Append-only chronological record of ingests and queries.
 ## [2026-04-20] synthesize | warfare-doctrine-corporate-finance-analogies
 - Pages created: warfare-doctrine-corporate-finance-analogies.md
 - From query: what does warfare have to do copporate finance? make it interesting, must be novel
+
+## [2026-04-21] synthesize | war-finance-enforcement-unified-principle
+- Pages created: war-finance-enforcement-unified-principle.md
+- From query: what does war have to do with finance?
+
+## [2026-04-21 22:11 IST] auto_wiki_builder | Automated wiki page generation complete
+- model: claude-opus-4-6
+- stubs_written: 0
+- index_rebuilt: True
+- elapsed_s: 14.4

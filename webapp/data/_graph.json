@@ -16988,6 +16988,26 @@
         "mergers-and-acquisitions"
       ],
       "path": "wiki/synthesized/warfare-doctrine-corporate-finance-analogies.md"
+    },
+    "war-finance-enforcement-unified-principle": {
+      "type": "synthesized",
+      "title": "War and Finance: The Unified Enforcement Problem",
+      "aliases": [
+        "War and Finance",
+        "Military Finance Connection",
+        "Enforcement Problem in War and Finance"
+      ],
+      "tags": [
+        "sovereign-debt",
+        "international-finance",
+        "history-of-finance",
+        "enforcement-mechanisms",
+        "military-doctrine",
+        "mechanism-design",
+        "game-theory",
+        "corporate-finance"
+      ],
+      "path": "wiki/synthesized/war-finance-enforcement-unified-principle.md"
     }
   },
   "edges": [
@@ -34410,6 +34430,31 @@
       "from": "warfare-doctrine-corporate-finance-analogies",
       "to": "capital-market-efficiency",
       "type": "relates-to"
+    },
+    {
+      "from": "war-finance-enforcement-unified-principle",
+      "to": "gunboat-diplomacy-to-reputational-enforcement",
+      "type": "extends"
+    },
+    {
+      "from": "war-finance-enforcement-unified-principle",
+      "to": "finance-war-nexus",
+      "type": "extends"
+    },
+    {
+      "from": "war-finance-enforcement-unified-principle",
+      "to": "warfare-doctrine-corporate-finance-analogies",
+      "type": "extends"
+    },
+    {
+      "from": "war-finance-enforcement-unified-principle",
+      "to": "stub-paper-intlending",
+      "type": "is_related_to"
+    },
+    {
+      "from": "war-finance-enforcement-unified-principle",
+      "to": "mechanism-design-applied",
+      "type": "is_related_to"
     }
   ]
 }

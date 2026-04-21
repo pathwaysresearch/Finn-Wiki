@@ -9,7 +9,7 @@ extract_and_process_pdf(pdf_bytes) -> str
 import os
 
 WORD_LIMIT   = 4000
-_GEMINI_MODEL = "gemini-2.0-flash"
+_GEMINI_MODEL = "gemini-3.0-flash-preview"
 
 
 def extract_and_process_pdf(pdf_bytes: bytes) -> str:

@@ -1,6 +1,6 @@
 # Wiki Index
 
-Master catalog — 1387 pages · last rebuilt 2026-04-17
+Master catalog — 1406 pages · last rebuilt 2026-04-21
 
 ## Persona Pages (7)
 
@@ -1336,10 +1336,29 @@ Master catalog — 1387 pages · last rebuilt 2026-04-17
 - [[entities/yale-school-of-management|Yale School of Management]] — The institution where the author teaches a course on successful investing.
 - [[entities/yale-university|Yale University]] — A 300+ year old university with an international scope and a long-term time horizon, which are critical factors shaping 
 
-## Query-Synthesized Pages (2)
+## Query-Synthesized Pages (21)
 
+- [[synthesized/corporate-finance-learning-sequence|Corporate Finance Learning Sequence]] — Corporate finance builds on a small set of core ideas, each of which depends on the one before it. A learner new to the 
+- [[synthesized/discount-rates-for-growth-options|Discount Rates for Growth Options]] — Growth options may warrant higher discount rates than assets-in-place, but **not** simply because they are generically '
+- [[synthesized/equity-as-a-call-option|Equity as a Call Option]] — The concept that a corporation's equity is effectively a call option on the firm's assets, with a strike price equal to 
+- [[synthesized/equivalence-of-risk-adjustment-methods|Equivalence of Certainty Equivalent and Risk-Adjusted Discount Rate Approaches]] — The certainty equivalent approach and the risk-adjusted discount rate approach are two methods for adjusting for risk in
+- [[synthesized/finance-war-nexus|Finance and War: Historical Connections Between Sovereign Debt and Military Conflict]] — The relationship between finance and warfare is not merely metaphorical. History documents a causal nexus operating in b
+- [[synthesized/gunboat-diplomacy-to-reputational-enforcement|From Gunboat Diplomacy to Reputational Enforcement in Sovereign Debt]] — Wars and finance are connected at one of the deepest levels of the international financial system: the *enforcement prob
+- [[synthesized/idiosyncratic-versus-systematic-risk-in-dcf-discount-rates|Idiosyncratic vs. Systematic Risk in DCF: Why Inflating the Discount Rate Conflates the Two]] — When analysts embed failure risk into the DCF denominator — by adding a default premium or distress spread on top of the
+- [[synthesized/microequity-as-systemic-risk-reduction|Microequity as a Systemic Risk Reduction Instrument]] — Microequity and the equity-over-debt prescription for systemic risk are **structurally identical arguments at different 
+- [[synthesized/microequity-systemic-risk-relocation|Microequity and Systemic Risk: Replacing Debt Triggers or Relocating Them?]] — Microequity replaces the hard debt-default threshold — the synchronizing trigger for systemic contagion — with a conting
+- [[synthesized/options|Stock Options]] — Stock options are financial contracts that give the holder the right, but not the obligation, to buy or sell an underlyi
+- [[synthesized/quantifying-failure-risk-in-dcf|Quantifying Failure Risk in DCF: Regime-Dependence and Probability-Weighted Frameworks]] — The two canonical approaches to risk in DCF — **certainty equivalent models** (adjusting cash flows downward) and **risk
+- [[synthesized/real-options-beta-and-systematic-risk|Real Options Have Higher Betas Than Assets-in-Place]] — Real options — the embedded rights to expand, enter, or pivot — carry **higher betas** than assets-in-place. This is not
 - [[synthesized/real-options-volatility-unlevering|Real Options Volatility Unlevering]] — When applying real options valuation, the volatility input must be **asset volatility** (σ_A), not the observed **equity
 - [[synthesized/regime-dependent-dcf-limitations|Regime-Dependent DCF Limitations Under Systemic Risk]] — Standard discounted cash flow (DCF) analysis is a firm-level tool: it embeds assumptions about survival probabilities, e
+- [[synthesized/regime-switching-cvar-optimization-with-options-implied-calibration|Regime-Switching CVaR Optimization with Options-Implied Calibration]] — A robust portfolio optimization framework that moves beyond the Gaussian assumptions of classical mean-variance analysis
+- [[synthesized/separation-of-expected-cash-flows-and-risk-adjustment|Separation of Expected Cash Flows and Risk Adjustment in DCF]] — In discounted cash flow (DCF) valuation, a core principle is to keep the expected cash flow forecast as an unbiased, pro
+- [[synthesized/stock-options-dual-roles|Stock Options Dual Roles: Information and Incentives]] — Stock options are commonly viewed simply as a form of equity-based compensation for executives. However, they simultaneo
+- [[synthesized/stock-options|Stock Options]] — Stock options are contracts that give the holder the right, but not the obligation, to buy (call) or sell (put) a compan
+- [[synthesized/war-finance-enforcement-unified-principle|War and Finance: The Unified Enforcement Problem]] — War and finance are connected at a level deeper than metaphor. Both are fundamentally **enforcement problems**: how do y
+- [[synthesized/warfare-doctrine-corporate-finance-analogies|Warfare Doctrine and Corporate Finance: Three Non-Superficial Analogies]] — The surface-level connection between warfare and business strategy is a cliché — 'competitive moats,' 'price wars,' 'cap
+- [[synthesized/weather-and-corporate-finance|Weather and Corporate Finance: A Multi-Horizon Risk Framework]] — Weather is not a single risk — it is a layered system of shocks that hits corporate finance across three distinct time h
 
 ## RAG Stubs (48)
 
@@ -1406,11 +1425,3 @@ Master catalog — 1387 pages · last rebuilt 2026-04-17
 - [[the-conversation-reveals-a-productive-three-way-synthesis|Language Barriers as Financial Distance]]
 - [[the-conversation-surfaces-a-novel-three-way-connection|Genetic Distance, Trust, and Home Bias]]
 - [[what-is-the-fab-initiative|FAB and Threshold Behavior Theory]]
-
-- [[synthesized/stock-options|Stock Options]] — synthesized from query
-
-- [[synthesized/stock-options-dual-roles|Stock Options Dual Roles: Information and Incentives]] — synthesized from query
-
-- [[synthesized/equity-as-a-call-option|Equity as a Call Option]] — synthesized from query
-
-- [[synthesized/warfare-doctrine-corporate-finance-analogies|Warfare Doctrine and Corporate Finance: Three Non-Superficial Analogies]] — synthesized from query
