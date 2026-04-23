@@ -215,36 +215,8 @@ def run_wiki_llm(
     return result
 
 # ---------------------------------------------------------------------------
-# GitHub helpers
+# GitHub push helper
 # ---------------------------------------------------------------------------
-
-def _fetch_github_file(repo_path: str) -> str | None:
-    """
-    Fetch a single file's text content from GitHub.
-    Returns the decoded string, or None if not found or GitHub not configured.
-    Always hits the API (never cached) so Cloud Run instances see the latest commit.
-    """
-    token = os.environ.get("GITHUB_TOKEN", "")
-    repo  = os.environ.get("GITHUB_REPO",  "")
-    if not token or not repo:
-        return None
-    headers = {
-        "Authorization": f"token {token}",
-        "Accept":        "application/vnd.github.v3+json",
-    }
-    try:
-        r = requests.get(
-            f"https://api.github.com/repos/{repo}/contents/{repo_path}",
-            headers=headers, timeout=10,
-        )
-        if r.status_code == 404:
-            return None
-        r.raise_for_status()
-        return base64.b64decode(r.json()["content"]).decode("utf-8")
-    except Exception as e:
-        print(f"[GitHub] Fetch {repo_path} failed: {e}")
-        return None
-
 
 def _push_batch_to_github(files: dict, commit_msg: str):
     """
@@ -410,22 +382,7 @@ def _write_wiki_page(page_data: dict, kb: KnowledgeBase, original_query: str = "
     except OSError as e:
         print(f"[WikiUpdate] Disk write skipped (read-only fs — will push to GitHub): {e}")
 
-    # Always fetch the latest _graph.json from GitHub so concurrent Cloud Run
-    # instances don't overwrite each other's nodes/edges.
-    vault_repo_path = str(VAULT.relative_to(PROJECT_ROOT)).replace("\\", "/")
-    graph_repo_path = f"{_GITHUB_BASE}/data/_graph.json"
-    index_repo_path = f"{vault_repo_path}/wiki/index.md"
-
-    remote_graph = _fetch_github_file(graph_repo_path)
-    if remote_graph:
-        try:
-            graph = json.loads(remote_graph)
-            print("[WikiUpdate] Using fresh _graph.json from GitHub")
-        except Exception:
-            graph = _load_graph()
-    else:
-        graph = _load_graph()
-
+    graph = _load_graph()
     graph["nodes"][slug] = {
         "type":    page_type,
         "title":   title,
@@ -463,28 +420,22 @@ def _write_wiki_page(page_data: dict, kb: KnowledgeBase, original_query: str = "
 
     kb.wiki_search.add_or_update(new_page_entry)
 
-    # Update index.md — fetch fresh from GitHub so we don't clobber other instances' entries.
+    # Update index.md — upsert so the same slug is never listed twice.
     new_index_content = None
     try:
-        index_text = _fetch_github_file(index_repo_path)
-        if index_text is None:
-            index_text = INDEX_MD_PATH.read_text(encoding="utf-8") if INDEX_MD_PATH.exists() else ""
-        else:
-            print("[WikiUpdate] Using fresh index.md from GitHub")
-        link_prefix = f"[[synthesized/{slug}|"
-        if link_prefix in index_text:
-            index_text = re.sub(
-                rf"\[\[synthesized/{re.escape(slug)}\|[^\]]*\]\][^\n]*",
-                f"[[synthesized/{slug}|{title}]] — synthesized from query",
-                index_text,
-            )
-        else:
-            index_text += f"\n- [[synthesized/{slug}|{title}]] — synthesized from query\n"
-        try:
+        if INDEX_MD_PATH.exists():
+            index_text  = INDEX_MD_PATH.read_text(encoding="utf-8")
+            link_prefix = f"[[synthesized/{slug}|"
+            if link_prefix in index_text:
+                index_text = re.sub(
+                    rf"\[\[synthesized/{re.escape(slug)}\|[^\]]*\]\][^\n]*",
+                    f"[[synthesized/{slug}|{title}]] — synthesized from query",
+                    index_text,
+                )
+            else:
+                index_text += f"\n- [[synthesized/{slug}|{title}]] — synthesized from query\n"
             INDEX_MD_PATH.write_text(index_text, encoding="utf-8")
-        except OSError:
-            pass
-        new_index_content = index_text
+            new_index_content = index_text
     except OSError:
         pass
 
@@ -499,6 +450,7 @@ def _write_wiki_page(page_data: dict, kb: KnowledgeBase, original_query: str = "
     except OSError:
         pass
 
+    vault_repo_path = str(VAULT.relative_to(PROJECT_ROOT)).replace("\\", "/")
     files_to_push = {
         f"{vault_repo_path}/wiki/synthesized/{slug}.md": content,
         f"{_GITHUB_BASE}/data/_graph.json":              graph_json,

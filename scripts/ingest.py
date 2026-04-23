@@ -51,6 +51,8 @@ PAGE_THRESHOLD = 20
 
 SUPPORTED_EXTENSIONS = {".md", ".txt", ".pdf"}
 
+# Gemini embedding-2-preview has a 2048-token (~7500 char) input limit.
+# 6000 chars (~1200 words) keeps chunks well inside that window.
 CHUNK_SIZE    = 6000
 CHUNK_OVERLAP = 300
 
