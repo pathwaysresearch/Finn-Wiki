@@ -1,6 +1,6 @@
 # Wiki Index
 
-Master catalog — 1406 pages · last rebuilt 2026-04-21
+Master catalog — 1406 pages · last rebuilt 2026-04-24
 
 ## Persona Pages (7)
 
