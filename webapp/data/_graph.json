@@ -17008,6 +17008,24 @@
         "corporate-finance"
       ],
       "path": "wiki/synthesized/war-finance-enforcement-unified-principle.md"
+    },
+    "terminal-growth-rate-estimation": {
+      "type": "synthesized",
+      "title": "Estimating the Terminal Growth Rate: Three Binding Constraints",
+      "aliases": [
+        "Terminal Growth Rate",
+        "Stable Growth Rate Estimation",
+        "Terminal Value Growth"
+      ],
+      "tags": [
+        "valuation",
+        "dcf",
+        "terminal-value",
+        "growth-rate",
+        "corporate-finance",
+        "gordon-growth-model"
+      ],
+      "path": "wiki/synthesized/terminal-growth-rate-estimation.md"
     }
   },
   "edges": [
@@ -34455,6 +34473,26 @@
       "from": "war-finance-enforcement-unified-principle",
       "to": "mechanism-design-applied",
       "type": "is_related_to"
+    },
+    {
+      "from": "terminal-growth-rate-estimation",
+      "to": "gordon-growth-model",
+      "type": "extends"
+    },
+    {
+      "from": "terminal-growth-rate-estimation",
+      "to": "growing-perpetuity",
+      "type": "extends"
+    },
+    {
+      "from": "terminal-growth-rate-estimation",
+      "to": "cost-of-capital",
+      "type": "relates-to"
+    },
+    {
+      "from": "terminal-growth-rate-estimation",
+      "to": "opportunity-cost-of-capital",
+      "type": "relates-to"
     }
   ]
 }
